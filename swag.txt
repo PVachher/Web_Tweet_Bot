@@ -1,0 +1,1593 @@
+2016-06-23T07:22:26.819846+00:00 heroku[web.1]: Unidling
+2016-06-23T07:22:26.820225+00:00 heroku[web.1]: State changed from down to starting
+2016-06-23T07:22:29.243082+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-23T07:22:31.430135+00:00 app[web.1]: [2016-06-23 07:22:31 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-23T07:22:31.486389+00:00 app[web.1]: [2016-06-23 07:22:31 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-23T07:22:31.425589+00:00 app[web.1]: [2016-06-23 07:22:31 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-23T07:22:31.426017+00:00 app[web.1]: [2016-06-23 07:22:31 +0000] [3] [INFO] Listening at: http://0.0.0.0:46114 (3)
+2016-06-23T07:22:31.426123+00:00 app[web.1]: [2016-06-23 07:22:31 +0000] [3] [INFO] Using worker: sync
+2016-06-23T07:22:33.183770+00:00 heroku[web.1]: State changed from starting to up
+2016-06-23T07:22:33.913659+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=a0c20079-1012-4a2d-b2c6-51267eccd6fa fwd="182.69.122.115" dyno=web.1 connect=1ms service=13ms status=200 bytes=750
+2016-06-23T07:22:34.319468+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=a15a3912-28d4-4d0b-8146-ea12ae383fb2 fwd="182.69.122.115" dyno=web.1 connect=2ms service=12ms status=404 bytes=386
+2016-06-23T07:22:34.799981+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=3ac10b79-9dad-477a-b496-6bf935f03e0e fwd="182.69.122.115" dyno=web.1 connect=2ms service=3ms status=404 bytes=386
+2016-06-23T07:22:37.020876+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=dfcf08ab-a4d1-4c10-9bf1-71ba3b23b9c7 fwd="182.69.122.115" dyno=web.1 connect=1ms service=3ms status=200 bytes=750
+2016-06-23T07:22:37.417531+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=021c612c-0937-430d-81e4-9d06479e4979 fwd="182.69.122.115" dyno=web.1 connect=1ms service=5ms status=404 bytes=386
+2016-06-23T07:23:19.208958+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=8948a29b-3863-4871-9455-1746bed74666 fwd="182.69.122.115" dyno=web.1 connect=1ms service=184ms status=200 bytes=755
+2016-06-23T07:23:19.207975+00:00 app[web.1]:  
+2016-06-23T07:23:19.207989+00:00 app[web.1]:  
+2016-06-23T07:23:19.207990+00:00 app[web.1]:  
+2016-06-23T07:23:19.207990+00:00 app[web.1]:  
+2016-06-23T07:23:19.207993+00:00 app[web.1]: Tweet By Sejal  :  So lost and faded 
+2016-06-23T07:23:19.207994+00:00 app[web.1]:  
+2016-06-23T07:23:19.207994+00:00 app[web.1]:  
+2016-06-23T07:23:19.207995+00:00 app[web.1]:  
+2016-06-23T07:23:19.207995+00:00 app[web.1]:  
+2016-06-23T07:23:19.207994+00:00 app[web.1]:  
+2016-06-23T07:23:19.549530+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=0c70664f-c013-4ae2-b024-b8b08297f11c fwd="182.69.122.115" dyno=web.1 connect=1ms service=3ms status=404 bytes=386
+2016-06-23T07:24:57.981777+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=05272cb7-40a0-4d75-98a2-d2558c630ff0 fwd="182.69.122.115" dyno=web.1 connect=1ms service=170ms status=200 bytes=754
+2016-06-23T07:24:57.972884+00:00 app[web.1]:  
+2016-06-23T07:24:57.972898+00:00 app[web.1]:  
+2016-06-23T07:24:57.972899+00:00 app[web.1]:  
+2016-06-23T07:24:57.972899+00:00 app[web.1]:  
+2016-06-23T07:24:57.972904+00:00 app[web.1]: Tweet By Haha  :  Praveen eats poop xD
+2016-06-23T07:24:57.972904+00:00 app[web.1]:  
+2016-06-23T07:24:57.972905+00:00 app[web.1]:  
+2016-06-23T07:24:57.972905+00:00 app[web.1]:  
+2016-06-23T07:24:57.972905+00:00 app[web.1]:  
+2016-06-23T07:24:57.972906+00:00 app[web.1]:  
+2016-06-23T07:24:58.338567+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=c8e05c00-a747-4327-b343-d4751feab83e fwd="182.69.122.115" dyno=web.1 connect=2ms service=3ms status=404 bytes=386
+2016-06-23T07:25:15.236038+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=e6d22dc6-a6bc-479c-98e8-70fb46e8ef65 fwd="182.69.122.115" dyno=web.1 connect=1ms service=171ms status=200 bytes=756
+2016-06-23T07:25:15.233444+00:00 app[web.1]:  
+2016-06-23T07:25:15.233463+00:00 app[web.1]:  
+2016-06-23T07:25:15.233464+00:00 app[web.1]:  
+2016-06-23T07:25:15.233471+00:00 app[web.1]:  
+2016-06-23T07:25:15.233473+00:00 app[web.1]:  
+2016-06-23T07:25:15.233473+00:00 app[web.1]: Tweet By Haha#2  :  Prateek***
+2016-06-23T07:25:15.233474+00:00 app[web.1]:  
+2016-06-23T07:25:15.233474+00:00 app[web.1]:  
+2016-06-23T07:25:15.233475+00:00 app[web.1]:  
+2016-06-23T07:25:15.233475+00:00 app[web.1]:  
+2016-06-23T07:25:15.572571+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=6fe316a5-36f1-4129-94c1-51be69db406b fwd="182.69.122.115" dyno=web.1 connect=1ms service=2ms status=404 bytes=386
+2016-06-23T07:25:37.851603+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=63b9a37f-16bc-48a1-b794-a102b268c5ae fwd="182.69.122.115" dyno=web.1 connect=1ms service=184ms status=200 bytes=756
+2016-06-23T07:25:37.849432+00:00 app[web.1]:  
+2016-06-23T07:25:37.849476+00:00 app[web.1]:  
+2016-06-23T07:25:37.849477+00:00 app[web.1]:  
+2016-06-23T07:25:37.849478+00:00 app[web.1]:  
+2016-06-23T07:25:37.849484+00:00 app[web.1]: Tweet By Haha#3  :  This is pointless 
+2016-06-23T07:25:37.849485+00:00 app[web.1]:  
+2016-06-23T07:25:37.849485+00:00 app[web.1]:  
+2016-06-23T07:25:37.849486+00:00 app[web.1]:  
+2016-06-23T07:25:37.849486+00:00 app[web.1]:  
+2016-06-23T07:25:37.849487+00:00 app[web.1]:  
+2016-06-23T07:25:38.196503+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=c337a24d-92d7-451f-83aa-5615d853795e fwd="182.69.122.115" dyno=web.1 connect=1ms service=2ms status=404 bytes=386
+2016-06-23T07:25:55.542641+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=88bac49a-ae2b-4ca7-b8ed-f91bd1f87db3 fwd="182.69.122.115" dyno=web.1 connect=1ms service=192ms status=200 bytes=757
+2016-06-23T07:25:55.540190+00:00 app[web.1]:  
+2016-06-23T07:25:55.540207+00:00 app[web.1]:  
+2016-06-23T07:25:55.540208+00:00 app[web.1]:  
+2016-06-23T07:25:55.540210+00:00 app[web.1]:  
+2016-06-23T07:25:55.540212+00:00 app[web.1]: Tweet By Haha#4   :  So BaByee
+2016-06-23T07:25:55.540212+00:00 app[web.1]:  
+2016-06-23T07:25:55.540214+00:00 app[web.1]:  
+2016-06-23T07:25:55.540215+00:00 app[web.1]:  
+2016-06-23T07:25:55.540215+00:00 app[web.1]:  
+2016-06-23T07:25:55.540216+00:00 app[web.1]:  
+2016-06-23T07:25:55.919995+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=96ec019b-4359-4ac5-a249-d7b4a0a59237 fwd="182.69.122.115" dyno=web.1 connect=1ms service=2ms status=404 bytes=386
+2016-06-23T08:01:46.079684+00:00 heroku[web.1]: Idling
+2016-06-23T08:01:46.079684+00:00 heroku[web.1]: State changed from up to down
+2016-06-23T08:01:49.084454+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-23T08:01:49.707552+00:00 app[web.1]: [2016-06-23 08:01:49 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-23T08:01:49.709698+00:00 app[web.1]: [2016-06-23 08:01:49 +0000] [3] [INFO] Handling signal: term
+2016-06-23T08:01:49.717108+00:00 app[web.1]: [2016-06-23 08:01:49 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-23T08:01:49.759360+00:00 app[web.1]: [2016-06-23 08:01:49 +0000] [3] [INFO] Shutting down: Master
+2016-06-23T08:01:50.626708+00:00 heroku[web.1]: Process exited with status 0
+2016-06-23T17:56:37.348078+00:00 heroku[web.1]: Unidling
+2016-06-23T17:56:37.348450+00:00 heroku[web.1]: State changed from down to starting
+2016-06-23T17:56:41.873306+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-23T17:56:45.955447+00:00 app[web.1]: [2016-06-23 17:56:45 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-23T17:56:45.962881+00:00 app[web.1]: [2016-06-23 17:56:45 +0000] [3] [INFO] Listening at: http://0.0.0.0:53274 (3)
+2016-06-23T17:56:45.962897+00:00 app[web.1]: [2016-06-23 17:56:45 +0000] [3] [INFO] Using worker: sync
+2016-06-23T17:56:46.001680+00:00 app[web.1]: [2016-06-23 17:56:46 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-23T17:56:45.978284+00:00 app[web.1]: [2016-06-23 17:56:45 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-23T17:56:46.242605+00:00 heroku[web.1]: State changed from starting to up
+2016-06-23T17:56:47.550831+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=27ae685b-f049-4772-998f-9d6c94e2f0af fwd="27.7.255.81" dyno=web.1 connect=1ms service=1151ms status=200 bytes=750
+2016-06-23T17:56:48.222971+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=5245cd16-9192-4fdd-b4ac-849e73144d70 fwd="27.7.255.81" dyno=web.1 connect=2ms service=65ms status=404 bytes=386
+2016-06-23T17:56:48.577228+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=8091b427-410c-43d4-9f24-81e15e070b7e fwd="27.7.255.81" dyno=web.1 connect=0ms service=15ms status=404 bytes=386
+2016-06-23T17:56:53.302618+00:00 heroku[router]: at=info method=GET path="/i" host=tweetpv.herokuapp.com request_id=1fd58251-3fe7-4373-8327-068cc3ca78eb fwd="173.252.105.117" dyno=web.1 connect=0ms service=6ms status=404 bytes=386
+2016-06-23T17:56:58.958026+00:00 heroku[router]: at=info method=GET path="/i" host=tweetpv.herokuapp.com request_id=b67fc86b-2cfb-4c3b-a816-9c5be49fb476 fwd="173.252.88.190" dyno=web.1 connect=0ms service=3ms status=404 bytes=386
+2016-06-23T17:56:59.174323+00:00 heroku[router]: at=info method=GET path="/i" host=tweetpv.herokuapp.com request_id=73d064f4-ce9b-44d2-a666-c8131e2f5c97 fwd="27.7.255.81" dyno=web.1 connect=0ms service=12ms status=404 bytes=386
+2016-06-23T17:57:21.716420+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=3fe8a17f-08b5-42f6-bbd6-0fd096fca293 fwd="59.178.210.138" dyno=web.1 connect=0ms service=33ms status=200 bytes=750
+2016-06-23T17:57:22.043918+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=4c47ba05-0774-45de-80a3-2c06e8f4cb70 fwd="59.178.210.138" dyno=web.1 connect=0ms service=3ms status=404 bytes=386
+2016-06-23T17:57:22.368257+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=894abb36-aa8f-4ced-9d18-ff406346c4b4 fwd="59.178.210.138" dyno=web.1 connect=1ms service=12ms status=404 bytes=386
+2016-06-23T17:57:35.696282+00:00 app[web.1]:  
+2016-06-23T17:57:35.696375+00:00 app[web.1]:  
+2016-06-23T17:57:35.696402+00:00 app[web.1]:  
+2016-06-23T17:57:35.696704+00:00 app[web.1]:  
+2016-06-23T17:57:35.696667+00:00 app[web.1]: Tweet By Sax bomb  :  luv all angels mankind's angel
+2016-06-23T17:57:35.697074+00:00 app[web.1]:  
+2016-06-23T17:57:35.697016+00:00 app[web.1]:  
+2016-06-23T17:57:35.696730+00:00 app[web.1]:  
+2016-06-23T17:57:35.696351+00:00 app[web.1]:  
+2016-06-23T17:57:35.697051+00:00 app[web.1]:  
+2016-06-23T17:57:35.698762+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=f73ad574-4ae0-41c1-91a5-5cf4453f4196 fwd="59.178.210.138" dyno=web.1 connect=0ms service=248ms status=200 bytes=758
+2016-06-23T17:57:36.021704+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=ebe357eb-b91d-44cb-b7dc-d1172697ee1d fwd="59.178.210.138" dyno=web.1 connect=1ms service=3ms status=404 bytes=386
+2016-06-23T18:01:12.365183+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=990e7036-ec02-4431-b47a-9759db52ff8c fwd="59.178.210.138" dyno=web.1 connect=0ms service=3ms status=200 bytes=750
+2016-06-23T18:01:12.705813+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=2bf348d6-e1b0-4cf8-95c3-36269555168b fwd="59.178.210.138" dyno=web.1 connect=0ms service=3ms status=404 bytes=386
+2016-06-23T18:01:55.303148+00:00 app[web.1]:  
+2016-06-23T18:01:55.303181+00:00 app[web.1]:  
+2016-06-23T18:01:55.303187+00:00 app[web.1]:  
+2016-06-23T18:01:55.303182+00:00 app[web.1]:  
+2016-06-23T18:01:55.303187+00:00 app[web.1]:  
+2016-06-23T18:01:55.303183+00:00 app[web.1]: Tweet By Prateek Vachher  :  i luv u jag-rahi-thi 
+2016-06-23T18:01:55.303180+00:00 app[web.1]:  
+2016-06-23T18:01:55.303188+00:00 app[web.1]:  
+2016-06-23T18:01:55.303186+00:00 app[web.1]:  
+2016-06-23T18:01:55.303186+00:00 app[web.1]:  
+2016-06-23T18:01:55.608082+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=0ba3fda4-efb5-4c3b-98d8-b787dbf8d82d fwd="59.178.210.138" dyno=web.1 connect=0ms service=2ms status=404 bytes=386
+2016-06-23T18:01:55.298359+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=24cd623b-2677-4432-8a85-6153d2c4032f fwd="59.178.210.138" dyno=web.1 connect=0ms service=322ms status=200 bytes=765
+2016-06-23T18:02:11.057345+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=a2437202-f146-487b-b553-68697f2982d3 fwd="59.178.210.138" dyno=web.1 connect=0ms service=16ms status=200 bytes=750
+2016-06-23T18:02:11.370398+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=99d0c2b1-afa5-41cd-bcc1-9506e30ce362 fwd="59.178.210.138" dyno=web.1 connect=4ms service=2ms status=404 bytes=386
+2016-06-23T18:02:20.051778+00:00 app[web.1]:  
+2016-06-23T18:02:20.051776+00:00 app[web.1]:  
+2016-06-23T18:02:20.051762+00:00 app[web.1]:  
+2016-06-23T18:02:20.051779+00:00 app[web.1]: Tweet By Prateek Vachher  :  i am actually gay
+2016-06-23T18:02:20.051781+00:00 app[web.1]:  
+2016-06-23T18:02:20.051781+00:00 app[web.1]:  
+2016-06-23T18:02:20.051779+00:00 app[web.1]:  
+2016-06-23T18:02:20.051780+00:00 app[web.1]:  
+2016-06-23T18:02:20.051780+00:00 app[web.1]:  
+2016-06-23T18:02:20.051775+00:00 app[web.1]:  
+2016-06-23T18:02:20.050089+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=34152f1f-3964-412b-9b9e-c9c47b0069d2 fwd="59.178.210.138" dyno=web.1 connect=1ms service=189ms status=200 bytes=765
+2016-06-23T18:02:20.360724+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=d7d21c09-7ca1-4930-8b72-e560589a5d0b fwd="59.178.210.138" dyno=web.1 connect=1ms service=3ms status=404 bytes=386
+2016-06-23T18:35:31.968360+00:00 heroku[web.1]: State changed from up to down
+2016-06-23T18:35:31.963354+00:00 heroku[web.1]: Idling
+2016-06-23T18:35:35.300657+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-23T18:35:36.053131+00:00 app[web.1]: [2016-06-23 18:35:36 +0000] [3] [INFO] Handling signal: term
+2016-06-23T18:35:36.049134+00:00 app[web.1]: [2016-06-23 18:35:36 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-23T18:35:36.050727+00:00 app[web.1]: [2016-06-23 18:35:36 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-23T18:35:36.064975+00:00 app[web.1]: [2016-06-23 18:35:36 +0000] [3] [INFO] Shutting down: Master
+2016-06-23T18:35:37.269687+00:00 heroku[web.1]: Process exited with status 0
+2016-06-25T10:02:26.970276+00:00 heroku[web.1]: Unidling
+2016-06-25T10:02:26.970576+00:00 heroku[web.1]: State changed from down to starting
+2016-06-25T10:02:30.068988+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-25T10:02:32.582835+00:00 app[web.1]: [2016-06-25 10:02:32 +0000] [3] [INFO] Using worker: sync
+2016-06-25T10:02:32.580423+00:00 app[web.1]: [2016-06-25 10:02:32 +0000] [3] [INFO] Listening at: http://0.0.0.0:19075 (3)
+2016-06-25T10:02:32.598100+00:00 app[web.1]: [2016-06-25 10:02:32 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-25T10:02:32.625777+00:00 app[web.1]: [2016-06-25 10:02:32 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-25T10:02:32.572011+00:00 app[web.1]: [2016-06-25 10:02:32 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-25T10:02:33.765607+00:00 heroku[web.1]: State changed from starting to up
+2016-06-25T10:02:34.063834+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=7b62195a-d03c-4d3b-b43a-d9c6e9939fa2 fwd="27.7.255.81" dyno=web.1 connect=1ms service=42ms status=200 bytes=750
+2016-06-25T10:02:35.054166+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=3703a059-0def-4fc0-b7d1-55283f33b318 fwd="27.7.255.81" dyno=web.1 connect=3ms service=70ms status=404 bytes=386
+2016-06-25T10:02:35.371250+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=9f454136-ff4e-4bf0-b292-f83998d919c0 fwd="27.7.255.81" dyno=web.1 connect=1ms service=2ms status=404 bytes=386
+2016-06-25T10:02:53.783125+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=67a9ee55-6f5c-4c87-98d4-a4f9334b2016 fwd="27.7.255.81" dyno=web.1 connect=0ms service=189ms status=200 bytes=757
+2016-06-25T10:02:53.769576+00:00 app[web.1]:  
+2016-06-25T10:02:53.769385+00:00 app[web.1]:  
+2016-06-25T10:02:53.769337+00:00 app[web.1]:  
+2016-06-25T10:02:53.769599+00:00 app[web.1]:  
+2016-06-25T10:02:53.769762+00:00 app[web.1]:  
+2016-06-25T10:02:53.769836+00:00 app[web.1]:  
+2016-06-25T10:02:53.769799+00:00 app[web.1]:  
+2016-06-25T10:02:53.769417+00:00 app[web.1]:  
+2016-06-25T10:02:53.769552+00:00 app[web.1]: Tweet By Ashwani  :  Is Brexit Right?
+2016-06-25T10:02:53.769440+00:00 app[web.1]:  
+2016-06-25T10:02:54.592608+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=6b18c851-49c2-4589-b74e-6993917d99d8 fwd="27.7.255.81" dyno=web.1 connect=0ms service=4ms status=404 bytes=386
+2016-06-25T10:37:20.176564+00:00 heroku[web.1]: Idling
+2016-06-25T10:37:20.177065+00:00 heroku[web.1]: State changed from up to down
+2016-06-25T10:37:24.038903+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-25T10:37:25.264984+00:00 app[web.1]: [2016-06-25 10:37:25 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-25T10:37:25.267397+00:00 app[web.1]: [2016-06-25 10:37:25 +0000] [3] [INFO] Handling signal: term
+2016-06-25T10:37:25.276447+00:00 app[web.1]: [2016-06-25 10:37:25 +0000] [3] [INFO] Shutting down: Master
+2016-06-25T10:37:25.264994+00:00 app[web.1]: [2016-06-25 10:37:25 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-25T10:37:26.088010+00:00 heroku[web.1]: Process exited with status 0
+2016-06-25T14:51:56.168870+00:00 heroku[web.1]: Unidling
+2016-06-25T14:51:56.169600+00:00 heroku[web.1]: State changed from down to starting
+2016-06-25T14:51:58.972298+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-25T14:52:01.350482+00:00 app[web.1]: [2016-06-25 14:52:01 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-25T14:52:01.322707+00:00 app[web.1]: [2016-06-25 14:52:01 +0000] [3] [INFO] Using worker: sync
+2016-06-25T14:52:01.328055+00:00 app[web.1]: [2016-06-25 14:52:01 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-25T14:52:01.322603+00:00 app[web.1]: [2016-06-25 14:52:01 +0000] [3] [INFO] Listening at: http://0.0.0.0:11821 (3)
+2016-06-25T14:52:01.321993+00:00 app[web.1]: [2016-06-25 14:52:01 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-25T14:52:02.759840+00:00 heroku[web.1]: State changed from starting to up
+2016-06-25T14:52:04.228990+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=fdf54328-1fe5-40c5-b0c2-3559c67d59e9 fwd="27.7.255.81" dyno=web.1 connect=0ms service=12ms status=200 bytes=750
+2016-06-25T14:52:05.175017+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=d4d15813-9c8f-4ea5-b674-d7f692b4781e fwd="27.7.255.81" dyno=web.1 connect=0ms service=16ms status=404 bytes=386
+2016-06-25T14:52:17.295137+00:00 app[web.1]:  
+2016-06-25T14:52:17.295124+00:00 app[web.1]:  
+2016-06-25T14:52:17.295137+00:00 app[web.1]:  
+2016-06-25T14:52:17.295161+00:00 app[web.1]:  
+2016-06-25T14:52:17.295145+00:00 app[web.1]:  
+2016-06-25T14:52:17.296678+00:00 app[web.1]:  
+2016-06-25T14:52:17.305562+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=4ec37187-6ba9-4a12-8861-30ad34c6691d fwd="27.7.255.81" dyno=web.1 connect=1ms service=195ms status=200 bytes=754
+2016-06-25T14:52:17.295143+00:00 app[web.1]: Tweet By Bega  :  hello there
+2016-06-25T14:52:17.296691+00:00 app[web.1]:  
+2016-06-25T14:52:17.295138+00:00 app[web.1]:  
+2016-06-25T14:52:17.296692+00:00 app[web.1]:  
+2016-06-25T14:52:18.117861+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=c6375204-0350-41c4-9654-9fe0f0c7deec fwd="27.7.255.81" dyno=web.1 connect=0ms service=2ms status=404 bytes=386
+2016-06-25T15:25:56.254291+00:00 heroku[web.1]: Idling
+2016-06-25T15:25:56.254998+00:00 heroku[web.1]: State changed from up to down
+2016-06-25T15:25:59.826136+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-25T15:26:00.904837+00:00 app[web.1]: [2016-06-25 15:26:00 +0000] [3] [INFO] Shutting down: Master
+2016-06-25T15:26:00.801591+00:00 app[web.1]: [2016-06-25 15:26:00 +0000] [3] [INFO] Handling signal: term
+2016-06-25T15:26:00.801671+00:00 app[web.1]: [2016-06-25 15:26:00 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-25T15:26:00.799823+00:00 app[web.1]: [2016-06-25 15:26:00 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-25T15:26:01.817354+00:00 heroku[web.1]: Process exited with status 0
+2016-06-26T18:50:44.146706+00:00 heroku[web.1]: Unidling
+2016-06-26T18:50:44.147021+00:00 heroku[web.1]: State changed from down to starting
+2016-06-26T18:50:46.652897+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-26T18:50:48.800868+00:00 app[web.1]: [2016-06-26 18:50:48 +0000] [3] [INFO] Listening at: http://0.0.0.0:27647 (3)
+2016-06-26T18:50:48.801108+00:00 app[web.1]: [2016-06-26 18:50:48 +0000] [3] [INFO] Using worker: sync
+2016-06-26T18:50:48.800240+00:00 app[web.1]: [2016-06-26 18:50:48 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-26T18:50:48.805391+00:00 app[web.1]: [2016-06-26 18:50:48 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-26T18:50:48.888577+00:00 app[web.1]: [2016-06-26 18:50:48 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-26T18:50:50.321256+00:00 heroku[web.1]: State changed from starting to up
+2016-06-26T18:50:52.224389+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=143316cf-db70-4e5c-87bf-a1e6c11e3929 fwd="27.7.255.81" dyno=web.1 connect=1ms service=15ms status=200 bytes=750
+2016-06-26T18:50:53.302606+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=c5e3433f-d7f6-464d-bd9e-bef5fa5dd2c7 fwd="27.7.255.81" dyno=web.1 connect=0ms service=9ms status=404 bytes=386
+2016-06-26T18:52:08.565640+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=c3c390d7-02d8-4b80-8e73-f7863747ec7f fwd="116.74.42.60" dyno=web.1 connect=3ms service=5ms status=404 bytes=386
+2016-06-26T18:52:08.194467+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=bc713362-57c9-4081-b0ce-6211d671f212 fwd="116.74.42.60" dyno=web.1 connect=2ms service=14ms status=200 bytes=750
+2016-06-26T18:53:27.761855+00:00 app[web.1]:  
+2016-06-26T18:53:27.761843+00:00 app[web.1]:  
+2016-06-26T18:53:27.761827+00:00 app[web.1]:  
+2016-06-26T18:53:27.761855+00:00 app[web.1]:  
+2016-06-26T18:53:27.761856+00:00 app[web.1]:  
+2016-06-26T18:53:27.761854+00:00 app[web.1]: Tweet By Lakshita Narang   :  Asymptote of a curve
+2016-06-26T18:53:27.756867+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=48aa0507-9e1f-4ac2-89c9-fb92dd46844f fwd="116.74.42.60" dyno=web.1 connect=1ms service=213ms status=200 bytes=766
+2016-06-26T18:53:27.761849+00:00 app[web.1]:  
+2016-06-26T18:53:27.761850+00:00 app[web.1]:  
+2016-06-26T18:53:27.761857+00:00 app[web.1]:  
+2016-06-26T18:53:27.761856+00:00 app[web.1]:  
+2016-06-26T18:53:28.125607+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=303fb7a5-7bc4-445a-a5c4-9c9a996df179 fwd="116.74.42.60" dyno=web.1 connect=1ms service=4ms status=404 bytes=386
+2016-06-26T19:29:09.885828+00:00 heroku[web.1]: State changed from up to down
+2016-06-26T19:29:09.885228+00:00 heroku[web.1]: Idling
+2016-06-26T19:29:12.815932+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-26T19:29:13.819101+00:00 app[web.1]: [2016-06-26 19:29:13 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-26T19:29:13.818322+00:00 app[web.1]: [2016-06-26 19:29:13 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-26T19:29:13.857215+00:00 app[web.1]: [2016-06-26 19:29:13 +0000] [3] [INFO] Handling signal: term
+2016-06-26T19:29:13.872168+00:00 app[web.1]: [2016-06-26 19:29:13 +0000] [3] [INFO] Shutting down: Master
+2016-06-26T19:29:15.107403+00:00 heroku[web.1]: Process exited with status 0
+2016-06-27T10:33:13.614839+00:00 heroku[web.1]: Unidling
+2016-06-27T10:33:13.617920+00:00 heroku[web.1]: State changed from down to starting
+2016-06-27T10:33:17.240681+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-27T10:33:19.924310+00:00 app[web.1]: [2016-06-27 10:33:19 +0000] [3] [INFO] Listening at: http://0.0.0.0:52891 (3)
+2016-06-27T10:33:19.924439+00:00 app[web.1]: [2016-06-27 10:33:19 +0000] [3] [INFO] Using worker: sync
+2016-06-27T10:33:19.931512+00:00 app[web.1]: [2016-06-27 10:33:19 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-27T10:33:19.923374+00:00 app[web.1]: [2016-06-27 10:33:19 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-27T10:33:19.990066+00:00 app[web.1]: [2016-06-27 10:33:19 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-27T10:33:20.929539+00:00 heroku[web.1]: State changed from starting to up
+2016-06-27T10:33:21.747229+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=5407a839-6407-4f2a-bafc-dd053f0576be fwd="27.7.255.81" dyno=web.1 connect=0ms service=32ms status=200 bytes=750
+2016-06-27T10:33:22.887772+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=0d20b4fb-0da3-4d35-b707-679da671f0b5 fwd="27.7.255.81" dyno=web.1 connect=0ms service=23ms status=404 bytes=386
+2016-06-27T11:07:23.838867+00:00 heroku[web.1]: Idling
+2016-06-27T11:07:23.839325+00:00 heroku[web.1]: State changed from up to down
+2016-06-27T11:07:28.149803+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-27T11:07:29.271622+00:00 app[web.1]: [2016-06-27 11:07:29 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-27T11:07:29.270948+00:00 app[web.1]: [2016-06-27 11:07:29 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-27T11:07:29.641675+00:00 app[web.1]: [2016-06-27 11:07:29 +0000] [3] [INFO] Handling signal: term
+2016-06-27T11:07:29.738688+00:00 app[web.1]: [2016-06-27 11:07:29 +0000] [3] [INFO] Shutting down: Master
+2016-06-27T11:07:31.223497+00:00 heroku[web.1]: Process exited with status 0
+2016-06-27T16:44:46.443653+00:00 heroku[slug-compiler]: Slug compilation started
+2016-06-27T16:44:46.443657+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-06-27T16:44:46.379148+00:00 heroku[web.1]: State changed from down to starting
+2016-06-27T16:44:48.838522+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-27T16:44:50.730775+00:00 app[web.1]: [2016-06-27 16:44:50 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-27T16:44:50.731292+00:00 app[web.1]: [2016-06-27 16:44:50 +0000] [3] [INFO] Using worker: sync
+2016-06-27T16:44:50.770662+00:00 app[web.1]: [2016-06-27 16:44:50 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-27T16:44:50.735773+00:00 app[web.1]: [2016-06-27 16:44:50 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-27T16:44:50.731212+00:00 app[web.1]: [2016-06-27 16:44:50 +0000] [3] [INFO] Listening at: http://0.0.0.0:20317 (3)
+2016-06-27T16:44:52.434821+00:00 heroku[web.1]: State changed from starting to up
+2016-06-27T16:44:46.137431+00:00 heroku[api]: Deploy 91f6282 by vachherprateek@gmail.com
+2016-06-27T16:44:46.137557+00:00 heroku[api]: Release v12 created by vachherprateek@gmail.com
+2016-06-27T16:46:19.880342+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=fb75d47c-5fc0-4f9b-a8c6-1178a17ada1f fwd="27.7.255.81" dyno=web.1 connect=1ms service=54ms status=500 bytes=456
+2016-06-27T16:47:30.794272+00:00 heroku[slug-compiler]: Slug compilation started
+2016-06-27T16:47:30.794293+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-06-27T16:47:33.648961+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-27T16:47:30.748310+00:00 heroku[web.1]: Restarting
+2016-06-27T16:47:30.749010+00:00 heroku[web.1]: State changed from up to starting
+2016-06-27T16:47:33.971673+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-27T16:47:34.806115+00:00 app[web.1]: [2016-06-27 16:47:34 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-27T16:47:34.806866+00:00 app[web.1]: [2016-06-27 16:47:34 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-27T16:47:34.809128+00:00 app[web.1]: [2016-06-27 16:47:34 +0000] [3] [INFO] Handling signal: term
+2016-06-27T16:47:34.816019+00:00 app[web.1]: [2016-06-27 16:47:34 +0000] [3] [INFO] Shutting down: Master
+2016-06-27T16:47:35.710274+00:00 heroku[web.1]: Process exited with status 0
+2016-06-27T16:47:35.978781+00:00 app[web.1]: [2016-06-27 16:47:35 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-27T16:47:35.876148+00:00 app[web.1]: [2016-06-27 16:47:35 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-27T16:47:35.876588+00:00 app[web.1]: [2016-06-27 16:47:35 +0000] [3] [INFO] Listening at: http://0.0.0.0:52350 (3)
+2016-06-27T16:47:35.876647+00:00 app[web.1]: [2016-06-27 16:47:35 +0000] [3] [INFO] Using worker: sync
+2016-06-27T16:47:35.880350+00:00 app[web.1]: [2016-06-27 16:47:35 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-27T16:47:37.230786+00:00 heroku[web.1]: State changed from starting to up
+2016-06-27T16:47:30.514275+00:00 heroku[api]: Release v13 created by vachherprateek@gmail.com
+2016-06-27T16:47:30.514165+00:00 heroku[api]: Deploy 5dba614 by vachherprateek@gmail.com
+2016-06-27T16:47:38.499111+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=c18ca619-a021-4f23-bc57-ac0bb59c0685 fwd="27.7.255.81" dyno=web.1 connect=1ms service=14ms status=500 bytes=456
+2016-06-27T16:49:18.682223+00:00 heroku[router]: at=info method=GET path="/new" host=tweetpv.herokuapp.com request_id=ab524224-09bc-4aaa-acdf-b11fb23932a7 fwd="27.7.255.81" dyno=web.1 connect=0ms service=1ms status=500 bytes=456
+2016-06-27T16:51:05.301529+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-06-27T16:51:05.301521+00:00 heroku[slug-compiler]: Slug compilation started
+2016-06-27T16:51:05.444872+00:00 heroku[web.1]: State changed from up to starting
+2016-06-27T16:51:05.444321+00:00 heroku[web.1]: Restarting
+2016-06-27T16:51:08.223472+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-27T16:51:08.910206+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-27T16:51:09.719050+00:00 app[web.1]: [2016-06-27 16:51:09 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-27T16:51:09.720410+00:00 app[web.1]: [2016-06-27 16:51:09 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-27T16:51:09.728448+00:00 app[web.1]: [2016-06-27 16:51:09 +0000] [3] [INFO] Shutting down: Master
+2016-06-27T16:51:09.720861+00:00 app[web.1]: [2016-06-27 16:51:09 +0000] [3] [INFO] Handling signal: term
+2016-06-27T16:51:10.905891+00:00 heroku[web.1]: Process exited with status 0
+2016-06-27T16:51:10.962346+00:00 app[web.1]: [2016-06-27 16:51:10 +0000] [3] [INFO] Listening at: http://0.0.0.0:42194 (3)
+2016-06-27T16:51:10.961763+00:00 app[web.1]: [2016-06-27 16:51:10 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-27T16:51:11.020419+00:00 app[web.1]: [2016-06-27 16:51:11 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-27T16:51:10.972399+00:00 app[web.1]: [2016-06-27 16:51:10 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-27T16:51:10.962472+00:00 app[web.1]: [2016-06-27 16:51:10 +0000] [3] [INFO] Using worker: sync
+2016-06-27T16:51:11.852836+00:00 heroku[web.1]: State changed from starting to up
+2016-06-27T16:51:05.058443+00:00 heroku[api]: Release v14 created by vachherprateek@gmail.com
+2016-06-27T16:53:21.656065+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=fce7b8e8-c21f-4c36-ac48-2e1cd2e9f2a4 fwd="122.176.15.206,64.233.173.153" dyno=web.1 connect=0ms service=9ms status=404 bytes=386
+2016-06-27T16:56:11.129413+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=4416f5a7-ec3f-4ef0-8f1c-434513267b4e fwd="103.66.16.3" dyno=web.1 connect=1ms service=12ms status=200 bytes=22248
+2016-06-27T16:56:14.980126+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=a8fe70a7-11fb-46de-ba2a-3461eebe5cda fwd="103.66.16.3" dyno=web.1 connect=2ms service=37ms status=404 bytes=386
+2016-06-27T17:00:44.367980+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=64081122-0278-4586-8d83-81970df4957f fwd="27.7.255.81" dyno=web.1 connect=0ms service=3ms status=200 bytes=22248
+2016-06-27T17:02:02.703767+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=56dd4ebb-84f6-4ebf-8418-5d3b56894d99 fwd="27.7.255.81,64.233.173.73" dyno=web.1 connect=1ms service=7ms status=200 bytes=22248
+2016-06-27T17:03:32.535975+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=9fd6ecd7-d9fc-4c1e-b9f0-92db9daaaa5b fwd="27.7.255.81" dyno=web.1 connect=1ms service=5ms status=200 bytes=22248
+2016-06-27T17:03:37.386278+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=91c34344-b6d5-4eaf-bb7e-df1653c382e0 fwd="27.7.255.81" dyno=web.1 connect=1ms service=5ms status=200 bytes=22248
+2016-06-27T17:21:01.002302+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=d3b4c4a6-e39c-4605-812a-cac89fcc160c fwd="116.74.42.60" dyno=web.1 connect=1ms service=3ms status=404 bytes=386
+2016-06-27T17:21:24.031722+00:00 app[web.1]: Tweet By Lakshita Narang   :  yayayayyy \m/
+2016-06-27T17:21:34.031864+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=a218e867-19e8-404f-9364-d82e58ea99b0 fwd="116.74.42.60" dyno=web.1 connect=1ms service=10415ms status=200 bytes=22264
+2016-06-27T17:23:47.362233+00:00 heroku[slug-compiler]: Slug compilation started
+2016-06-27T17:23:47.362241+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-06-27T17:23:47.368714+00:00 heroku[web.1]: Restarting
+2016-06-27T17:23:47.369458+00:00 heroku[web.1]: State changed from up to starting
+2016-06-27T17:23:49.770010+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-27T17:23:51.079401+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-27T17:23:52.016153+00:00 app[web.1]: [2016-06-27 17:23:51 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-27T17:23:51.994418+00:00 app[web.1]: [2016-06-27 17:23:51 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-27T17:23:51.994918+00:00 app[web.1]: [2016-06-27 17:23:51 +0000] [3] [INFO] Handling signal: term
+2016-06-27T17:23:52.112194+00:00 app[web.1]: [2016-06-27 17:23:52 +0000] [3] [INFO] Shutting down: Master
+2016-06-27T17:23:51.983747+00:00 app[web.1]: [2016-06-27 17:23:51 +0000] [3] [INFO] Using worker: sync
+2016-06-27T17:23:51.992736+00:00 app[web.1]: [2016-06-27 17:23:51 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-27T17:23:51.983637+00:00 app[web.1]: [2016-06-27 17:23:51 +0000] [3] [INFO] Listening at: http://0.0.0.0:58033 (3)
+2016-06-27T17:23:52.052613+00:00 app[web.1]: [2016-06-27 17:23:52 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-27T17:23:51.978758+00:00 app[web.1]: [2016-06-27 17:23:51 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-27T17:23:47.141658+00:00 heroku[api]: Deploy 924e9b5 by vachherprateek@gmail.com
+2016-06-27T17:23:47.141738+00:00 heroku[api]: Release v15 created by vachherprateek@gmail.com
+2016-06-27T17:23:53.364608+00:00 heroku[web.1]: Process exited with status 0
+2016-06-27T17:23:53.440783+00:00 heroku[web.1]: State changed from starting to up
+2016-06-27T17:25:13.521582+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=806f0590-350b-4dc7-9683-f3a0f6e60ba3 fwd="27.7.255.81" dyno=web.1 connect=3ms service=53ms status=200 bytes=22371
+2016-06-27T17:25:45.859832+00:00 app[web.1]: Tweet By P  :  
+2016-06-27T17:25:45.865783+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=b971b3cf-005c-4882-9e6f-46ed10453bde fwd="27.7.255.81" dyno=web.1 connect=1ms service=271ms status=200 bytes=22371
+2016-06-27T17:25:57.232308+00:00 app[web.1]: Tweet By Yuvhhuvbijbij  :  Ibjjibghfyfy
+2016-06-27T17:25:57.260026+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=6444d8d5-1ff4-487c-9071-7143d3bff463 fwd="27.7.255.81" dyno=web.1 connect=2ms service=221ms status=200 bytes=22371
+2016-06-27T17:26:13.474738+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=f2b84f62-44c5-4a42-aa97-63490778c786 fwd="116.74.42.60" dyno=web.1 connect=0ms service=4ms status=200 bytes=22371
+2016-06-27T18:01:23.074339+00:00 heroku[web.1]: Idling
+2016-06-27T18:01:23.075066+00:00 heroku[web.1]: State changed from up to down
+2016-06-27T18:01:27.123397+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-27T18:01:28.369767+00:00 app[web.1]: [2016-06-27 18:01:28 +0000] [3] [INFO] Shutting down: Master
+2016-06-27T18:01:28.358986+00:00 app[web.1]: [2016-06-27 18:01:28 +0000] [3] [INFO] Handling signal: term
+2016-06-27T18:01:28.273685+00:00 app[web.1]: [2016-06-27 18:01:28 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-27T18:01:28.282669+00:00 app[web.1]: [2016-06-27 18:01:28 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-27T18:01:30.531940+00:00 heroku[web.1]: Process exited with status 0
+2016-06-28T07:14:03.988811+00:00 heroku[web.1]: Unidling
+2016-06-28T07:14:03.988811+00:00 heroku[web.1]: State changed from down to starting
+2016-06-28T07:14:06.778761+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-28T07:14:08.828743+00:00 app[web.1]: [2016-06-28 07:14:08 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-28T07:14:08.829302+00:00 app[web.1]: [2016-06-28 07:14:08 +0000] [3] [INFO] Listening at: http://0.0.0.0:56120 (3)
+2016-06-28T07:14:08.907159+00:00 app[web.1]: [2016-06-28 07:14:08 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-28T07:14:08.834479+00:00 app[web.1]: [2016-06-28 07:14:08 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-28T07:14:08.829461+00:00 app[web.1]: [2016-06-28 07:14:08 +0000] [3] [INFO] Using worker: sync
+2016-06-28T07:14:10.448847+00:00 heroku[web.1]: State changed from starting to up
+2016-06-28T07:14:11.099215+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=942a3aa9-918d-4fa7-aae9-caa4dc65ece5 fwd="27.7.255.81" dyno=web.1 connect=0ms service=28ms status=200 bytes=22371
+2016-06-28T07:14:14.282110+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=e386e04c-15b2-409f-bad1-f23ec65b9a9d fwd="27.7.255.81" dyno=web.1 connect=0ms service=20ms status=404 bytes=386
+2016-06-28T07:14:20.304868+00:00 app[web.1]: Tweet By   :  
+2016-06-28T07:14:20.333286+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=aa445243-7cf9-475b-8031-37680bfd4597 fwd="27.7.255.81" dyno=web.1 connect=0ms service=250ms status=200 bytes=22371
+2016-06-28T07:14:24.719320+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=d6c342fd-2ee0-43e9-9d60-171c7bde2191 fwd="27.7.255.81" dyno=web.1 connect=0ms service=135ms status=500 bytes=456
+2016-06-28T07:14:46.233928+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=7c26ffea-c96c-474c-8ba4-1889db2672a7 fwd="106.221.147.187" dyno=web.1 connect=2ms service=5ms status=200 bytes=22371
+2016-06-28T07:14:54.435473+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=6fabbc61-5d07-4eef-9adf-d2c72a0b66aa fwd="106.221.147.187" dyno=web.1 connect=1ms service=2ms status=404 bytes=386
+2016-06-28T07:15:00.717293+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=06a6e8a9-d069-49a2-9e5a-15a2ed2e61af fwd="27.7.255.81" dyno=web.1 connect=0ms service=175ms status=200 bytes=22371
+2016-06-28T07:15:00.708548+00:00 app[web.1]: Tweet By Test  :  Test Lol
+2016-06-28T07:17:42.406059+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=425b80d8-698b-4299-b18b-69532e8d2b24 fwd="106.221.147.187" dyno=web.1 connect=1ms service=7ms status=200 bytes=22371
+2016-06-28T07:18:13.252874+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=737ba131-39da-486e-950e-36257ede725b fwd="106.221.147.187" dyno=web.1 connect=1ms service=162ms status=200 bytes=22371
+2016-06-28T07:18:13.247261+00:00 app[web.1]: Tweet By ROSE  :  I lvoe you
+2016-06-28T07:18:34.487422+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=ccddbdac-2afe-4143-a59a-d7fc5cdff016 fwd="106.221.147.187" dyno=web.1 connect=1ms service=175ms status=200 bytes=22371
+2016-06-28T07:18:34.482186+00:00 app[web.1]: Tweet By ROSE  :  I love you
+2016-06-28T07:53:39.888969+00:00 heroku[web.1]: State changed from up to down
+2016-06-28T07:53:39.888279+00:00 heroku[web.1]: Idling
+2016-06-28T07:53:43.581816+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-28T07:53:44.477314+00:00 app[web.1]: [2016-06-28 07:53:44 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-28T07:53:44.481275+00:00 app[web.1]: [2016-06-28 07:53:44 +0000] [3] [INFO] Handling signal: term
+2016-06-28T07:53:44.484585+00:00 app[web.1]: [2016-06-28 07:53:44 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-28T07:53:44.527187+00:00 app[web.1]: [2016-06-28 07:53:44 +0000] [3] [INFO] Shutting down: Master
+2016-06-28T07:53:45.670925+00:00 heroku[web.1]: Process exited with status 0
+2016-06-28T07:57:15.869278+00:00 heroku[web.1]: Unidling
+2016-06-28T07:57:15.869622+00:00 heroku[web.1]: State changed from down to starting
+2016-06-28T07:57:19.660338+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-28T07:57:22.521212+00:00 app[web.1]: [2016-06-28 07:57:22 +0000] [3] [INFO] Listening at: http://0.0.0.0:35966 (3)
+2016-06-28T07:57:22.521352+00:00 app[web.1]: [2016-06-28 07:57:22 +0000] [3] [INFO] Using worker: sync
+2016-06-28T07:57:22.520514+00:00 app[web.1]: [2016-06-28 07:57:22 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-28T07:57:22.578840+00:00 app[web.1]: [2016-06-28 07:57:22 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-28T07:57:22.534179+00:00 app[web.1]: [2016-06-28 07:57:22 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-28T07:57:23.383492+00:00 heroku[web.1]: State changed from starting to up
+2016-06-28T07:57:25.092740+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=7c48d514-a111-4371-b8aa-c563f2ff03f0 fwd="27.7.255.81" dyno=web.1 connect=0ms service=130ms status=200 bytes=22371
+2016-06-28T07:59:23.170461+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=3e3086bf-8b08-4947-875c-bb5fb62c9b60 fwd="59.178.200.189" dyno=web.1 connect=1ms service=101ms status=200 bytes=22371
+2016-06-28T07:59:46.895161+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=f9941bb0-71eb-433e-81bd-1a84854805b4 fwd="27.7.255.81" dyno=web.1 connect=1ms service=5ms status=200 bytes=22371
+2016-06-28T08:00:54.788618+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=8b408661-591d-4909-a408-6a803df50df3 fwd="59.178.200.189" dyno=web.1 connect=2ms service=230ms status=200 bytes=22371
+2016-06-28T08:00:54.787090+00:00 app[web.1]: Tweet By coolest  :  chillin like a villain
+2016-06-28T08:37:04.644932+00:00 heroku[web.1]: State changed from up to down
+2016-06-28T08:37:04.644020+00:00 heroku[web.1]: Idling
+2016-06-28T08:37:09.689214+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-28T08:37:10.963667+00:00 app[web.1]: [2016-06-28 08:37:10 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-28T08:37:11.047427+00:00 app[web.1]: [2016-06-28 08:37:10 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-28T08:37:11.365943+00:00 app[web.1]: [2016-06-28 08:37:11 +0000] [15] [INFO] Booting worker with pid: 15
+2016-06-28T08:37:11.451654+00:00 app[web.1]: [2016-06-28 08:37:11 +0000] [3] [INFO] Handling signal: term
+2016-06-28T08:37:12.519746+00:00 app[web.1]: [2016-06-28 08:37:12 +0000] [15] [INFO] Worker exiting (pid: 15)
+2016-06-28T08:37:12.582716+00:00 app[web.1]: [2016-06-28 08:37:12 +0000] [3] [INFO] Shutting down: Master
+2016-06-28T08:37:14.141335+00:00 heroku[web.1]: Process exited with status 0
+2016-06-28T08:39:03.910209+00:00 heroku[web.1]: State changed from down to starting
+2016-06-28T08:39:03.909885+00:00 heroku[web.1]: Unidling
+2016-06-28T08:39:06.789981+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-28T08:39:08.775427+00:00 app[web.1]: [2016-06-28 08:39:08 +0000] [3] [INFO] Using worker: sync
+2016-06-28T08:39:08.851925+00:00 app[web.1]: [2016-06-28 08:39:08 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-28T08:39:08.774923+00:00 app[web.1]: [2016-06-28 08:39:08 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-28T08:39:08.775357+00:00 app[web.1]: [2016-06-28 08:39:08 +0000] [3] [INFO] Listening at: http://0.0.0.0:19021 (3)
+2016-06-28T08:39:08.778978+00:00 app[web.1]: [2016-06-28 08:39:08 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-28T08:39:10.463923+00:00 heroku[web.1]: State changed from starting to up
+2016-06-28T08:39:10.969364+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=8562803f-6111-4123-95f9-09803e87138f fwd="27.7.255.81,64.233.173.197" dyno=web.1 connect=4ms service=9ms status=404 bytes=386
+2016-06-28T08:44:02.343857+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=4a171354-0612-42ec-8917-6e3f43b071d4 fwd="27.7.255.81,64.233.173.37" dyno=web.1 connect=0ms service=2ms status=404 bytes=386
+2016-06-28T09:19:21.440226+00:00 heroku[web.1]: Idling
+2016-06-28T09:19:21.440730+00:00 heroku[web.1]: State changed from up to down
+2016-06-28T09:19:25.901518+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-28T09:19:27.175128+00:00 app[web.1]: [2016-06-28 09:19:27 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-28T09:19:27.163609+00:00 app[web.1]: [2016-06-28 09:19:27 +0000] [3] [INFO] Handling signal: term
+2016-06-28T09:19:27.163960+00:00 app[web.1]: [2016-06-28 09:19:27 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-28T09:19:27.591381+00:00 app[web.1]: [2016-06-28 09:19:27 +0000] [3] [INFO] Shutting down: Master
+2016-06-28T09:19:29.020390+00:00 heroku[web.1]: Process exited with status 0
+2016-06-28T16:45:41.366953+00:00 heroku[web.1]: State changed from down to starting
+2016-06-28T16:45:41.366732+00:00 heroku[web.1]: Unidling
+2016-06-28T16:45:44.686030+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-28T16:45:47.363679+00:00 app[web.1]: [2016-06-28 16:45:47 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-28T16:45:47.355484+00:00 app[web.1]: [2016-06-28 16:45:47 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-28T16:45:47.356398+00:00 app[web.1]: [2016-06-28 16:45:47 +0000] [3] [INFO] Using worker: sync
+2016-06-28T16:45:47.430996+00:00 app[web.1]: [2016-06-28 16:45:47 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-28T16:45:47.356061+00:00 app[web.1]: [2016-06-28 16:45:47 +0000] [3] [INFO] Listening at: http://0.0.0.0:14602 (3)
+2016-06-28T16:45:48.276155+00:00 heroku[web.1]: State changed from starting to up
+2016-06-28T16:45:49.528215+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=50ff03b6-5535-46e8-8a4c-3d7cffad4975 fwd="27.7.255.81" dyno=web.1 connect=0ms service=86ms status=200 bytes=22371
+2016-06-28T17:21:00.251071+00:00 heroku[web.1]: Idling
+2016-06-28T17:21:00.251782+00:00 heroku[web.1]: State changed from up to down
+2016-06-28T17:21:03.458386+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-28T17:21:04.272934+00:00 app[web.1]: [2016-06-28 17:21:04 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-28T17:21:04.302773+00:00 app[web.1]: [2016-06-28 17:21:04 +0000] [3] [INFO] Handling signal: term
+2016-06-28T17:21:04.350842+00:00 app[web.1]: [2016-06-28 17:21:04 +0000] [3] [INFO] Shutting down: Master
+2016-06-28T17:21:04.277474+00:00 app[web.1]: [2016-06-28 17:21:04 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-28T17:21:05.418911+00:00 heroku[web.1]: Process exited with status 0
+2016-06-29T09:36:27.854110+00:00 heroku[web.1]: Unidling
+2016-06-29T09:36:27.854390+00:00 heroku[web.1]: State changed from down to starting
+2016-06-29T09:36:30.968410+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-29T09:36:33.560373+00:00 app[web.1]: [2016-06-29 09:36:33 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-29T09:36:33.560440+00:00 app[web.1]: [2016-06-29 09:36:33 +0000] [3] [INFO] Listening at: http://0.0.0.0:46521 (3)
+2016-06-29T09:36:33.597819+00:00 app[web.1]: [2016-06-29 09:36:33 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-29T09:36:33.564724+00:00 app[web.1]: [2016-06-29 09:36:33 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-29T09:36:33.560444+00:00 app[web.1]: [2016-06-29 09:36:33 +0000] [3] [INFO] Using worker: sync
+2016-06-29T09:36:34.621490+00:00 heroku[web.1]: State changed from starting to up
+2016-06-29T09:36:34.919450+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=2c187ca7-9c8f-4bc1-aa00-74ebc9f9e8ad fwd="27.7.255.81,64.233.173.229" dyno=web.1 connect=1ms service=13ms status=404 bytes=386
+2016-06-29T10:11:22.919787+00:00 heroku[web.1]: Idling
+2016-06-29T10:11:22.920289+00:00 heroku[web.1]: State changed from up to down
+2016-06-29T10:11:27.333941+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-29T10:11:28.914052+00:00 app[web.1]: [2016-06-29 10:11:28 +0000] [3] [INFO] Handling signal: term
+2016-06-29T10:11:28.833963+00:00 app[web.1]: [2016-06-29 10:11:28 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-29T10:11:28.976030+00:00 app[web.1]: [2016-06-29 10:11:28 +0000] [3] [INFO] Shutting down: Master
+2016-06-29T10:11:28.832932+00:00 app[web.1]: [2016-06-29 10:11:28 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-29T10:11:30.381310+00:00 heroku[web.1]: Process exited with status 0
+2016-07-02T06:48:26.745374+00:00 heroku[web.1]: Unidling
+2016-07-02T06:48:26.746135+00:00 heroku[web.1]: State changed from down to starting
+2016-07-02T06:48:29.503131+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-02T06:48:31.954747+00:00 app[web.1]: [2016-07-02 06:48:31 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-02T06:48:31.955331+00:00 app[web.1]: [2016-07-02 06:48:31 +0000] [3] [INFO] Listening at: http://0.0.0.0:24731 (3)
+2016-07-02T06:48:31.955441+00:00 app[web.1]: [2016-07-02 06:48:31 +0000] [3] [INFO] Using worker: sync
+2016-07-02T06:48:31.963618+00:00 app[web.1]: [2016-07-02 06:48:31 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-02T06:48:31.978593+00:00 app[web.1]: [2016-07-02 06:48:31 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-02T06:48:33.242633+00:00 heroku[web.1]: State changed from starting to up
+2016-07-02T06:48:33.827924+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=fb109d45-98d9-497b-a61f-fdafb29c8f34 fwd="27.7.255.81" dyno=web.1 connect=0ms service=24ms status=200 bytes=22371
+2016-07-02T06:48:35.363259+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=93806d64-7e4b-4978-8af2-be695fafc2bb fwd="27.7.255.81" dyno=web.1 connect=1ms service=22ms status=404 bytes=386
+2016-07-02T06:50:15.905060+00:00 heroku[api]: Release v16 created by vachherprateek@gmail.com
+2016-07-02T06:50:15.904962+00:00 heroku[api]: Deploy 88ec3bc by vachherprateek@gmail.com
+2016-07-02T06:50:16.749417+00:00 heroku[web.1]: State changed from up to starting
+2016-07-02T06:50:16.748133+00:00 heroku[web.1]: Restarting
+2016-07-02T06:50:19.827831+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-02T06:50:20.464353+00:00 app[web.1]: [2016-07-02 06:50:20 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-02T06:50:20.466619+00:00 app[web.1]: [2016-07-02 06:50:20 +0000] [3] [INFO] Handling signal: term
+2016-07-02T06:50:20.467365+00:00 app[web.1]: [2016-07-02 06:50:20 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-02T06:50:20.506597+00:00 app[web.1]: [2016-07-02 06:50:20 +0000] [3] [INFO] Shutting down: Master
+2016-07-02T06:50:21.624390+00:00 heroku[web.1]: Process exited with status 0
+2016-07-02T06:50:22.261148+00:00 app[web.1]: [2016-07-02 06:50:22 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-02T06:50:22.261175+00:00 app[web.1]: [2016-07-02 06:50:22 +0000] [3] [INFO] Listening at: http://0.0.0.0:27984 (3)
+2016-07-02T06:50:22.261178+00:00 app[web.1]: [2016-07-02 06:50:22 +0000] [3] [INFO] Using worker: sync
+2016-07-02T06:50:22.261179+00:00 app[web.1]: [2016-07-02 06:50:22 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-02T06:50:22.307852+00:00 app[web.1]: [2016-07-02 06:50:22 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-02T06:50:23.467981+00:00 heroku[web.1]: State changed from starting to up
+2016-07-02T06:52:11.980612+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=cca66302-2700-461c-8b0c-07d794e27841 fwd="27.7.255.81" dyno=web.1 connect=0ms service=50ms status=200 bytes=22381
+2016-07-02T07:26:55.167336+00:00 heroku[web.1]: Idling
+2016-07-02T07:26:55.167910+00:00 heroku[web.1]: State changed from up to down
+2016-07-02T07:27:00.060741+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-02T07:27:01.312386+00:00 app[web.1]: [2016-07-02 07:27:01 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-02T07:27:01.309012+00:00 app[web.1]: [2016-07-02 07:27:01 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-02T07:27:01.446398+00:00 app[web.1]: [2016-07-02 07:27:01 +0000] [3] [INFO] Shutting down: Master
+2016-07-02T07:27:01.378876+00:00 app[web.1]: [2016-07-02 07:27:01 +0000] [3] [INFO] Handling signal: term
+2016-07-02T07:27:02.771674+00:00 heroku[web.1]: Process exited with status 0
+2016-07-02T09:26:40.122520+00:00 heroku[web.1]: Unidling
+2016-07-02T09:26:40.129344+00:00 heroku[web.1]: State changed from down to starting
+2016-07-02T09:26:42.672356+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-02T09:26:44.445852+00:00 app[web.1]: [2016-07-02 09:26:44 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-02T09:26:44.446570+00:00 app[web.1]: [2016-07-02 09:26:44 +0000] [3] [INFO] Listening at: http://0.0.0.0:22502 (3)
+2016-07-02T09:26:44.446707+00:00 app[web.1]: [2016-07-02 09:26:44 +0000] [3] [INFO] Using worker: sync
+2016-07-02T09:26:44.450647+00:00 app[web.1]: [2016-07-02 09:26:44 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-02T09:26:44.492189+00:00 app[web.1]: [2016-07-02 09:26:44 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-02T09:26:44.846151+00:00 heroku[web.1]: State changed from starting to up
+2016-07-02T09:26:46.315009+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=9e49d739-96c7-4813-94f7-c229b906aced fwd="27.7.255.81" dyno=web.1 connect=1ms service=25ms status=200 bytes=22381
+2016-07-02T09:26:49.851253+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=7912237c-1a37-4d99-9547-9bd14b81ed93 fwd="27.7.255.81" dyno=web.1 connect=0ms service=7ms status=404 bytes=386
+2016-07-02T09:27:39.780787+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=8f2b62f9-1d4f-488b-948b-8e3248569ee3 fwd="27.7.255.81" dyno=web.1 connect=0ms service=255ms status=200 bytes=22381
+2016-07-02T09:27:39.759764+00:00 app[web.1]: Tweet By Testing   :  Testing
+2016-07-02T10:02:06.516563+00:00 heroku[web.1]: Idling
+2016-07-02T10:02:06.517298+00:00 heroku[web.1]: State changed from up to down
+2016-07-02T10:02:08.726939+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-02T10:02:09.233858+00:00 app[web.1]: [2016-07-02 10:02:09 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-02T10:02:09.242938+00:00 app[web.1]: [2016-07-02 10:02:09 +0000] [3] [INFO] Handling signal: term
+2016-07-02T10:02:09.234536+00:00 app[web.1]: [2016-07-02 10:02:09 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-02T10:02:09.252078+00:00 app[web.1]: [2016-07-02 10:02:09 +0000] [3] [INFO] Shutting down: Master
+2016-07-02T10:02:10.045510+00:00 heroku[web.1]: Process exited with status 0
+2016-07-03T07:15:27.563626+00:00 heroku[web.1]: Unidling
+2016-07-03T07:15:27.564941+00:00 heroku[web.1]: State changed from down to starting
+2016-07-03T07:15:30.358535+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-03T07:15:32.492832+00:00 app[web.1]: [2016-07-03 07:15:32 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-03T07:15:32.493227+00:00 app[web.1]: [2016-07-03 07:15:32 +0000] [3] [INFO] Listening at: http://0.0.0.0:32555 (3)
+2016-07-03T07:15:32.493296+00:00 app[web.1]: [2016-07-03 07:15:32 +0000] [3] [INFO] Using worker: sync
+2016-07-03T07:15:32.496829+00:00 app[web.1]: [2016-07-03 07:15:32 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-03T07:15:32.565772+00:00 app[web.1]: [2016-07-03 07:15:32 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-03T07:15:34.035152+00:00 heroku[web.1]: State changed from starting to up
+2016-07-03T07:15:35.660661+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=9b833e44-8b3a-4712-b337-0ef0f1ebc46f fwd="27.7.255.81" dyno=web.1 connect=0ms service=23ms status=200 bytes=22381
+2016-07-03T07:18:12.230116+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=6a067e59-3ae7-47a9-a643-78cb5d584e9c fwd="182.69.158.212" dyno=web.1 connect=1ms service=25ms status=200 bytes=22381
+2016-07-03T07:54:22.949098+00:00 heroku[web.1]: Idling
+2016-07-03T07:54:22.949349+00:00 heroku[web.1]: State changed from up to down
+2016-07-03T07:54:25.812880+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-03T07:54:26.477205+00:00 app[web.1]: [2016-07-03 07:54:26 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-03T07:54:26.477217+00:00 app[web.1]: [2016-07-03 07:54:26 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-03T07:54:26.490797+00:00 app[web.1]: [2016-07-03 07:54:26 +0000] [3] [INFO] Handling signal: term
+2016-07-03T07:54:26.496419+00:00 app[web.1]: [2016-07-03 07:54:26 +0000] [3] [INFO] Shutting down: Master
+2016-07-03T07:54:27.503214+00:00 heroku[web.1]: Process exited with status 0
+2016-07-03T10:54:22.171644+00:00 heroku[api]: Release v17 created by vachherprateek@gmail.com
+2016-07-03T10:54:22.171586+00:00 heroku[api]: Deploy 1838043 by vachherprateek@gmail.com
+2016-07-03T10:54:22.352174+00:00 heroku[slug-compiler]: Slug compilation started
+2016-07-03T10:54:22.352178+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-07-03T10:54:22.360439+00:00 heroku[web.1]: State changed from down to starting
+2016-07-03T10:54:25.610208+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-03T10:54:28.115517+00:00 app[web.1]: [2016-07-03 10:54:28 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-03T10:54:28.116278+00:00 app[web.1]: [2016-07-03 10:54:28 +0000] [3] [INFO] Listening at: http://0.0.0.0:17965 (3)
+2016-07-03T10:54:28.125806+00:00 app[web.1]: [2016-07-03 10:54:28 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-03T10:54:28.125795+00:00 app[web.1]: [2016-07-03 10:54:28 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-03T10:54:28.116427+00:00 app[web.1]: [2016-07-03 10:54:28 +0000] [3] [INFO] Using worker: sync
+2016-07-03T10:54:29.310353+00:00 heroku[web.1]: State changed from starting to up
+2016-07-03T11:25:30.843455+00:00 heroku[web.1]: Idling
+2016-07-03T11:25:30.843987+00:00 heroku[web.1]: State changed from up to down
+2016-07-03T11:25:35.117475+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-03T11:25:36.376501+00:00 app[web.1]: [2016-07-03 11:25:36 +0000] [3] [INFO] Handling signal: term
+2016-07-03T11:25:36.378026+00:00 app[web.1]: [2016-07-03 11:25:36 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-03T11:25:36.393923+00:00 app[web.1]: [2016-07-03 11:25:36 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-03T11:25:36.481701+00:00 app[web.1]: [2016-07-03 11:25:36 +0000] [3] [INFO] Shutting down: Master
+2016-07-03T11:25:37.455557+00:00 heroku[web.1]: Process exited with status 0
+2016-07-03T14:23:37.129436+00:00 heroku[web.1]: Unidling
+2016-07-03T14:23:37.129773+00:00 heroku[web.1]: State changed from down to starting
+2016-07-03T14:23:39.524315+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-03T14:23:41.181947+00:00 app[web.1]: [2016-07-03 14:23:41 +0000] [3] [INFO] Listening at: http://0.0.0.0:47427 (3)
+2016-07-03T14:23:41.182008+00:00 app[web.1]: [2016-07-03 14:23:41 +0000] [3] [INFO] Using worker: sync
+2016-07-03T14:23:41.189614+00:00 app[web.1]: [2016-07-03 14:23:41 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-03T14:23:41.185651+00:00 app[web.1]: [2016-07-03 14:23:41 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-03T14:23:41.181532+00:00 app[web.1]: [2016-07-03 14:23:41 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-03T14:23:41.688942+00:00 heroku[web.1]: State changed from starting to up
+2016-07-03T14:23:42.914548+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=bee7a1d3-2f99-464b-a5dd-7448076764d6 fwd="27.7.255.81" dyno=web.1 connect=0ms service=23ms status=200 bytes=22381
+2016-07-03T14:23:43.295245+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=ef2a056d-9df9-4f20-aedd-d25f8074b86e fwd="69.171.230.103" dyno=web.1 connect=7ms service=4ms status=200 bytes=22381
+2016-07-03T14:24:03.300102+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=085aa0f8-61f0-4823-b4fa-eccb51b2a4b6 fwd="120.59.255.85" dyno=web.1 connect=0ms service=3ms status=200 bytes=22381
+2016-07-03T14:24:07.866313+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=dc0eb9de-776a-4f91-8a10-1ed7a394396d fwd="120.59.255.85" dyno=web.1 connect=1ms service=11ms status=404 bytes=386
+2016-07-03T14:25:07.041251+00:00 app[web.1]: Tweet By Prateek Vachher  :  Raat ke aise mazee dunga bawli hojayegi
+2016-07-03T14:25:07.046815+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=72b47a04-8827-4688-8896-e5a135ed1cbe fwd="120.59.255.85" dyno=web.1 connect=0ms service=186ms status=200 bytes=22381
+2016-07-03T14:59:58.638927+00:00 heroku[web.1]: State changed from up to down
+2016-07-03T14:59:58.638395+00:00 heroku[web.1]: Idling
+2016-07-03T15:00:02.504307+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-03T15:00:03.468096+00:00 app[web.1]: [2016-07-03 15:00:03 +0000] [3] [INFO] Handling signal: term
+2016-07-03T15:00:03.468439+00:00 app[web.1]: [2016-07-03 15:00:03 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-03T15:00:03.469675+00:00 app[web.1]: [2016-07-03 15:00:03 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-03T15:00:03.656051+00:00 app[web.1]: [2016-07-03 15:00:03 +0000] [3] [INFO] Shutting down: Master
+2016-07-03T15:00:04.947823+00:00 heroku[web.1]: Process exited with status 0
+2016-07-03T15:43:54.644368+00:00 heroku[web.1]: State changed from down to starting
+2016-07-03T15:43:54.643968+00:00 heroku[web.1]: Unidling
+2016-07-03T15:43:57.240545+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-03T15:43:59.452099+00:00 app[web.1]: [2016-07-03 15:43:59 +0000] [3] [INFO] Listening at: http://0.0.0.0:44225 (3)
+2016-07-03T15:43:59.451228+00:00 app[web.1]: [2016-07-03 15:43:59 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-03T15:43:59.452283+00:00 app[web.1]: [2016-07-03 15:43:59 +0000] [3] [INFO] Using worker: sync
+2016-07-03T15:43:59.456693+00:00 app[web.1]: [2016-07-03 15:43:59 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-03T15:43:59.496930+00:00 app[web.1]: [2016-07-03 15:43:59 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-03T15:44:00.891651+00:00 heroku[web.1]: State changed from starting to up
+2016-07-03T15:44:01.714967+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=889f0f27-815b-49cc-81b0-0e1ec62f1126 fwd="120.59.255.85" dyno=web.1 connect=0ms service=11ms status=404 bytes=386
+2016-07-03T16:17:00.731139+00:00 heroku[web.1]: State changed from up to down
+2016-07-03T16:17:00.730357+00:00 heroku[web.1]: Idling
+2016-07-03T16:17:03.673604+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-03T16:17:04.425931+00:00 app[web.1]: [2016-07-03 16:17:04 +0000] [3] [INFO] Handling signal: term
+2016-07-03T16:17:04.425948+00:00 app[web.1]: [2016-07-03 16:17:04 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-03T16:17:04.426001+00:00 app[web.1]: [2016-07-03 16:17:04 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-03T16:17:04.486290+00:00 app[web.1]: [2016-07-03 16:17:04 +0000] [3] [INFO] Shutting down: Master
+2016-07-03T16:17:05.489352+00:00 heroku[web.1]: Process exited with status 0
+2016-07-03T17:17:54.062294+00:00 heroku[slug-compiler]: Slug compilation started
+2016-07-03T17:17:54.062298+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-07-03T17:17:53.887363+00:00 heroku[api]: Deploy 2054d98 by vachherprateek@gmail.com
+2016-07-03T17:17:53.887440+00:00 heroku[api]: Release v18 created by vachherprateek@gmail.com
+2016-07-03T17:17:54.090149+00:00 heroku[web.1]: State changed from down to starting
+2016-07-03T17:17:56.715281+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-03T17:17:58.464232+00:00 app[web.1]: [2016-07-03 17:17:58 +0000] [3] [INFO] Listening at: http://0.0.0.0:42536 (3)
+2016-07-03T17:17:58.468357+00:00 app[web.1]: [2016-07-03 17:17:58 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-03T17:17:58.496197+00:00 app[web.1]: [2016-07-03 17:17:58 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-03T17:17:58.463754+00:00 app[web.1]: [2016-07-03 17:17:58 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-03T17:17:58.464391+00:00 app[web.1]: [2016-07-03 17:17:58 +0000] [3] [INFO] Using worker: sync
+2016-07-03T17:17:59.031818+00:00 heroku[web.1]: State changed from starting to up
+2016-07-03T17:52:22.193694+00:00 heroku[web.1]: Idling
+2016-07-03T17:52:22.194854+00:00 heroku[web.1]: State changed from up to down
+2016-07-03T17:52:25.035050+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-03T17:52:25.738131+00:00 app[web.1]: [2016-07-03 17:52:25 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-03T17:52:25.741989+00:00 app[web.1]: [2016-07-03 17:52:25 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-03T17:52:25.803015+00:00 app[web.1]: [2016-07-03 17:52:25 +0000] [3] [INFO] Shutting down: Master
+2016-07-03T17:52:25.740353+00:00 app[web.1]: [2016-07-03 17:52:25 +0000] [3] [INFO] Handling signal: term
+2016-07-03T17:52:26.877904+00:00 heroku[web.1]: Process exited with status 0
+2016-07-04T17:16:54.525278+00:00 heroku[web.1]: State changed from down to starting
+2016-07-04T17:16:54.524954+00:00 heroku[web.1]: Unidling
+2016-07-04T17:16:58.269915+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-04T17:17:00.344887+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-07-04T17:17:00.344882+00:00 heroku[slug-compiler]: Slug compilation started
+2016-07-04T17:17:00.137859+00:00 heroku[api]: Deploy aae65b9 by vachherprateek@gmail.com
+2016-07-04T17:17:00.137954+00:00 heroku[api]: Release v19 created by vachherprateek@gmail.com
+2016-07-04T17:17:00.335884+00:00 heroku[web.1]: Restarting
+2016-07-04T17:17:01.181228+00:00 app[web.1]: [2016-07-04 17:17:01 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-04T17:17:01.183941+00:00 app[web.1]: [2016-07-04 17:17:01 +0000] [3] [INFO] Listening at: http://0.0.0.0:22989 (3)
+2016-07-04T17:17:01.205097+00:00 app[web.1]: [2016-07-04 17:17:01 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-04T17:17:01.263387+00:00 app[web.1]: [2016-07-04 17:17:01 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-04T17:17:01.184460+00:00 app[web.1]: [2016-07-04 17:17:01 +0000] [3] [INFO] Using worker: sync
+2016-07-04T17:17:03.373400+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-04T17:17:05.657504+00:00 app[web.1]: [2016-07-04 17:17:05 +0000] [3] [INFO] Using worker: sync
+2016-07-04T17:17:05.682523+00:00 app[web.1]: [2016-07-04 17:17:05 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-04T17:17:05.656935+00:00 app[web.1]: [2016-07-04 17:17:05 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-04T17:17:05.661223+00:00 app[web.1]: [2016-07-04 17:17:05 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-04T17:17:05.657405+00:00 app[web.1]: [2016-07-04 17:17:05 +0000] [3] [INFO] Listening at: http://0.0.0.0:47202 (3)
+2016-07-04T17:17:06.361307+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-04T17:17:07.033069+00:00 heroku[web.1]: State changed from starting to up
+2016-07-04T17:17:07.449239+00:00 app[web.1]: [2016-07-04 17:17:07 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-04T17:17:07.449394+00:00 app[web.1]: [2016-07-04 17:17:07 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-04T17:17:07.573208+00:00 app[web.1]: [2016-07-04 17:17:07 +0000] [3] [INFO] Shutting down: Master
+2016-07-04T17:17:07.448966+00:00 app[web.1]: [2016-07-04 17:17:07 +0000] [3] [INFO] Handling signal: term
+2016-07-04T17:17:08.758217+00:00 heroku[web.1]: Process exited with status 0
+2016-07-04T17:17:08.679035+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=01307b2a-e489-4476-8bff-e375be8204a3 fwd="27.7.255.81" dyno=web.1 connect=7ms service=20ms status=500 bytes=456
+2016-07-04T17:17:09.186743+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=4ae8c2e0-3c1b-427a-acd2-e073a87ce3f6 fwd="27.7.255.81" dyno=web.1 connect=5ms service=7ms status=404 bytes=386
+2016-07-04T17:18:00.588858+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=876c9704-8d00-4dd1-8e7d-dcc73e51c247 fwd="27.7.255.81" dyno=web.1 connect=0ms service=2ms status=500 bytes=456
+2016-07-04T17:22:53.181085+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=a31289c4-9393-4f98-82be-53276c7f6c1a fwd="27.7.255.81" dyno=web.1 connect=1ms service=3ms status=500 bytes=456
+2016-07-04T17:23:07.972307+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-07-04T17:23:07.972298+00:00 heroku[slug-compiler]: Slug compilation started
+2016-07-04T17:23:07.850479+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=c3277009-3934-466d-a821-e55668636b86 fwd="27.7.255.81" dyno=web.1 connect=1ms service=4ms status=500 bytes=456
+2016-07-04T17:23:07.788074+00:00 heroku[api]: Release v20 created by vachherprateek@gmail.com
+2016-07-04T17:23:07.972232+00:00 heroku[web.1]: Restarting
+2016-07-04T17:23:07.974283+00:00 heroku[web.1]: State changed from up to starting
+2016-07-04T17:23:07.788028+00:00 heroku[api]: Deploy 14118ff by vachherprateek@gmail.com
+2016-07-04T17:23:10.347197+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-04T17:23:11.221709+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-04T17:23:11.972956+00:00 app[web.1]: [2016-07-04 17:23:11 +0000] [3] [INFO] Handling signal: term
+2016-07-04T17:23:11.973492+00:00 app[web.1]: [2016-07-04 17:23:11 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-04T17:23:11.975564+00:00 app[web.1]: [2016-07-04 17:23:11 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-04T17:23:12.054852+00:00 app[web.1]: [2016-07-04 17:23:12 +0000] [3] [INFO] Shutting down: Master
+2016-07-04T17:23:12.178357+00:00 app[web.1]: [2016-07-04 17:23:12 +0000] [3] [INFO] Listening at: http://0.0.0.0:59853 (3)
+2016-07-04T17:23:12.177893+00:00 app[web.1]: [2016-07-04 17:23:12 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-04T17:23:12.182297+00:00 app[web.1]: [2016-07-04 17:23:12 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-04T17:23:12.178452+00:00 app[web.1]: [2016-07-04 17:23:12 +0000] [3] [INFO] Using worker: sync
+2016-07-04T17:23:12.213136+00:00 app[web.1]: [2016-07-04 17:23:12 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-04T17:23:13.148528+00:00 heroku[web.1]: Process exited with status 0
+2016-07-04T17:23:12.988654+00:00 heroku[web.1]: State changed from starting to up
+2016-07-04T17:23:20.787293+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=14f852c5-26ac-44df-87a6-c5b5422b6144 fwd="27.7.255.81" dyno=web.1 connect=0ms service=7010ms status=200 bytes=22381
+2016-07-04T17:24:11.213962+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=f277d13a-a5c9-492d-a374-94e726cef058 fwd="27.7.255.81" dyno=web.1 connect=1ms service=7562ms status=200 bytes=22381
+2016-07-04T17:24:33.388841+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=f34d6128-28ab-493b-83e2-4f49e130c1e2 fwd="27.7.255.81" dyno=web.1 connect=0ms service=3227ms status=200 bytes=22381
+2016-07-04T17:27:12.387291+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=61ddde98-9aca-44d4-b481-2d6b86387c7e fwd="27.7.255.81" dyno=web.1 connect=1ms service=3338ms status=200 bytes=22381
+2016-07-04T18:00:05.914965+00:00 heroku[web.1]: Idling
+2016-07-04T18:00:05.915577+00:00 heroku[web.1]: State changed from up to down
+2016-07-04T18:00:10.782396+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-04T18:00:12.104214+00:00 app[web.1]: [2016-07-04 18:00:12 +0000] [3] [INFO] Handling signal: term
+2016-07-04T18:00:12.182644+00:00 app[web.1]: [2016-07-04 18:00:12 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-04T18:00:12.113850+00:00 app[web.1]: [2016-07-04 18:00:12 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-04T18:00:12.433697+00:00 app[web.1]: [2016-07-04 18:00:12 +0000] [3] [INFO] Shutting down: Master
+2016-07-04T18:00:13.589670+00:00 heroku[web.1]: Process exited with status 0
+2016-07-04T18:06:16.791941+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-07-04T18:06:16.791935+00:00 heroku[slug-compiler]: Slug compilation started
+2016-07-04T18:06:16.616634+00:00 heroku[api]: Release v21 created by vachherprateek@gmail.com
+2016-07-04T18:06:16.616539+00:00 heroku[api]: Deploy 5756225 by vachherprateek@gmail.com
+2016-07-04T18:06:16.916896+00:00 heroku[web.1]: State changed from down to starting
+2016-07-04T18:06:19.373323+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-04T18:06:21.282156+00:00 app[web.1]: [2016-07-04 18:06:21 +0000] [3] [INFO] Listening at: http://0.0.0.0:40865 (3)
+2016-07-04T18:06:21.367473+00:00 app[web.1]: [2016-07-04 18:06:21 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-04T18:06:21.282256+00:00 app[web.1]: [2016-07-04 18:06:21 +0000] [3] [INFO] Using worker: sync
+2016-07-04T18:06:21.285736+00:00 app[web.1]: [2016-07-04 18:06:21 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-04T18:06:21.281702+00:00 app[web.1]: [2016-07-04 18:06:21 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-04T18:06:22.956406+00:00 heroku[web.1]: State changed from starting to up
+2016-07-04T18:08:31.476823+00:00 app[web.1]: reached analytics
+2016-07-04T18:08:33.041851+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.234.208.181')
+2016-07-04T18:08:33.706982+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=4e65a3c8-295f-4647-938e-55c4afd69086 fwd="27.7.255.81" dyno=web.1 connect=1ms service=2251ms status=200 bytes=22381
+2016-07-04T18:09:02.599030+00:00 app[web.1]: reached analytics
+2016-07-04T18:09:03.842391+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.234.208.181')
+2016-07-04T18:09:04.493905+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=f9375888-76f5-4e8d-81eb-a71a6675cc3e fwd="27.7.255.81" dyno=web.1 connect=1ms service=1914ms status=200 bytes=22381
+2016-07-04T18:10:24.735437+00:00 app[web.1]: reached analytics
+2016-07-04T18:10:25.953948+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.33.201.60')
+2016-07-04T18:10:26.630426+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=3a564c6a-9920-4c12-ae2f-62b7edd6b6cd fwd="110.227.141.207" dyno=web.1 connect=1ms service=1907ms status=200 bytes=22381
+2016-07-04T18:10:41.254185+00:00 app[web.1]: reached analytics
+2016-07-04T18:10:42.506554+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.33.201.60')
+2016-07-04T18:10:43.131234+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=93047454-4ef1-4b4f-bd07-28c18148d1f9 fwd="110.227.141.207" dyno=web.1 connect=0ms service=1889ms status=200 bytes=22381
+2016-07-04T18:11:15.241787+00:00 app[web.1]: reached analytics
+2016-07-04T18:11:16.543186+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.33.201.60')
+2016-07-04T18:11:17.338425+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=210e7147-1960-4cc9-aaa0-b01554939d41 fwd="110.227.141.207" dyno=web.1 connect=0ms service=2109ms status=200 bytes=22381
+2016-07-04T18:12:05.334219+00:00 app[web.1]: reached analytics
+2016-07-04T18:12:06.911606+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.99.239.231')
+2016-07-04T18:12:07.742589+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=b92fbcd7-cb25-4298-b1b6-90c60e8b1251 fwd="27.7.255.81" dyno=web.1 connect=3ms service=2427ms status=200 bytes=22381
+2016-07-04T18:12:27.508003+00:00 app[web.1]: reached analytics
+2016-07-04T18:12:29.076012+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.99.239.231')
+2016-07-04T18:12:29.845147+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=d80ec6b3-d93e-4a7c-901d-f55e26250a4c fwd="27.7.255.81" dyno=web.1 connect=0ms service=2353ms status=200 bytes=22381
+2016-07-04T18:13:16.128167+00:00 app[web.1]: reached analytics
+2016-07-04T18:13:17.319079+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.93.216.92')
+2016-07-04T18:13:17.980739+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=23b6f588-9ab9-455c-9297-6f540819868a fwd="110.227.141.207" dyno=web.1 connect=1ms service=1867ms status=200 bytes=22381
+2016-07-04T18:13:41.573941+00:00 app[web.1]: reached analytics
+2016-07-04T18:13:42.807017+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.93.216.92')
+2016-07-04T18:13:43.980123+00:00 app[web.1]: Tweet By Shivang Seth  :  Hello world
+2016-07-04T18:13:43.990439+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=1450d27d-5d01-4966-8a3d-ab8abbd881ad fwd="110.227.141.207" dyno=web.1 connect=1ms service=2433ms status=200 bytes=22381
+2016-07-04T18:13:50.630051+00:00 app[web.1]: reached analytics
+2016-07-04T18:13:51.800401+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.93.216.92')
+2016-07-04T18:13:52.769104+00:00 app[web.1]: Tweet By   :  
+2016-07-04T18:13:52.768526+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=b991b8a6-40f4-4fec-a381-01959ad08757 fwd="110.227.141.207" dyno=web.1 connect=1ms service=2156ms status=200 bytes=22381
+2016-07-04T18:14:10.651928+00:00 app[web.1]: reached analytics
+2016-07-04T18:14:11.808902+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.166.172.60')
+2016-07-04T18:14:12.436786+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=a0203b53-f5f1-4f55-abe0-dfb3b780ff79 fwd="110.227.141.207" dyno=web.1 connect=0ms service=1790ms status=200 bytes=22381
+2016-07-04T18:14:33.912991+00:00 app[web.1]: reached analytics
+2016-07-04T18:14:35.153776+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.166.172.60')
+2016-07-04T18:14:35.874184+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=f31ec21b-a60a-4c8f-b693-1d4d9e1a0cc6 fwd="110.227.141.207" dyno=web.1 connect=0ms service=1966ms status=500 bytes=456
+2016-07-04T18:14:56.831162+00:00 app[web.1]: reached analytics
+2016-07-04T18:14:58.063076+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.166.172.60')
+2016-07-04T18:14:58.714853+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=d1c11076-a62c-4cc2-9bf2-14ade962b5ae fwd="110.227.141.207" dyno=web.1 connect=1ms service=1889ms status=200 bytes=22381
+2016-07-04T18:16:30.054051+00:00 app[web.1]: reached analytics
+2016-07-04T18:16:31.424272+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.171.147.252')
+2016-07-04T18:16:32.131326+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=f0547dbf-0f30-4d94-81e9-03e1ff629748 fwd="110.227.141.207" dyno=web.1 connect=1ms service=2088ms status=200 bytes=22381
+2016-07-04T18:23:30.530633+00:00 app[web.1]: reached analytics
+2016-07-04T18:23:31.776470+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.35.207.207')
+2016-07-04T18:23:32.425774+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=fb8dbf01-82a7-46c7-99d9-6d4f3b55ca5f fwd="27.7.255.81" dyno=web.1 connect=0ms service=1909ms status=200 bytes=22381
+2016-07-04T17:17:07.033069+00:00 heroku[web.1]: State changed from starting to up
+2016-07-04T17:17:07.449239+00:00 app[web.1]: [2016-07-04 17:17:07 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-04T17:17:07.449394+00:00 app[web.1]: [2016-07-04 17:17:07 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-04T17:17:07.573208+00:00 app[web.1]: [2016-07-04 17:17:07 +0000] [3] [INFO] Shutting down: Master
+2016-07-04T17:17:07.448966+00:00 app[web.1]: [2016-07-04 17:17:07 +0000] [3] [INFO] Handling signal: term
+2016-07-04T17:17:08.758217+00:00 heroku[web.1]: Process exited with status 0
+2016-07-04T17:17:08.679035+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=01307b2a-e489-4476-8bff-e375be8204a3 fwd="27.7.255.81" dyno=web.1 connect=7ms service=20ms status=500 bytes=456
+2016-07-04T17:17:09.186743+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=4ae8c2e0-3c1b-427a-acd2-e073a87ce3f6 fwd="27.7.255.81" dyno=web.1 connect=5ms service=7ms status=404 bytes=386
+2016-07-04T17:18:00.588858+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=876c9704-8d00-4dd1-8e7d-dcc73e51c247 fwd="27.7.255.81" dyno=web.1 connect=0ms service=2ms status=500 bytes=456
+2016-07-04T17:22:53.181085+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=a31289c4-9393-4f98-82be-53276c7f6c1a fwd="27.7.255.81" dyno=web.1 connect=1ms service=3ms status=500 bytes=456
+2016-07-04T17:23:07.972307+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-07-04T17:23:07.972298+00:00 heroku[slug-compiler]: Slug compilation started
+2016-07-04T17:23:07.850479+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=c3277009-3934-466d-a821-e55668636b86 fwd="27.7.255.81" dyno=web.1 connect=1ms service=4ms status=500 bytes=456
+2016-07-04T17:23:07.788074+00:00 heroku[api]: Release v20 created by vachherprateek@gmail.com
+2016-07-04T17:23:07.972232+00:00 heroku[web.1]: Restarting
+2016-07-04T17:23:07.974283+00:00 heroku[web.1]: State changed from up to starting
+2016-07-04T17:23:07.788028+00:00 heroku[api]: Deploy 14118ff by vachherprateek@gmail.com
+2016-07-04T17:23:10.347197+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-04T17:23:11.221709+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-04T17:23:11.972956+00:00 app[web.1]: [2016-07-04 17:23:11 +0000] [3] [INFO] Handling signal: term
+2016-07-04T17:23:11.973492+00:00 app[web.1]: [2016-07-04 17:23:11 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-04T17:23:11.975564+00:00 app[web.1]: [2016-07-04 17:23:11 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-04T17:23:12.054852+00:00 app[web.1]: [2016-07-04 17:23:12 +0000] [3] [INFO] Shutting down: Master
+2016-07-04T17:23:12.178357+00:00 app[web.1]: [2016-07-04 17:23:12 +0000] [3] [INFO] Listening at: http://0.0.0.0:59853 (3)
+2016-07-04T17:23:12.177893+00:00 app[web.1]: [2016-07-04 17:23:12 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-04T17:23:12.182297+00:00 app[web.1]: [2016-07-04 17:23:12 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-04T17:23:12.178452+00:00 app[web.1]: [2016-07-04 17:23:12 +0000] [3] [INFO] Using worker: sync
+2016-07-04T17:23:12.213136+00:00 app[web.1]: [2016-07-04 17:23:12 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-04T17:23:13.148528+00:00 heroku[web.1]: Process exited with status 0
+2016-07-04T17:23:12.988654+00:00 heroku[web.1]: State changed from starting to up
+2016-07-04T17:23:20.787293+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=14f852c5-26ac-44df-87a6-c5b5422b6144 fwd="27.7.255.81" dyno=web.1 connect=0ms service=7010ms status=200 bytes=22381
+2016-07-04T17:24:11.213962+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=f277d13a-a5c9-492d-a374-94e726cef058 fwd="27.7.255.81" dyno=web.1 connect=1ms service=7562ms status=200 bytes=22381
+2016-07-04T17:24:33.388841+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=f34d6128-28ab-493b-83e2-4f49e130c1e2 fwd="27.7.255.81" dyno=web.1 connect=0ms service=3227ms status=200 bytes=22381
+2016-07-04T17:27:12.387291+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=61ddde98-9aca-44d4-b481-2d6b86387c7e fwd="27.7.255.81" dyno=web.1 connect=1ms service=3338ms status=200 bytes=22381
+2016-07-04T18:00:05.914965+00:00 heroku[web.1]: Idling
+2016-07-04T18:00:05.915577+00:00 heroku[web.1]: State changed from up to down
+2016-07-04T18:00:10.782396+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-04T18:00:12.104214+00:00 app[web.1]: [2016-07-04 18:00:12 +0000] [3] [INFO] Handling signal: term
+2016-07-04T18:00:12.182644+00:00 app[web.1]: [2016-07-04 18:00:12 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-04T18:00:12.113850+00:00 app[web.1]: [2016-07-04 18:00:12 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-04T18:00:12.433697+00:00 app[web.1]: [2016-07-04 18:00:12 +0000] [3] [INFO] Shutting down: Master
+2016-07-04T18:00:13.589670+00:00 heroku[web.1]: Process exited with status 0
+2016-07-04T18:06:16.791941+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-07-04T18:06:16.791935+00:00 heroku[slug-compiler]: Slug compilation started
+2016-07-04T18:06:16.616634+00:00 heroku[api]: Release v21 created by vachherprateek@gmail.com
+2016-07-04T18:06:16.616539+00:00 heroku[api]: Deploy 5756225 by vachherprateek@gmail.com
+2016-07-04T18:06:16.916896+00:00 heroku[web.1]: State changed from down to starting
+2016-07-04T18:06:19.373323+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-04T18:06:21.282156+00:00 app[web.1]: [2016-07-04 18:06:21 +0000] [3] [INFO] Listening at: http://0.0.0.0:40865 (3)
+2016-07-04T18:06:21.367473+00:00 app[web.1]: [2016-07-04 18:06:21 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-04T18:06:21.282256+00:00 app[web.1]: [2016-07-04 18:06:21 +0000] [3] [INFO] Using worker: sync
+2016-07-04T18:06:21.285736+00:00 app[web.1]: [2016-07-04 18:06:21 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-04T18:06:21.281702+00:00 app[web.1]: [2016-07-04 18:06:21 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-04T18:06:22.956406+00:00 heroku[web.1]: State changed from starting to up
+2016-07-04T18:08:31.476823+00:00 app[web.1]: reached analytics
+2016-07-04T18:08:33.041851+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.234.208.181')
+2016-07-04T18:08:33.706982+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=4e65a3c8-295f-4647-938e-55c4afd69086 fwd="27.7.255.81" dyno=web.1 connect=1ms service=2251ms status=200 bytes=22381
+2016-07-04T18:09:02.599030+00:00 app[web.1]: reached analytics
+2016-07-04T18:09:03.842391+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.234.208.181')
+2016-07-04T18:09:04.493905+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=f9375888-76f5-4e8d-81eb-a71a6675cc3e fwd="27.7.255.81" dyno=web.1 connect=1ms service=1914ms status=200 bytes=22381
+2016-07-04T18:10:24.735437+00:00 app[web.1]: reached analytics
+2016-07-04T18:10:25.953948+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.33.201.60')
+2016-07-04T18:10:26.630426+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=3a564c6a-9920-4c12-ae2f-62b7edd6b6cd fwd="110.227.141.207" dyno=web.1 connect=1ms service=1907ms status=200 bytes=22381
+2016-07-04T18:10:41.254185+00:00 app[web.1]: reached analytics
+2016-07-04T18:10:42.506554+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.33.201.60')
+2016-07-04T18:10:43.131234+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=93047454-4ef1-4b4f-bd07-28c18148d1f9 fwd="110.227.141.207" dyno=web.1 connect=0ms service=1889ms status=200 bytes=22381
+2016-07-04T18:11:15.241787+00:00 app[web.1]: reached analytics
+2016-07-04T18:11:16.543186+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.33.201.60')
+2016-07-04T18:11:17.338425+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=210e7147-1960-4cc9-aaa0-b01554939d41 fwd="110.227.141.207" dyno=web.1 connect=0ms service=2109ms status=200 bytes=22381
+2016-07-04T18:12:05.334219+00:00 app[web.1]: reached analytics
+2016-07-04T18:12:06.911606+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.99.239.231')
+2016-07-04T18:12:07.742589+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=b92fbcd7-cb25-4298-b1b6-90c60e8b1251 fwd="27.7.255.81" dyno=web.1 connect=3ms service=2427ms status=200 bytes=22381
+2016-07-04T18:12:27.508003+00:00 app[web.1]: reached analytics
+2016-07-04T18:12:29.076012+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.99.239.231')
+2016-07-04T18:12:29.845147+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=d80ec6b3-d93e-4a7c-901d-f55e26250a4c fwd="27.7.255.81" dyno=web.1 connect=0ms service=2353ms status=200 bytes=22381
+2016-07-04T18:13:16.128167+00:00 app[web.1]: reached analytics
+2016-07-04T18:13:17.319079+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.93.216.92')
+2016-07-04T18:13:17.980739+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=23b6f588-9ab9-455c-9297-6f540819868a fwd="110.227.141.207" dyno=web.1 connect=1ms service=1867ms status=200 bytes=22381
+2016-07-04T18:13:41.573941+00:00 app[web.1]: reached analytics
+2016-07-04T18:13:42.807017+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.93.216.92')
+2016-07-04T18:13:43.980123+00:00 app[web.1]: Tweet By Shivang Seth  :  Hello world
+2016-07-04T18:13:43.990439+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=1450d27d-5d01-4966-8a3d-ab8abbd881ad fwd="110.227.141.207" dyno=web.1 connect=1ms service=2433ms status=200 bytes=22381
+2016-07-04T18:13:50.630051+00:00 app[web.1]: reached analytics
+2016-07-04T18:13:51.800401+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.93.216.92')
+2016-07-04T18:13:52.769104+00:00 app[web.1]: Tweet By   :  
+2016-07-04T18:13:52.768526+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=b991b8a6-40f4-4fec-a381-01959ad08757 fwd="110.227.141.207" dyno=web.1 connect=1ms service=2156ms status=200 bytes=22381
+2016-07-04T18:14:10.651928+00:00 app[web.1]: reached analytics
+2016-07-04T18:14:11.808902+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.166.172.60')
+2016-07-04T18:14:12.436786+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=a0203b53-f5f1-4f55-abe0-dfb3b780ff79 fwd="110.227.141.207" dyno=web.1 connect=0ms service=1790ms status=200 bytes=22381
+2016-07-04T18:14:33.912991+00:00 app[web.1]: reached analytics
+2016-07-04T18:14:35.153776+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.166.172.60')
+2016-07-04T18:14:35.874184+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=f31ec21b-a60a-4c8f-b693-1d4d9e1a0cc6 fwd="110.227.141.207" dyno=web.1 connect=0ms service=1966ms status=500 bytes=456
+2016-07-04T18:14:56.831162+00:00 app[web.1]: reached analytics
+2016-07-04T18:14:58.063076+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.166.172.60')
+2016-07-04T18:14:58.714853+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=d1c11076-a62c-4cc2-9bf2-14ade962b5ae fwd="110.227.141.207" dyno=web.1 connect=1ms service=1889ms status=200 bytes=22381
+2016-07-04T18:16:30.054051+00:00 app[web.1]: reached analytics
+2016-07-04T18:16:31.424272+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.171.147.252')
+2016-07-04T18:16:32.131326+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=f0547dbf-0f30-4d94-81e9-03e1ff629748 fwd="110.227.141.207" dyno=web.1 connect=1ms service=2088ms status=200 bytes=22381
+2016-07-04T18:23:30.530633+00:00 app[web.1]: reached analytics
+2016-07-04T18:23:31.776470+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.35.207.207')
+2016-07-04T18:23:32.425774+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=fb8dbf01-82a7-46c7-99d9-6d4f3b55ca5f fwd="27.7.255.81" dyno=web.1 connect=0ms service=1909ms status=200 bytes=22381
+2016-06-23T07:22:26.819846+00:00 heroku[web.1]: Unidling
+2016-06-23T07:22:26.820225+00:00 heroku[web.1]: State changed from down to starting
+2016-06-23T07:22:29.243082+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-23T07:22:31.430135+00:00 app[web.1]: [2016-06-23 07:22:31 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-23T07:22:31.486389+00:00 app[web.1]: [2016-06-23 07:22:31 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-23T07:22:31.425589+00:00 app[web.1]: [2016-06-23 07:22:31 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-23T07:22:31.426017+00:00 app[web.1]: [2016-06-23 07:22:31 +0000] [3] [INFO] Listening at: http://0.0.0.0:46114 (3)
+2016-06-23T07:22:31.426123+00:00 app[web.1]: [2016-06-23 07:22:31 +0000] [3] [INFO] Using worker: sync
+2016-06-23T07:22:33.183770+00:00 heroku[web.1]: State changed from starting to up
+2016-06-23T07:22:33.913659+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=a0c20079-1012-4a2d-b2c6-51267eccd6fa fwd="182.69.122.115" dyno=web.1 connect=1ms service=13ms status=200 bytes=750
+2016-06-23T07:22:34.319468+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=a15a3912-28d4-4d0b-8146-ea12ae383fb2 fwd="182.69.122.115" dyno=web.1 connect=2ms service=12ms status=404 bytes=386
+2016-06-23T07:22:34.799981+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=3ac10b79-9dad-477a-b496-6bf935f03e0e fwd="182.69.122.115" dyno=web.1 connect=2ms service=3ms status=404 bytes=386
+2016-06-23T07:22:37.020876+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=dfcf08ab-a4d1-4c10-9bf1-71ba3b23b9c7 fwd="182.69.122.115" dyno=web.1 connect=1ms service=3ms status=200 bytes=750
+2016-06-23T07:22:37.417531+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=021c612c-0937-430d-81e4-9d06479e4979 fwd="182.69.122.115" dyno=web.1 connect=1ms service=5ms status=404 bytes=386
+2016-06-23T07:23:19.208958+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=8948a29b-3863-4871-9455-1746bed74666 fwd="182.69.122.115" dyno=web.1 connect=1ms service=184ms status=200 bytes=755
+2016-06-23T07:23:19.207975+00:00 app[web.1]:  
+2016-06-23T07:23:19.207989+00:00 app[web.1]:  
+2016-06-23T07:23:19.207990+00:00 app[web.1]:  
+2016-06-23T07:23:19.207990+00:00 app[web.1]:  
+2016-06-23T07:23:19.207993+00:00 app[web.1]: Tweet By Sejal  :  So lost and faded 
+2016-06-23T07:23:19.207994+00:00 app[web.1]:  
+2016-06-23T07:23:19.207994+00:00 app[web.1]:  
+2016-06-23T07:23:19.207995+00:00 app[web.1]:  
+2016-06-23T07:23:19.207995+00:00 app[web.1]:  
+2016-06-23T07:23:19.207994+00:00 app[web.1]:  
+2016-06-23T07:23:19.549530+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=0c70664f-c013-4ae2-b024-b8b08297f11c fwd="182.69.122.115" dyno=web.1 connect=1ms service=3ms status=404 bytes=386
+2016-06-23T07:24:57.981777+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=05272cb7-40a0-4d75-98a2-d2558c630ff0 fwd="182.69.122.115" dyno=web.1 connect=1ms service=170ms status=200 bytes=754
+2016-06-23T07:24:57.972884+00:00 app[web.1]:  
+2016-06-23T07:24:57.972898+00:00 app[web.1]:  
+2016-06-23T07:24:57.972899+00:00 app[web.1]:  
+2016-06-23T07:24:57.972899+00:00 app[web.1]:  
+2016-06-23T07:24:57.972904+00:00 app[web.1]: Tweet By Haha  :  Praveen eats poop xD
+2016-06-23T07:24:57.972904+00:00 app[web.1]:  
+2016-06-23T07:24:57.972905+00:00 app[web.1]:  
+2016-06-23T07:24:57.972905+00:00 app[web.1]:  
+2016-06-23T07:24:57.972905+00:00 app[web.1]:  
+2016-06-23T07:24:57.972906+00:00 app[web.1]:  
+2016-06-23T07:24:58.338567+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=c8e05c00-a747-4327-b343-d4751feab83e fwd="182.69.122.115" dyno=web.1 connect=2ms service=3ms status=404 bytes=386
+2016-06-23T07:25:15.236038+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=e6d22dc6-a6bc-479c-98e8-70fb46e8ef65 fwd="182.69.122.115" dyno=web.1 connect=1ms service=171ms status=200 bytes=756
+2016-06-23T07:25:15.233444+00:00 app[web.1]:  
+2016-06-23T07:25:15.233463+00:00 app[web.1]:  
+2016-06-23T07:25:15.233464+00:00 app[web.1]:  
+2016-06-23T07:25:15.233471+00:00 app[web.1]:  
+2016-06-23T07:25:15.233473+00:00 app[web.1]:  
+2016-06-23T07:25:15.233473+00:00 app[web.1]: Tweet By Haha#2  :  Prateek***
+2016-06-23T07:25:15.233474+00:00 app[web.1]:  
+2016-06-23T07:25:15.233474+00:00 app[web.1]:  
+2016-06-23T07:25:15.233475+00:00 app[web.1]:  
+2016-06-23T07:25:15.233475+00:00 app[web.1]:  
+2016-06-23T07:25:15.572571+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=6fe316a5-36f1-4129-94c1-51be69db406b fwd="182.69.122.115" dyno=web.1 connect=1ms service=2ms status=404 bytes=386
+2016-06-23T07:25:37.851603+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=63b9a37f-16bc-48a1-b794-a102b268c5ae fwd="182.69.122.115" dyno=web.1 connect=1ms service=184ms status=200 bytes=756
+2016-06-23T07:25:37.849432+00:00 app[web.1]:  
+2016-06-23T07:25:37.849476+00:00 app[web.1]:  
+2016-06-23T07:25:37.849477+00:00 app[web.1]:  
+2016-06-23T07:25:37.849478+00:00 app[web.1]:  
+2016-06-23T07:25:37.849484+00:00 app[web.1]: Tweet By Haha#3  :  This is pointless 
+2016-06-23T07:25:37.849485+00:00 app[web.1]:  
+2016-06-23T07:25:37.849485+00:00 app[web.1]:  
+2016-06-23T07:25:37.849486+00:00 app[web.1]:  
+2016-06-23T07:25:37.849486+00:00 app[web.1]:  
+2016-06-23T07:25:37.849487+00:00 app[web.1]:  
+2016-06-23T07:25:38.196503+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=c337a24d-92d7-451f-83aa-5615d853795e fwd="182.69.122.115" dyno=web.1 connect=1ms service=2ms status=404 bytes=386
+2016-06-23T07:25:55.542641+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=88bac49a-ae2b-4ca7-b8ed-f91bd1f87db3 fwd="182.69.122.115" dyno=web.1 connect=1ms service=192ms status=200 bytes=757
+2016-06-23T07:25:55.540190+00:00 app[web.1]:  
+2016-06-23T07:25:55.540207+00:00 app[web.1]:  
+2016-06-23T07:25:55.540208+00:00 app[web.1]:  
+2016-06-23T07:25:55.540210+00:00 app[web.1]:  
+2016-06-23T07:25:55.540212+00:00 app[web.1]: Tweet By Haha#4   :  So BaByee
+2016-06-23T07:25:55.540212+00:00 app[web.1]:  
+2016-06-23T07:25:55.540214+00:00 app[web.1]:  
+2016-06-23T07:25:55.540215+00:00 app[web.1]:  
+2016-06-23T07:25:55.540215+00:00 app[web.1]:  
+2016-06-23T07:25:55.540216+00:00 app[web.1]:  
+2016-06-23T07:25:55.919995+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=96ec019b-4359-4ac5-a249-d7b4a0a59237 fwd="182.69.122.115" dyno=web.1 connect=1ms service=2ms status=404 bytes=386
+2016-06-23T08:01:46.079684+00:00 heroku[web.1]: Idling
+2016-06-23T08:01:46.079684+00:00 heroku[web.1]: State changed from up to down
+2016-06-23T08:01:49.084454+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-23T08:01:49.707552+00:00 app[web.1]: [2016-06-23 08:01:49 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-23T08:01:49.709698+00:00 app[web.1]: [2016-06-23 08:01:49 +0000] [3] [INFO] Handling signal: term
+2016-06-23T08:01:49.717108+00:00 app[web.1]: [2016-06-23 08:01:49 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-23T08:01:49.759360+00:00 app[web.1]: [2016-06-23 08:01:49 +0000] [3] [INFO] Shutting down: Master
+2016-06-23T08:01:50.626708+00:00 heroku[web.1]: Process exited with status 0
+2016-06-23T17:56:37.348078+00:00 heroku[web.1]: Unidling
+2016-06-23T17:56:37.348450+00:00 heroku[web.1]: State changed from down to starting
+2016-06-23T17:56:41.873306+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-23T17:56:45.955447+00:00 app[web.1]: [2016-06-23 17:56:45 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-23T17:56:45.962881+00:00 app[web.1]: [2016-06-23 17:56:45 +0000] [3] [INFO] Listening at: http://0.0.0.0:53274 (3)
+2016-06-23T17:56:45.962897+00:00 app[web.1]: [2016-06-23 17:56:45 +0000] [3] [INFO] Using worker: sync
+2016-06-23T17:56:46.001680+00:00 app[web.1]: [2016-06-23 17:56:46 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-23T17:56:45.978284+00:00 app[web.1]: [2016-06-23 17:56:45 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-23T17:56:46.242605+00:00 heroku[web.1]: State changed from starting to up
+2016-06-23T17:56:47.550831+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=27ae685b-f049-4772-998f-9d6c94e2f0af fwd="27.7.255.81" dyno=web.1 connect=1ms service=1151ms status=200 bytes=750
+2016-06-23T17:56:48.222971+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=5245cd16-9192-4fdd-b4ac-849e73144d70 fwd="27.7.255.81" dyno=web.1 connect=2ms service=65ms status=404 bytes=386
+2016-06-23T17:56:48.577228+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=8091b427-410c-43d4-9f24-81e15e070b7e fwd="27.7.255.81" dyno=web.1 connect=0ms service=15ms status=404 bytes=386
+2016-06-23T17:56:53.302618+00:00 heroku[router]: at=info method=GET path="/i" host=tweetpv.herokuapp.com request_id=1fd58251-3fe7-4373-8327-068cc3ca78eb fwd="173.252.105.117" dyno=web.1 connect=0ms service=6ms status=404 bytes=386
+2016-06-23T17:56:58.958026+00:00 heroku[router]: at=info method=GET path="/i" host=tweetpv.herokuapp.com request_id=b67fc86b-2cfb-4c3b-a816-9c5be49fb476 fwd="173.252.88.190" dyno=web.1 connect=0ms service=3ms status=404 bytes=386
+2016-06-23T17:56:59.174323+00:00 heroku[router]: at=info method=GET path="/i" host=tweetpv.herokuapp.com request_id=73d064f4-ce9b-44d2-a666-c8131e2f5c97 fwd="27.7.255.81" dyno=web.1 connect=0ms service=12ms status=404 bytes=386
+2016-06-23T17:57:21.716420+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=3fe8a17f-08b5-42f6-bbd6-0fd096fca293 fwd="59.178.210.138" dyno=web.1 connect=0ms service=33ms status=200 bytes=750
+2016-06-23T17:57:22.043918+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=4c47ba05-0774-45de-80a3-2c06e8f4cb70 fwd="59.178.210.138" dyno=web.1 connect=0ms service=3ms status=404 bytes=386
+2016-06-23T17:57:22.368257+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=894abb36-aa8f-4ced-9d18-ff406346c4b4 fwd="59.178.210.138" dyno=web.1 connect=1ms service=12ms status=404 bytes=386
+2016-06-23T17:57:35.696282+00:00 app[web.1]:  
+2016-06-23T17:57:35.696375+00:00 app[web.1]:  
+2016-06-23T17:57:35.696402+00:00 app[web.1]:  
+2016-06-23T17:57:35.696704+00:00 app[web.1]:  
+2016-06-23T17:57:35.696667+00:00 app[web.1]: Tweet By Sax bomb  :  luv all angels mankind's angel
+2016-06-23T17:57:35.697074+00:00 app[web.1]:  
+2016-06-23T17:57:35.697016+00:00 app[web.1]:  
+2016-06-23T17:57:35.696730+00:00 app[web.1]:  
+2016-06-23T17:57:35.696351+00:00 app[web.1]:  
+2016-06-23T17:57:35.697051+00:00 app[web.1]:  
+2016-06-23T17:57:35.698762+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=f73ad574-4ae0-41c1-91a5-5cf4453f4196 fwd="59.178.210.138" dyno=web.1 connect=0ms service=248ms status=200 bytes=758
+2016-06-23T17:57:36.021704+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=ebe357eb-b91d-44cb-b7dc-d1172697ee1d fwd="59.178.210.138" dyno=web.1 connect=1ms service=3ms status=404 bytes=386
+2016-06-23T18:01:12.365183+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=990e7036-ec02-4431-b47a-9759db52ff8c fwd="59.178.210.138" dyno=web.1 connect=0ms service=3ms status=200 bytes=750
+2016-06-23T18:01:12.705813+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=2bf348d6-e1b0-4cf8-95c3-36269555168b fwd="59.178.210.138" dyno=web.1 connect=0ms service=3ms status=404 bytes=386
+2016-06-23T18:01:55.303148+00:00 app[web.1]:  
+2016-06-23T18:01:55.303181+00:00 app[web.1]:  
+2016-06-23T18:01:55.303187+00:00 app[web.1]:  
+2016-06-23T18:01:55.303182+00:00 app[web.1]:  
+2016-06-23T18:01:55.303187+00:00 app[web.1]:  
+2016-06-23T18:01:55.303183+00:00 app[web.1]: Tweet By Prateek Vachher  :  i luv u jag-rahi-thi 
+2016-06-23T18:01:55.303180+00:00 app[web.1]:  
+2016-06-23T18:01:55.303188+00:00 app[web.1]:  
+2016-06-23T18:01:55.303186+00:00 app[web.1]:  
+2016-06-23T18:01:55.303186+00:00 app[web.1]:  
+2016-06-23T18:01:55.608082+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=0ba3fda4-efb5-4c3b-98d8-b787dbf8d82d fwd="59.178.210.138" dyno=web.1 connect=0ms service=2ms status=404 bytes=386
+2016-06-23T18:01:55.298359+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=24cd623b-2677-4432-8a85-6153d2c4032f fwd="59.178.210.138" dyno=web.1 connect=0ms service=322ms status=200 bytes=765
+2016-06-23T18:02:11.057345+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=a2437202-f146-487b-b553-68697f2982d3 fwd="59.178.210.138" dyno=web.1 connect=0ms service=16ms status=200 bytes=750
+2016-06-23T18:02:11.370398+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=99d0c2b1-afa5-41cd-bcc1-9506e30ce362 fwd="59.178.210.138" dyno=web.1 connect=4ms service=2ms status=404 bytes=386
+2016-06-23T18:02:20.051778+00:00 app[web.1]:  
+2016-06-23T18:02:20.051776+00:00 app[web.1]:  
+2016-06-23T18:02:20.051762+00:00 app[web.1]:  
+2016-06-23T18:02:20.051779+00:00 app[web.1]: Tweet By Prateek Vachher  :  i am actually gay
+2016-06-23T18:02:20.051781+00:00 app[web.1]:  
+2016-06-23T18:02:20.051781+00:00 app[web.1]:  
+2016-06-23T18:02:20.051779+00:00 app[web.1]:  
+2016-06-23T18:02:20.051780+00:00 app[web.1]:  
+2016-06-23T18:02:20.051780+00:00 app[web.1]:  
+2016-06-23T18:02:20.051775+00:00 app[web.1]:  
+2016-06-23T18:02:20.050089+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=34152f1f-3964-412b-9b9e-c9c47b0069d2 fwd="59.178.210.138" dyno=web.1 connect=1ms service=189ms status=200 bytes=765
+2016-06-23T18:02:20.360724+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=d7d21c09-7ca1-4930-8b72-e560589a5d0b fwd="59.178.210.138" dyno=web.1 connect=1ms service=3ms status=404 bytes=386
+2016-06-23T18:35:31.968360+00:00 heroku[web.1]: State changed from up to down
+2016-06-23T18:35:31.963354+00:00 heroku[web.1]: Idling
+2016-06-23T18:35:35.300657+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-23T18:35:36.053131+00:00 app[web.1]: [2016-06-23 18:35:36 +0000] [3] [INFO] Handling signal: term
+2016-06-23T18:35:36.049134+00:00 app[web.1]: [2016-06-23 18:35:36 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-23T18:35:36.050727+00:00 app[web.1]: [2016-06-23 18:35:36 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-23T18:35:36.064975+00:00 app[web.1]: [2016-06-23 18:35:36 +0000] [3] [INFO] Shutting down: Master
+2016-06-23T18:35:37.269687+00:00 heroku[web.1]: Process exited with status 0
+2016-06-25T10:02:26.970276+00:00 heroku[web.1]: Unidling
+2016-06-25T10:02:26.970576+00:00 heroku[web.1]: State changed from down to starting
+2016-06-25T10:02:30.068988+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-25T10:02:32.582835+00:00 app[web.1]: [2016-06-25 10:02:32 +0000] [3] [INFO] Using worker: sync
+2016-06-25T10:02:32.580423+00:00 app[web.1]: [2016-06-25 10:02:32 +0000] [3] [INFO] Listening at: http://0.0.0.0:19075 (3)
+2016-06-25T10:02:32.598100+00:00 app[web.1]: [2016-06-25 10:02:32 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-25T10:02:32.625777+00:00 app[web.1]: [2016-06-25 10:02:32 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-25T10:02:32.572011+00:00 app[web.1]: [2016-06-25 10:02:32 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-25T10:02:33.765607+00:00 heroku[web.1]: State changed from starting to up
+2016-06-25T10:02:34.063834+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=7b62195a-d03c-4d3b-b43a-d9c6e9939fa2 fwd="27.7.255.81" dyno=web.1 connect=1ms service=42ms status=200 bytes=750
+2016-06-25T10:02:35.054166+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=3703a059-0def-4fc0-b7d1-55283f33b318 fwd="27.7.255.81" dyno=web.1 connect=3ms service=70ms status=404 bytes=386
+2016-06-25T10:02:35.371250+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=9f454136-ff4e-4bf0-b292-f83998d919c0 fwd="27.7.255.81" dyno=web.1 connect=1ms service=2ms status=404 bytes=386
+2016-06-25T10:02:53.783125+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=67a9ee55-6f5c-4c87-98d4-a4f9334b2016 fwd="27.7.255.81" dyno=web.1 connect=0ms service=189ms status=200 bytes=757
+2016-06-25T10:02:53.769576+00:00 app[web.1]:  
+2016-06-25T10:02:53.769385+00:00 app[web.1]:  
+2016-06-25T10:02:53.769337+00:00 app[web.1]:  
+2016-06-25T10:02:53.769599+00:00 app[web.1]:  
+2016-06-25T10:02:53.769762+00:00 app[web.1]:  
+2016-06-25T10:02:53.769836+00:00 app[web.1]:  
+2016-06-25T10:02:53.769799+00:00 app[web.1]:  
+2016-06-25T10:02:53.769417+00:00 app[web.1]:  
+2016-06-25T10:02:53.769552+00:00 app[web.1]: Tweet By Ashwani  :  Is Brexit Right?
+2016-06-25T10:02:53.769440+00:00 app[web.1]:  
+2016-06-25T10:02:54.592608+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=6b18c851-49c2-4589-b74e-6993917d99d8 fwd="27.7.255.81" dyno=web.1 connect=0ms service=4ms status=404 bytes=386
+2016-06-25T10:37:20.176564+00:00 heroku[web.1]: Idling
+2016-06-25T10:37:20.177065+00:00 heroku[web.1]: State changed from up to down
+2016-06-25T10:37:24.038903+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-25T10:37:25.264984+00:00 app[web.1]: [2016-06-25 10:37:25 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-25T10:37:25.267397+00:00 app[web.1]: [2016-06-25 10:37:25 +0000] [3] [INFO] Handling signal: term
+2016-06-25T10:37:25.276447+00:00 app[web.1]: [2016-06-25 10:37:25 +0000] [3] [INFO] Shutting down: Master
+2016-06-25T10:37:25.264994+00:00 app[web.1]: [2016-06-25 10:37:25 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-25T10:37:26.088010+00:00 heroku[web.1]: Process exited with status 0
+2016-06-25T14:51:56.168870+00:00 heroku[web.1]: Unidling
+2016-06-25T14:51:56.169600+00:00 heroku[web.1]: State changed from down to starting
+2016-06-25T14:51:58.972298+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-25T14:52:01.350482+00:00 app[web.1]: [2016-06-25 14:52:01 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-25T14:52:01.322707+00:00 app[web.1]: [2016-06-25 14:52:01 +0000] [3] [INFO] Using worker: sync
+2016-06-25T14:52:01.328055+00:00 app[web.1]: [2016-06-25 14:52:01 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-25T14:52:01.322603+00:00 app[web.1]: [2016-06-25 14:52:01 +0000] [3] [INFO] Listening at: http://0.0.0.0:11821 (3)
+2016-06-25T14:52:01.321993+00:00 app[web.1]: [2016-06-25 14:52:01 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-25T14:52:02.759840+00:00 heroku[web.1]: State changed from starting to up
+2016-06-25T14:52:04.228990+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=fdf54328-1fe5-40c5-b0c2-3559c67d59e9 fwd="27.7.255.81" dyno=web.1 connect=0ms service=12ms status=200 bytes=750
+2016-06-25T14:52:05.175017+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=d4d15813-9c8f-4ea5-b674-d7f692b4781e fwd="27.7.255.81" dyno=web.1 connect=0ms service=16ms status=404 bytes=386
+2016-06-25T14:52:17.295137+00:00 app[web.1]:  
+2016-06-25T14:52:17.295124+00:00 app[web.1]:  
+2016-06-25T14:52:17.295137+00:00 app[web.1]:  
+2016-06-25T14:52:17.295161+00:00 app[web.1]:  
+2016-06-25T14:52:17.295145+00:00 app[web.1]:  
+2016-06-25T14:52:17.296678+00:00 app[web.1]:  
+2016-06-25T14:52:17.305562+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=4ec37187-6ba9-4a12-8861-30ad34c6691d fwd="27.7.255.81" dyno=web.1 connect=1ms service=195ms status=200 bytes=754
+2016-06-25T14:52:17.295143+00:00 app[web.1]: Tweet By Bega  :  hello there
+2016-06-25T14:52:17.296691+00:00 app[web.1]:  
+2016-06-25T14:52:17.295138+00:00 app[web.1]:  
+2016-06-25T14:52:17.296692+00:00 app[web.1]:  
+2016-06-25T14:52:18.117861+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=c6375204-0350-41c4-9654-9fe0f0c7deec fwd="27.7.255.81" dyno=web.1 connect=0ms service=2ms status=404 bytes=386
+2016-06-25T15:25:56.254291+00:00 heroku[web.1]: Idling
+2016-06-25T15:25:56.254998+00:00 heroku[web.1]: State changed from up to down
+2016-06-25T15:25:59.826136+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-25T15:26:00.904837+00:00 app[web.1]: [2016-06-25 15:26:00 +0000] [3] [INFO] Shutting down: Master
+2016-06-25T15:26:00.801591+00:00 app[web.1]: [2016-06-25 15:26:00 +0000] [3] [INFO] Handling signal: term
+2016-06-25T15:26:00.801671+00:00 app[web.1]: [2016-06-25 15:26:00 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-25T15:26:00.799823+00:00 app[web.1]: [2016-06-25 15:26:00 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-25T15:26:01.817354+00:00 heroku[web.1]: Process exited with status 0
+2016-06-26T18:50:44.146706+00:00 heroku[web.1]: Unidling
+2016-06-26T18:50:44.147021+00:00 heroku[web.1]: State changed from down to starting
+2016-06-26T18:50:46.652897+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-26T18:50:48.800868+00:00 app[web.1]: [2016-06-26 18:50:48 +0000] [3] [INFO] Listening at: http://0.0.0.0:27647 (3)
+2016-06-26T18:50:48.801108+00:00 app[web.1]: [2016-06-26 18:50:48 +0000] [3] [INFO] Using worker: sync
+2016-06-26T18:50:48.800240+00:00 app[web.1]: [2016-06-26 18:50:48 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-26T18:50:48.805391+00:00 app[web.1]: [2016-06-26 18:50:48 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-26T18:50:48.888577+00:00 app[web.1]: [2016-06-26 18:50:48 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-26T18:50:50.321256+00:00 heroku[web.1]: State changed from starting to up
+2016-06-26T18:50:52.224389+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=143316cf-db70-4e5c-87bf-a1e6c11e3929 fwd="27.7.255.81" dyno=web.1 connect=1ms service=15ms status=200 bytes=750
+2016-06-26T18:50:53.302606+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=c5e3433f-d7f6-464d-bd9e-bef5fa5dd2c7 fwd="27.7.255.81" dyno=web.1 connect=0ms service=9ms status=404 bytes=386
+2016-06-26T18:52:08.565640+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=c3c390d7-02d8-4b80-8e73-f7863747ec7f fwd="116.74.42.60" dyno=web.1 connect=3ms service=5ms status=404 bytes=386
+2016-06-26T18:52:08.194467+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=bc713362-57c9-4081-b0ce-6211d671f212 fwd="116.74.42.60" dyno=web.1 connect=2ms service=14ms status=200 bytes=750
+2016-06-26T18:53:27.761855+00:00 app[web.1]:  
+2016-06-26T18:53:27.761843+00:00 app[web.1]:  
+2016-06-26T18:53:27.761827+00:00 app[web.1]:  
+2016-06-26T18:53:27.761855+00:00 app[web.1]:  
+2016-06-26T18:53:27.761856+00:00 app[web.1]:  
+2016-06-26T18:53:27.761854+00:00 app[web.1]: Tweet By Lakshita Narang   :  Asymptote of a curve
+2016-06-26T18:53:27.756867+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=48aa0507-9e1f-4ac2-89c9-fb92dd46844f fwd="116.74.42.60" dyno=web.1 connect=1ms service=213ms status=200 bytes=766
+2016-06-26T18:53:27.761849+00:00 app[web.1]:  
+2016-06-26T18:53:27.761850+00:00 app[web.1]:  
+2016-06-26T18:53:27.761857+00:00 app[web.1]:  
+2016-06-26T18:53:27.761856+00:00 app[web.1]:  
+2016-06-26T18:53:28.125607+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=303fb7a5-7bc4-445a-a5c4-9c9a996df179 fwd="116.74.42.60" dyno=web.1 connect=1ms service=4ms status=404 bytes=386
+2016-06-26T19:29:09.885828+00:00 heroku[web.1]: State changed from up to down
+2016-06-26T19:29:09.885228+00:00 heroku[web.1]: Idling
+2016-06-26T19:29:12.815932+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-26T19:29:13.819101+00:00 app[web.1]: [2016-06-26 19:29:13 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-26T19:29:13.818322+00:00 app[web.1]: [2016-06-26 19:29:13 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-26T19:29:13.857215+00:00 app[web.1]: [2016-06-26 19:29:13 +0000] [3] [INFO] Handling signal: term
+2016-06-26T19:29:13.872168+00:00 app[web.1]: [2016-06-26 19:29:13 +0000] [3] [INFO] Shutting down: Master
+2016-06-26T19:29:15.107403+00:00 heroku[web.1]: Process exited with status 0
+2016-06-27T10:33:13.614839+00:00 heroku[web.1]: Unidling
+2016-06-27T10:33:13.617920+00:00 heroku[web.1]: State changed from down to starting
+2016-06-27T10:33:17.240681+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-27T10:33:19.924310+00:00 app[web.1]: [2016-06-27 10:33:19 +0000] [3] [INFO] Listening at: http://0.0.0.0:52891 (3)
+2016-06-27T10:33:19.924439+00:00 app[web.1]: [2016-06-27 10:33:19 +0000] [3] [INFO] Using worker: sync
+2016-06-27T10:33:19.931512+00:00 app[web.1]: [2016-06-27 10:33:19 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-27T10:33:19.923374+00:00 app[web.1]: [2016-06-27 10:33:19 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-27T10:33:19.990066+00:00 app[web.1]: [2016-06-27 10:33:19 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-27T10:33:20.929539+00:00 heroku[web.1]: State changed from starting to up
+2016-06-27T10:33:21.747229+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=5407a839-6407-4f2a-bafc-dd053f0576be fwd="27.7.255.81" dyno=web.1 connect=0ms service=32ms status=200 bytes=750
+2016-06-27T10:33:22.887772+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=0d20b4fb-0da3-4d35-b707-679da671f0b5 fwd="27.7.255.81" dyno=web.1 connect=0ms service=23ms status=404 bytes=386
+2016-06-27T11:07:23.838867+00:00 heroku[web.1]: Idling
+2016-06-27T11:07:23.839325+00:00 heroku[web.1]: State changed from up to down
+2016-06-27T11:07:28.149803+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-27T11:07:29.271622+00:00 app[web.1]: [2016-06-27 11:07:29 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-27T11:07:29.270948+00:00 app[web.1]: [2016-06-27 11:07:29 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-27T11:07:29.641675+00:00 app[web.1]: [2016-06-27 11:07:29 +0000] [3] [INFO] Handling signal: term
+2016-06-27T11:07:29.738688+00:00 app[web.1]: [2016-06-27 11:07:29 +0000] [3] [INFO] Shutting down: Master
+2016-06-27T11:07:31.223497+00:00 heroku[web.1]: Process exited with status 0
+2016-06-27T16:44:46.443653+00:00 heroku[slug-compiler]: Slug compilation started
+2016-06-27T16:44:46.443657+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-06-27T16:44:46.379148+00:00 heroku[web.1]: State changed from down to starting
+2016-06-27T16:44:48.838522+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-27T16:44:50.730775+00:00 app[web.1]: [2016-06-27 16:44:50 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-27T16:44:50.731292+00:00 app[web.1]: [2016-06-27 16:44:50 +0000] [3] [INFO] Using worker: sync
+2016-06-27T16:44:50.770662+00:00 app[web.1]: [2016-06-27 16:44:50 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-27T16:44:50.735773+00:00 app[web.1]: [2016-06-27 16:44:50 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-27T16:44:50.731212+00:00 app[web.1]: [2016-06-27 16:44:50 +0000] [3] [INFO] Listening at: http://0.0.0.0:20317 (3)
+2016-06-27T16:44:52.434821+00:00 heroku[web.1]: State changed from starting to up
+2016-06-27T16:44:46.137431+00:00 heroku[api]: Deploy 91f6282 by vachherprateek@gmail.com
+2016-06-27T16:44:46.137557+00:00 heroku[api]: Release v12 created by vachherprateek@gmail.com
+2016-06-27T16:46:19.880342+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=fb75d47c-5fc0-4f9b-a8c6-1178a17ada1f fwd="27.7.255.81" dyno=web.1 connect=1ms service=54ms status=500 bytes=456
+2016-06-27T16:47:30.794272+00:00 heroku[slug-compiler]: Slug compilation started
+2016-06-27T16:47:30.794293+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-06-27T16:47:33.648961+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-27T16:47:30.748310+00:00 heroku[web.1]: Restarting
+2016-06-27T16:47:30.749010+00:00 heroku[web.1]: State changed from up to starting
+2016-06-27T16:47:33.971673+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-27T16:47:34.806115+00:00 app[web.1]: [2016-06-27 16:47:34 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-27T16:47:34.806866+00:00 app[web.1]: [2016-06-27 16:47:34 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-27T16:47:34.809128+00:00 app[web.1]: [2016-06-27 16:47:34 +0000] [3] [INFO] Handling signal: term
+2016-06-27T16:47:34.816019+00:00 app[web.1]: [2016-06-27 16:47:34 +0000] [3] [INFO] Shutting down: Master
+2016-06-27T16:47:35.710274+00:00 heroku[web.1]: Process exited with status 0
+2016-06-27T16:47:35.978781+00:00 app[web.1]: [2016-06-27 16:47:35 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-27T16:47:35.876148+00:00 app[web.1]: [2016-06-27 16:47:35 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-27T16:47:35.876588+00:00 app[web.1]: [2016-06-27 16:47:35 +0000] [3] [INFO] Listening at: http://0.0.0.0:52350 (3)
+2016-06-27T16:47:35.876647+00:00 app[web.1]: [2016-06-27 16:47:35 +0000] [3] [INFO] Using worker: sync
+2016-06-27T16:47:35.880350+00:00 app[web.1]: [2016-06-27 16:47:35 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-27T16:47:37.230786+00:00 heroku[web.1]: State changed from starting to up
+2016-06-27T16:47:30.514275+00:00 heroku[api]: Release v13 created by vachherprateek@gmail.com
+2016-06-27T16:47:30.514165+00:00 heroku[api]: Deploy 5dba614 by vachherprateek@gmail.com
+2016-06-27T16:47:38.499111+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=c18ca619-a021-4f23-bc57-ac0bb59c0685 fwd="27.7.255.81" dyno=web.1 connect=1ms service=14ms status=500 bytes=456
+2016-06-27T16:49:18.682223+00:00 heroku[router]: at=info method=GET path="/new" host=tweetpv.herokuapp.com request_id=ab524224-09bc-4aaa-acdf-b11fb23932a7 fwd="27.7.255.81" dyno=web.1 connect=0ms service=1ms status=500 bytes=456
+2016-06-27T16:51:05.301529+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-06-27T16:51:05.301521+00:00 heroku[slug-compiler]: Slug compilation started
+2016-06-27T16:51:05.444872+00:00 heroku[web.1]: State changed from up to starting
+2016-06-27T16:51:05.444321+00:00 heroku[web.1]: Restarting
+2016-06-27T16:51:08.223472+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-27T16:51:08.910206+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-27T16:51:09.719050+00:00 app[web.1]: [2016-06-27 16:51:09 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-27T16:51:09.720410+00:00 app[web.1]: [2016-06-27 16:51:09 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-27T16:51:09.728448+00:00 app[web.1]: [2016-06-27 16:51:09 +0000] [3] [INFO] Shutting down: Master
+2016-06-27T16:51:09.720861+00:00 app[web.1]: [2016-06-27 16:51:09 +0000] [3] [INFO] Handling signal: term
+2016-06-27T16:51:10.905891+00:00 heroku[web.1]: Process exited with status 0
+2016-06-27T16:51:10.962346+00:00 app[web.1]: [2016-06-27 16:51:10 +0000] [3] [INFO] Listening at: http://0.0.0.0:42194 (3)
+2016-06-27T16:51:10.961763+00:00 app[web.1]: [2016-06-27 16:51:10 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-27T16:51:11.020419+00:00 app[web.1]: [2016-06-27 16:51:11 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-27T16:51:10.972399+00:00 app[web.1]: [2016-06-27 16:51:10 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-27T16:51:10.962472+00:00 app[web.1]: [2016-06-27 16:51:10 +0000] [3] [INFO] Using worker: sync
+2016-06-27T16:51:11.852836+00:00 heroku[web.1]: State changed from starting to up
+2016-06-27T16:51:05.058443+00:00 heroku[api]: Release v14 created by vachherprateek@gmail.com
+2016-06-27T16:53:21.656065+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=fce7b8e8-c21f-4c36-ac48-2e1cd2e9f2a4 fwd="122.176.15.206,64.233.173.153" dyno=web.1 connect=0ms service=9ms status=404 bytes=386
+2016-06-27T16:56:11.129413+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=4416f5a7-ec3f-4ef0-8f1c-434513267b4e fwd="103.66.16.3" dyno=web.1 connect=1ms service=12ms status=200 bytes=22248
+2016-06-27T16:56:14.980126+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=a8fe70a7-11fb-46de-ba2a-3461eebe5cda fwd="103.66.16.3" dyno=web.1 connect=2ms service=37ms status=404 bytes=386
+2016-06-27T17:00:44.367980+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=64081122-0278-4586-8d83-81970df4957f fwd="27.7.255.81" dyno=web.1 connect=0ms service=3ms status=200 bytes=22248
+2016-06-27T17:02:02.703767+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=56dd4ebb-84f6-4ebf-8418-5d3b56894d99 fwd="27.7.255.81,64.233.173.73" dyno=web.1 connect=1ms service=7ms status=200 bytes=22248
+2016-06-27T17:03:32.535975+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=9fd6ecd7-d9fc-4c1e-b9f0-92db9daaaa5b fwd="27.7.255.81" dyno=web.1 connect=1ms service=5ms status=200 bytes=22248
+2016-06-27T17:03:37.386278+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=91c34344-b6d5-4eaf-bb7e-df1653c382e0 fwd="27.7.255.81" dyno=web.1 connect=1ms service=5ms status=200 bytes=22248
+2016-06-27T17:21:01.002302+00:00 heroku[router]: at=info method=GET path="/static/bootstrap.min.css" host=tweetpv.herokuapp.com request_id=d3b4c4a6-e39c-4605-812a-cac89fcc160c fwd="116.74.42.60" dyno=web.1 connect=1ms service=3ms status=404 bytes=386
+2016-06-27T17:21:24.031722+00:00 app[web.1]: Tweet By Lakshita Narang   :  yayayayyy \m/
+2016-06-27T17:21:34.031864+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=a218e867-19e8-404f-9364-d82e58ea99b0 fwd="116.74.42.60" dyno=web.1 connect=1ms service=10415ms status=200 bytes=22264
+2016-06-27T17:23:47.362233+00:00 heroku[slug-compiler]: Slug compilation started
+2016-06-27T17:23:47.362241+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-06-27T17:23:47.368714+00:00 heroku[web.1]: Restarting
+2016-06-27T17:23:47.369458+00:00 heroku[web.1]: State changed from up to starting
+2016-06-27T17:23:49.770010+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-27T17:23:51.079401+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-27T17:23:52.016153+00:00 app[web.1]: [2016-06-27 17:23:51 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-27T17:23:51.994418+00:00 app[web.1]: [2016-06-27 17:23:51 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-27T17:23:51.994918+00:00 app[web.1]: [2016-06-27 17:23:51 +0000] [3] [INFO] Handling signal: term
+2016-06-27T17:23:52.112194+00:00 app[web.1]: [2016-06-27 17:23:52 +0000] [3] [INFO] Shutting down: Master
+2016-06-27T17:23:51.983747+00:00 app[web.1]: [2016-06-27 17:23:51 +0000] [3] [INFO] Using worker: sync
+2016-06-27T17:23:51.992736+00:00 app[web.1]: [2016-06-27 17:23:51 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-27T17:23:51.983637+00:00 app[web.1]: [2016-06-27 17:23:51 +0000] [3] [INFO] Listening at: http://0.0.0.0:58033 (3)
+2016-06-27T17:23:52.052613+00:00 app[web.1]: [2016-06-27 17:23:52 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-27T17:23:51.978758+00:00 app[web.1]: [2016-06-27 17:23:51 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-27T17:23:47.141658+00:00 heroku[api]: Deploy 924e9b5 by vachherprateek@gmail.com
+2016-06-27T17:23:47.141738+00:00 heroku[api]: Release v15 created by vachherprateek@gmail.com
+2016-06-27T17:23:53.364608+00:00 heroku[web.1]: Process exited with status 0
+2016-06-27T17:23:53.440783+00:00 heroku[web.1]: State changed from starting to up
+2016-06-27T17:25:13.521582+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=806f0590-350b-4dc7-9683-f3a0f6e60ba3 fwd="27.7.255.81" dyno=web.1 connect=3ms service=53ms status=200 bytes=22371
+2016-06-27T17:25:45.859832+00:00 app[web.1]: Tweet By P  :  
+2016-06-27T17:25:45.865783+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=b971b3cf-005c-4882-9e6f-46ed10453bde fwd="27.7.255.81" dyno=web.1 connect=1ms service=271ms status=200 bytes=22371
+2016-06-27T17:25:57.232308+00:00 app[web.1]: Tweet By Yuvhhuvbijbij  :  Ibjjibghfyfy
+2016-06-27T17:25:57.260026+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=6444d8d5-1ff4-487c-9071-7143d3bff463 fwd="27.7.255.81" dyno=web.1 connect=2ms service=221ms status=200 bytes=22371
+2016-06-27T17:26:13.474738+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=f2b84f62-44c5-4a42-aa97-63490778c786 fwd="116.74.42.60" dyno=web.1 connect=0ms service=4ms status=200 bytes=22371
+2016-06-27T18:01:23.074339+00:00 heroku[web.1]: Idling
+2016-06-27T18:01:23.075066+00:00 heroku[web.1]: State changed from up to down
+2016-06-27T18:01:27.123397+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-27T18:01:28.369767+00:00 app[web.1]: [2016-06-27 18:01:28 +0000] [3] [INFO] Shutting down: Master
+2016-06-27T18:01:28.358986+00:00 app[web.1]: [2016-06-27 18:01:28 +0000] [3] [INFO] Handling signal: term
+2016-06-27T18:01:28.273685+00:00 app[web.1]: [2016-06-27 18:01:28 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-27T18:01:28.282669+00:00 app[web.1]: [2016-06-27 18:01:28 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-27T18:01:30.531940+00:00 heroku[web.1]: Process exited with status 0
+2016-06-28T07:14:03.988811+00:00 heroku[web.1]: Unidling
+2016-06-28T07:14:03.988811+00:00 heroku[web.1]: State changed from down to starting
+2016-06-28T07:14:06.778761+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-28T07:14:08.828743+00:00 app[web.1]: [2016-06-28 07:14:08 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-28T07:14:08.829302+00:00 app[web.1]: [2016-06-28 07:14:08 +0000] [3] [INFO] Listening at: http://0.0.0.0:56120 (3)
+2016-06-28T07:14:08.907159+00:00 app[web.1]: [2016-06-28 07:14:08 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-28T07:14:08.834479+00:00 app[web.1]: [2016-06-28 07:14:08 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-28T07:14:08.829461+00:00 app[web.1]: [2016-06-28 07:14:08 +0000] [3] [INFO] Using worker: sync
+2016-06-28T07:14:10.448847+00:00 heroku[web.1]: State changed from starting to up
+2016-06-28T07:14:11.099215+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=942a3aa9-918d-4fa7-aae9-caa4dc65ece5 fwd="27.7.255.81" dyno=web.1 connect=0ms service=28ms status=200 bytes=22371
+2016-06-28T07:14:14.282110+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=e386e04c-15b2-409f-bad1-f23ec65b9a9d fwd="27.7.255.81" dyno=web.1 connect=0ms service=20ms status=404 bytes=386
+2016-06-28T07:14:20.304868+00:00 app[web.1]: Tweet By   :  
+2016-06-28T07:14:20.333286+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=aa445243-7cf9-475b-8031-37680bfd4597 fwd="27.7.255.81" dyno=web.1 connect=0ms service=250ms status=200 bytes=22371
+2016-06-28T07:14:24.719320+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=d6c342fd-2ee0-43e9-9d60-171c7bde2191 fwd="27.7.255.81" dyno=web.1 connect=0ms service=135ms status=500 bytes=456
+2016-06-28T07:14:46.233928+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=7c26ffea-c96c-474c-8ba4-1889db2672a7 fwd="106.221.147.187" dyno=web.1 connect=2ms service=5ms status=200 bytes=22371
+2016-06-28T07:14:54.435473+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=6fabbc61-5d07-4eef-9adf-d2c72a0b66aa fwd="106.221.147.187" dyno=web.1 connect=1ms service=2ms status=404 bytes=386
+2016-06-28T07:15:00.717293+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=06a6e8a9-d069-49a2-9e5a-15a2ed2e61af fwd="27.7.255.81" dyno=web.1 connect=0ms service=175ms status=200 bytes=22371
+2016-06-28T07:15:00.708548+00:00 app[web.1]: Tweet By Test  :  Test Lol
+2016-06-28T07:17:42.406059+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=425b80d8-698b-4299-b18b-69532e8d2b24 fwd="106.221.147.187" dyno=web.1 connect=1ms service=7ms status=200 bytes=22371
+2016-06-28T07:18:13.252874+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=737ba131-39da-486e-950e-36257ede725b fwd="106.221.147.187" dyno=web.1 connect=1ms service=162ms status=200 bytes=22371
+2016-06-28T07:18:13.247261+00:00 app[web.1]: Tweet By ROSE  :  I lvoe you
+2016-06-28T07:18:34.487422+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=ccddbdac-2afe-4143-a59a-d7fc5cdff016 fwd="106.221.147.187" dyno=web.1 connect=1ms service=175ms status=200 bytes=22371
+2016-06-28T07:18:34.482186+00:00 app[web.1]: Tweet By ROSE  :  I love you
+2016-06-28T07:53:39.888969+00:00 heroku[web.1]: State changed from up to down
+2016-06-28T07:53:39.888279+00:00 heroku[web.1]: Idling
+2016-06-28T07:53:43.581816+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-28T07:53:44.477314+00:00 app[web.1]: [2016-06-28 07:53:44 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-28T07:53:44.481275+00:00 app[web.1]: [2016-06-28 07:53:44 +0000] [3] [INFO] Handling signal: term
+2016-06-28T07:53:44.484585+00:00 app[web.1]: [2016-06-28 07:53:44 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-28T07:53:44.527187+00:00 app[web.1]: [2016-06-28 07:53:44 +0000] [3] [INFO] Shutting down: Master
+2016-06-28T07:53:45.670925+00:00 heroku[web.1]: Process exited with status 0
+2016-06-28T07:57:15.869278+00:00 heroku[web.1]: Unidling
+2016-06-28T07:57:15.869622+00:00 heroku[web.1]: State changed from down to starting
+2016-06-28T07:57:19.660338+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-28T07:57:22.521212+00:00 app[web.1]: [2016-06-28 07:57:22 +0000] [3] [INFO] Listening at: http://0.0.0.0:35966 (3)
+2016-06-28T07:57:22.521352+00:00 app[web.1]: [2016-06-28 07:57:22 +0000] [3] [INFO] Using worker: sync
+2016-06-28T07:57:22.520514+00:00 app[web.1]: [2016-06-28 07:57:22 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-28T07:57:22.578840+00:00 app[web.1]: [2016-06-28 07:57:22 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-28T07:57:22.534179+00:00 app[web.1]: [2016-06-28 07:57:22 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-28T07:57:23.383492+00:00 heroku[web.1]: State changed from starting to up
+2016-06-28T07:57:25.092740+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=7c48d514-a111-4371-b8aa-c563f2ff03f0 fwd="27.7.255.81" dyno=web.1 connect=0ms service=130ms status=200 bytes=22371
+2016-06-28T07:59:23.170461+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=3e3086bf-8b08-4947-875c-bb5fb62c9b60 fwd="59.178.200.189" dyno=web.1 connect=1ms service=101ms status=200 bytes=22371
+2016-06-28T07:59:46.895161+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=f9941bb0-71eb-433e-81bd-1a84854805b4 fwd="27.7.255.81" dyno=web.1 connect=1ms service=5ms status=200 bytes=22371
+2016-06-28T08:00:54.788618+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=8b408661-591d-4909-a408-6a803df50df3 fwd="59.178.200.189" dyno=web.1 connect=2ms service=230ms status=200 bytes=22371
+2016-06-28T08:00:54.787090+00:00 app[web.1]: Tweet By coolest  :  chillin like a villain
+2016-06-28T08:37:04.644932+00:00 heroku[web.1]: State changed from up to down
+2016-06-28T08:37:04.644020+00:00 heroku[web.1]: Idling
+2016-06-28T08:37:09.689214+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-28T08:37:10.963667+00:00 app[web.1]: [2016-06-28 08:37:10 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-28T08:37:11.047427+00:00 app[web.1]: [2016-06-28 08:37:10 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-28T08:37:11.365943+00:00 app[web.1]: [2016-06-28 08:37:11 +0000] [15] [INFO] Booting worker with pid: 15
+2016-06-28T08:37:11.451654+00:00 app[web.1]: [2016-06-28 08:37:11 +0000] [3] [INFO] Handling signal: term
+2016-06-28T08:37:12.519746+00:00 app[web.1]: [2016-06-28 08:37:12 +0000] [15] [INFO] Worker exiting (pid: 15)
+2016-06-28T08:37:12.582716+00:00 app[web.1]: [2016-06-28 08:37:12 +0000] [3] [INFO] Shutting down: Master
+2016-06-28T08:37:14.141335+00:00 heroku[web.1]: Process exited with status 0
+2016-06-28T08:39:03.910209+00:00 heroku[web.1]: State changed from down to starting
+2016-06-28T08:39:03.909885+00:00 heroku[web.1]: Unidling
+2016-06-28T08:39:06.789981+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-28T08:39:08.775427+00:00 app[web.1]: [2016-06-28 08:39:08 +0000] [3] [INFO] Using worker: sync
+2016-06-28T08:39:08.851925+00:00 app[web.1]: [2016-06-28 08:39:08 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-28T08:39:08.774923+00:00 app[web.1]: [2016-06-28 08:39:08 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-28T08:39:08.775357+00:00 app[web.1]: [2016-06-28 08:39:08 +0000] [3] [INFO] Listening at: http://0.0.0.0:19021 (3)
+2016-06-28T08:39:08.778978+00:00 app[web.1]: [2016-06-28 08:39:08 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-28T08:39:10.463923+00:00 heroku[web.1]: State changed from starting to up
+2016-06-28T08:39:10.969364+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=8562803f-6111-4123-95f9-09803e87138f fwd="27.7.255.81,64.233.173.197" dyno=web.1 connect=4ms service=9ms status=404 bytes=386
+2016-06-28T08:44:02.343857+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=4a171354-0612-42ec-8917-6e3f43b071d4 fwd="27.7.255.81,64.233.173.37" dyno=web.1 connect=0ms service=2ms status=404 bytes=386
+2016-06-28T09:19:21.440226+00:00 heroku[web.1]: Idling
+2016-06-28T09:19:21.440730+00:00 heroku[web.1]: State changed from up to down
+2016-06-28T09:19:25.901518+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-28T09:19:27.175128+00:00 app[web.1]: [2016-06-28 09:19:27 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-28T09:19:27.163609+00:00 app[web.1]: [2016-06-28 09:19:27 +0000] [3] [INFO] Handling signal: term
+2016-06-28T09:19:27.163960+00:00 app[web.1]: [2016-06-28 09:19:27 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-28T09:19:27.591381+00:00 app[web.1]: [2016-06-28 09:19:27 +0000] [3] [INFO] Shutting down: Master
+2016-06-28T09:19:29.020390+00:00 heroku[web.1]: Process exited with status 0
+2016-06-28T16:45:41.366953+00:00 heroku[web.1]: State changed from down to starting
+2016-06-28T16:45:41.366732+00:00 heroku[web.1]: Unidling
+2016-06-28T16:45:44.686030+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-28T16:45:47.363679+00:00 app[web.1]: [2016-06-28 16:45:47 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-28T16:45:47.355484+00:00 app[web.1]: [2016-06-28 16:45:47 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-28T16:45:47.356398+00:00 app[web.1]: [2016-06-28 16:45:47 +0000] [3] [INFO] Using worker: sync
+2016-06-28T16:45:47.430996+00:00 app[web.1]: [2016-06-28 16:45:47 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-28T16:45:47.356061+00:00 app[web.1]: [2016-06-28 16:45:47 +0000] [3] [INFO] Listening at: http://0.0.0.0:14602 (3)
+2016-06-28T16:45:48.276155+00:00 heroku[web.1]: State changed from starting to up
+2016-06-28T16:45:49.528215+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=50ff03b6-5535-46e8-8a4c-3d7cffad4975 fwd="27.7.255.81" dyno=web.1 connect=0ms service=86ms status=200 bytes=22371
+2016-06-28T17:21:00.251071+00:00 heroku[web.1]: Idling
+2016-06-28T17:21:00.251782+00:00 heroku[web.1]: State changed from up to down
+2016-06-28T17:21:03.458386+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-28T17:21:04.272934+00:00 app[web.1]: [2016-06-28 17:21:04 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-28T17:21:04.302773+00:00 app[web.1]: [2016-06-28 17:21:04 +0000] [3] [INFO] Handling signal: term
+2016-06-28T17:21:04.350842+00:00 app[web.1]: [2016-06-28 17:21:04 +0000] [3] [INFO] Shutting down: Master
+2016-06-28T17:21:04.277474+00:00 app[web.1]: [2016-06-28 17:21:04 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-28T17:21:05.418911+00:00 heroku[web.1]: Process exited with status 0
+2016-06-29T09:36:27.854110+00:00 heroku[web.1]: Unidling
+2016-06-29T09:36:27.854390+00:00 heroku[web.1]: State changed from down to starting
+2016-06-29T09:36:30.968410+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-06-29T09:36:33.560373+00:00 app[web.1]: [2016-06-29 09:36:33 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-06-29T09:36:33.560440+00:00 app[web.1]: [2016-06-29 09:36:33 +0000] [3] [INFO] Listening at: http://0.0.0.0:46521 (3)
+2016-06-29T09:36:33.597819+00:00 app[web.1]: [2016-06-29 09:36:33 +0000] [10] [INFO] Booting worker with pid: 10
+2016-06-29T09:36:33.564724+00:00 app[web.1]: [2016-06-29 09:36:33 +0000] [9] [INFO] Booting worker with pid: 9
+2016-06-29T09:36:33.560444+00:00 app[web.1]: [2016-06-29 09:36:33 +0000] [3] [INFO] Using worker: sync
+2016-06-29T09:36:34.621490+00:00 heroku[web.1]: State changed from starting to up
+2016-06-29T09:36:34.919450+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=2c187ca7-9c8f-4bc1-aa00-74ebc9f9e8ad fwd="27.7.255.81,64.233.173.229" dyno=web.1 connect=1ms service=13ms status=404 bytes=386
+2016-06-29T10:11:22.919787+00:00 heroku[web.1]: Idling
+2016-06-29T10:11:22.920289+00:00 heroku[web.1]: State changed from up to down
+2016-06-29T10:11:27.333941+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-29T10:11:28.914052+00:00 app[web.1]: [2016-06-29 10:11:28 +0000] [3] [INFO] Handling signal: term
+2016-06-29T10:11:28.833963+00:00 app[web.1]: [2016-06-29 10:11:28 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-06-29T10:11:28.976030+00:00 app[web.1]: [2016-06-29 10:11:28 +0000] [3] [INFO] Shutting down: Master
+2016-06-29T10:11:28.832932+00:00 app[web.1]: [2016-06-29 10:11:28 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-06-29T10:11:30.381310+00:00 heroku[web.1]: Process exited with status 0
+2016-07-02T06:48:26.745374+00:00 heroku[web.1]: Unidling
+2016-07-02T06:48:26.746135+00:00 heroku[web.1]: State changed from down to starting
+2016-07-02T06:48:29.503131+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-02T06:48:31.954747+00:00 app[web.1]: [2016-07-02 06:48:31 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-02T06:48:31.955331+00:00 app[web.1]: [2016-07-02 06:48:31 +0000] [3] [INFO] Listening at: http://0.0.0.0:24731 (3)
+2016-07-02T06:48:31.955441+00:00 app[web.1]: [2016-07-02 06:48:31 +0000] [3] [INFO] Using worker: sync
+2016-07-02T06:48:31.963618+00:00 app[web.1]: [2016-07-02 06:48:31 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-02T06:48:31.978593+00:00 app[web.1]: [2016-07-02 06:48:31 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-02T06:48:33.242633+00:00 heroku[web.1]: State changed from starting to up
+2016-07-02T06:48:33.827924+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=fb109d45-98d9-497b-a61f-fdafb29c8f34 fwd="27.7.255.81" dyno=web.1 connect=0ms service=24ms status=200 bytes=22371
+2016-07-02T06:48:35.363259+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=93806d64-7e4b-4978-8af2-be695fafc2bb fwd="27.7.255.81" dyno=web.1 connect=1ms service=22ms status=404 bytes=386
+2016-07-02T06:50:15.905060+00:00 heroku[api]: Release v16 created by vachherprateek@gmail.com
+2016-07-02T06:50:15.904962+00:00 heroku[api]: Deploy 88ec3bc by vachherprateek@gmail.com
+2016-07-02T06:50:16.749417+00:00 heroku[web.1]: State changed from up to starting
+2016-07-02T06:50:16.748133+00:00 heroku[web.1]: Restarting
+2016-07-02T06:50:19.827831+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-02T06:50:20.464353+00:00 app[web.1]: [2016-07-02 06:50:20 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-02T06:50:20.466619+00:00 app[web.1]: [2016-07-02 06:50:20 +0000] [3] [INFO] Handling signal: term
+2016-07-02T06:50:20.467365+00:00 app[web.1]: [2016-07-02 06:50:20 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-02T06:50:20.506597+00:00 app[web.1]: [2016-07-02 06:50:20 +0000] [3] [INFO] Shutting down: Master
+2016-07-02T06:50:21.624390+00:00 heroku[web.1]: Process exited with status 0
+2016-07-02T06:50:22.261148+00:00 app[web.1]: [2016-07-02 06:50:22 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-02T06:50:22.261175+00:00 app[web.1]: [2016-07-02 06:50:22 +0000] [3] [INFO] Listening at: http://0.0.0.0:27984 (3)
+2016-07-02T06:50:22.261178+00:00 app[web.1]: [2016-07-02 06:50:22 +0000] [3] [INFO] Using worker: sync
+2016-07-02T06:50:22.261179+00:00 app[web.1]: [2016-07-02 06:50:22 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-02T06:50:22.307852+00:00 app[web.1]: [2016-07-02 06:50:22 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-02T06:50:23.467981+00:00 heroku[web.1]: State changed from starting to up
+2016-07-02T06:52:11.980612+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=cca66302-2700-461c-8b0c-07d794e27841 fwd="27.7.255.81" dyno=web.1 connect=0ms service=50ms status=200 bytes=22381
+2016-07-02T07:26:55.167336+00:00 heroku[web.1]: Idling
+2016-07-02T07:26:55.167910+00:00 heroku[web.1]: State changed from up to down
+2016-07-02T07:27:00.060741+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-02T07:27:01.312386+00:00 app[web.1]: [2016-07-02 07:27:01 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-02T07:27:01.309012+00:00 app[web.1]: [2016-07-02 07:27:01 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-02T07:27:01.446398+00:00 app[web.1]: [2016-07-02 07:27:01 +0000] [3] [INFO] Shutting down: Master
+2016-07-02T07:27:01.378876+00:00 app[web.1]: [2016-07-02 07:27:01 +0000] [3] [INFO] Handling signal: term
+2016-07-02T07:27:02.771674+00:00 heroku[web.1]: Process exited with status 0
+2016-07-02T09:26:40.122520+00:00 heroku[web.1]: Unidling
+2016-07-02T09:26:40.129344+00:00 heroku[web.1]: State changed from down to starting
+2016-07-02T09:26:42.672356+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-02T09:26:44.445852+00:00 app[web.1]: [2016-07-02 09:26:44 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-02T09:26:44.446570+00:00 app[web.1]: [2016-07-02 09:26:44 +0000] [3] [INFO] Listening at: http://0.0.0.0:22502 (3)
+2016-07-02T09:26:44.446707+00:00 app[web.1]: [2016-07-02 09:26:44 +0000] [3] [INFO] Using worker: sync
+2016-07-02T09:26:44.450647+00:00 app[web.1]: [2016-07-02 09:26:44 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-02T09:26:44.492189+00:00 app[web.1]: [2016-07-02 09:26:44 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-02T09:26:44.846151+00:00 heroku[web.1]: State changed from starting to up
+2016-07-02T09:26:46.315009+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=9e49d739-96c7-4813-94f7-c229b906aced fwd="27.7.255.81" dyno=web.1 connect=1ms service=25ms status=200 bytes=22381
+2016-07-02T09:26:49.851253+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=7912237c-1a37-4d99-9547-9bd14b81ed93 fwd="27.7.255.81" dyno=web.1 connect=0ms service=7ms status=404 bytes=386
+2016-07-02T09:27:39.780787+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=8f2b62f9-1d4f-488b-948b-8e3248569ee3 fwd="27.7.255.81" dyno=web.1 connect=0ms service=255ms status=200 bytes=22381
+2016-07-02T09:27:39.759764+00:00 app[web.1]: Tweet By Testing   :  Testing
+2016-07-02T10:02:06.516563+00:00 heroku[web.1]: Idling
+2016-07-02T10:02:06.517298+00:00 heroku[web.1]: State changed from up to down
+2016-07-02T10:02:08.726939+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-02T10:02:09.233858+00:00 app[web.1]: [2016-07-02 10:02:09 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-02T10:02:09.242938+00:00 app[web.1]: [2016-07-02 10:02:09 +0000] [3] [INFO] Handling signal: term
+2016-07-02T10:02:09.234536+00:00 app[web.1]: [2016-07-02 10:02:09 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-02T10:02:09.252078+00:00 app[web.1]: [2016-07-02 10:02:09 +0000] [3] [INFO] Shutting down: Master
+2016-07-02T10:02:10.045510+00:00 heroku[web.1]: Process exited with status 0
+2016-07-03T07:15:27.563626+00:00 heroku[web.1]: Unidling
+2016-07-03T07:15:27.564941+00:00 heroku[web.1]: State changed from down to starting
+2016-07-03T07:15:30.358535+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-03T07:15:32.492832+00:00 app[web.1]: [2016-07-03 07:15:32 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-03T07:15:32.493227+00:00 app[web.1]: [2016-07-03 07:15:32 +0000] [3] [INFO] Listening at: http://0.0.0.0:32555 (3)
+2016-07-03T07:15:32.493296+00:00 app[web.1]: [2016-07-03 07:15:32 +0000] [3] [INFO] Using worker: sync
+2016-07-03T07:15:32.496829+00:00 app[web.1]: [2016-07-03 07:15:32 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-03T07:15:32.565772+00:00 app[web.1]: [2016-07-03 07:15:32 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-03T07:15:34.035152+00:00 heroku[web.1]: State changed from starting to up
+2016-07-03T07:15:35.660661+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=9b833e44-8b3a-4712-b337-0ef0f1ebc46f fwd="27.7.255.81" dyno=web.1 connect=0ms service=23ms status=200 bytes=22381
+2016-07-03T07:18:12.230116+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=6a067e59-3ae7-47a9-a643-78cb5d584e9c fwd="182.69.158.212" dyno=web.1 connect=1ms service=25ms status=200 bytes=22381
+2016-07-03T07:54:22.949098+00:00 heroku[web.1]: Idling
+2016-07-03T07:54:22.949349+00:00 heroku[web.1]: State changed from up to down
+2016-07-03T07:54:25.812880+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-03T07:54:26.477205+00:00 app[web.1]: [2016-07-03 07:54:26 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-03T07:54:26.477217+00:00 app[web.1]: [2016-07-03 07:54:26 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-03T07:54:26.490797+00:00 app[web.1]: [2016-07-03 07:54:26 +0000] [3] [INFO] Handling signal: term
+2016-07-03T07:54:26.496419+00:00 app[web.1]: [2016-07-03 07:54:26 +0000] [3] [INFO] Shutting down: Master
+2016-07-03T07:54:27.503214+00:00 heroku[web.1]: Process exited with status 0
+2016-07-03T10:54:22.171644+00:00 heroku[api]: Release v17 created by vachherprateek@gmail.com
+2016-07-03T10:54:22.171586+00:00 heroku[api]: Deploy 1838043 by vachherprateek@gmail.com
+2016-07-03T10:54:22.352174+00:00 heroku[slug-compiler]: Slug compilation started
+2016-07-03T10:54:22.352178+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-07-03T10:54:22.360439+00:00 heroku[web.1]: State changed from down to starting
+2016-07-03T10:54:25.610208+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-03T10:54:28.115517+00:00 app[web.1]: [2016-07-03 10:54:28 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-03T10:54:28.116278+00:00 app[web.1]: [2016-07-03 10:54:28 +0000] [3] [INFO] Listening at: http://0.0.0.0:17965 (3)
+2016-07-03T10:54:28.125806+00:00 app[web.1]: [2016-07-03 10:54:28 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-03T10:54:28.125795+00:00 app[web.1]: [2016-07-03 10:54:28 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-03T10:54:28.116427+00:00 app[web.1]: [2016-07-03 10:54:28 +0000] [3] [INFO] Using worker: sync
+2016-07-03T10:54:29.310353+00:00 heroku[web.1]: State changed from starting to up
+2016-07-03T11:25:30.843455+00:00 heroku[web.1]: Idling
+2016-07-03T11:25:30.843987+00:00 heroku[web.1]: State changed from up to down
+2016-07-03T11:25:35.117475+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-03T11:25:36.376501+00:00 app[web.1]: [2016-07-03 11:25:36 +0000] [3] [INFO] Handling signal: term
+2016-07-03T11:25:36.378026+00:00 app[web.1]: [2016-07-03 11:25:36 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-03T11:25:36.393923+00:00 app[web.1]: [2016-07-03 11:25:36 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-03T11:25:36.481701+00:00 app[web.1]: [2016-07-03 11:25:36 +0000] [3] [INFO] Shutting down: Master
+2016-07-03T11:25:37.455557+00:00 heroku[web.1]: Process exited with status 0
+2016-07-03T14:23:37.129436+00:00 heroku[web.1]: Unidling
+2016-07-03T14:23:37.129773+00:00 heroku[web.1]: State changed from down to starting
+2016-07-03T14:23:39.524315+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-03T14:23:41.181947+00:00 app[web.1]: [2016-07-03 14:23:41 +0000] [3] [INFO] Listening at: http://0.0.0.0:47427 (3)
+2016-07-03T14:23:41.182008+00:00 app[web.1]: [2016-07-03 14:23:41 +0000] [3] [INFO] Using worker: sync
+2016-07-03T14:23:41.189614+00:00 app[web.1]: [2016-07-03 14:23:41 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-03T14:23:41.185651+00:00 app[web.1]: [2016-07-03 14:23:41 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-03T14:23:41.181532+00:00 app[web.1]: [2016-07-03 14:23:41 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-03T14:23:41.688942+00:00 heroku[web.1]: State changed from starting to up
+2016-07-03T14:23:42.914548+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=bee7a1d3-2f99-464b-a5dd-7448076764d6 fwd="27.7.255.81" dyno=web.1 connect=0ms service=23ms status=200 bytes=22381
+2016-07-03T14:23:43.295245+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=ef2a056d-9df9-4f20-aedd-d25f8074b86e fwd="69.171.230.103" dyno=web.1 connect=7ms service=4ms status=200 bytes=22381
+2016-07-03T14:24:03.300102+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=085aa0f8-61f0-4823-b4fa-eccb51b2a4b6 fwd="120.59.255.85" dyno=web.1 connect=0ms service=3ms status=200 bytes=22381
+2016-07-03T14:24:07.866313+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=dc0eb9de-776a-4f91-8a10-1ed7a394396d fwd="120.59.255.85" dyno=web.1 connect=1ms service=11ms status=404 bytes=386
+2016-07-03T14:25:07.041251+00:00 app[web.1]: Tweet By Prateek Vachher  :  Raat ke aise mazee dunga bawli hojayegi
+2016-07-03T14:25:07.046815+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=72b47a04-8827-4688-8896-e5a135ed1cbe fwd="120.59.255.85" dyno=web.1 connect=0ms service=186ms status=200 bytes=22381
+2016-07-03T14:59:58.638927+00:00 heroku[web.1]: State changed from up to down
+2016-07-03T14:59:58.638395+00:00 heroku[web.1]: Idling
+2016-07-03T15:00:02.504307+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-03T15:00:03.468096+00:00 app[web.1]: [2016-07-03 15:00:03 +0000] [3] [INFO] Handling signal: term
+2016-07-03T15:00:03.468439+00:00 app[web.1]: [2016-07-03 15:00:03 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-03T15:00:03.469675+00:00 app[web.1]: [2016-07-03 15:00:03 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-03T15:00:03.656051+00:00 app[web.1]: [2016-07-03 15:00:03 +0000] [3] [INFO] Shutting down: Master
+2016-07-03T15:00:04.947823+00:00 heroku[web.1]: Process exited with status 0
+2016-07-03T15:43:54.644368+00:00 heroku[web.1]: State changed from down to starting
+2016-07-03T15:43:54.643968+00:00 heroku[web.1]: Unidling
+2016-07-03T15:43:57.240545+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-03T15:43:59.452099+00:00 app[web.1]: [2016-07-03 15:43:59 +0000] [3] [INFO] Listening at: http://0.0.0.0:44225 (3)
+2016-07-03T15:43:59.451228+00:00 app[web.1]: [2016-07-03 15:43:59 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-03T15:43:59.452283+00:00 app[web.1]: [2016-07-03 15:43:59 +0000] [3] [INFO] Using worker: sync
+2016-07-03T15:43:59.456693+00:00 app[web.1]: [2016-07-03 15:43:59 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-03T15:43:59.496930+00:00 app[web.1]: [2016-07-03 15:43:59 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-03T15:44:00.891651+00:00 heroku[web.1]: State changed from starting to up
+2016-07-03T15:44:01.714967+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=889f0f27-815b-49cc-81b0-0e1ec62f1126 fwd="120.59.255.85" dyno=web.1 connect=0ms service=11ms status=404 bytes=386
+2016-07-03T16:17:00.731139+00:00 heroku[web.1]: State changed from up to down
+2016-07-03T16:17:00.730357+00:00 heroku[web.1]: Idling
+2016-07-03T16:17:03.673604+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-03T16:17:04.425931+00:00 app[web.1]: [2016-07-03 16:17:04 +0000] [3] [INFO] Handling signal: term
+2016-07-03T16:17:04.425948+00:00 app[web.1]: [2016-07-03 16:17:04 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-03T16:17:04.426001+00:00 app[web.1]: [2016-07-03 16:17:04 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-03T16:17:04.486290+00:00 app[web.1]: [2016-07-03 16:17:04 +0000] [3] [INFO] Shutting down: Master
+2016-07-03T16:17:05.489352+00:00 heroku[web.1]: Process exited with status 0
+2016-07-03T17:17:54.062294+00:00 heroku[slug-compiler]: Slug compilation started
+2016-07-03T17:17:54.062298+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-07-03T17:17:53.887363+00:00 heroku[api]: Deploy 2054d98 by vachherprateek@gmail.com
+2016-07-03T17:17:53.887440+00:00 heroku[api]: Release v18 created by vachherprateek@gmail.com
+2016-07-03T17:17:54.090149+00:00 heroku[web.1]: State changed from down to starting
+2016-07-03T17:17:56.715281+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-03T17:17:58.464232+00:00 app[web.1]: [2016-07-03 17:17:58 +0000] [3] [INFO] Listening at: http://0.0.0.0:42536 (3)
+2016-07-03T17:17:58.468357+00:00 app[web.1]: [2016-07-03 17:17:58 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-03T17:17:58.496197+00:00 app[web.1]: [2016-07-03 17:17:58 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-03T17:17:58.463754+00:00 app[web.1]: [2016-07-03 17:17:58 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-03T17:17:58.464391+00:00 app[web.1]: [2016-07-03 17:17:58 +0000] [3] [INFO] Using worker: sync
+2016-07-03T17:17:59.031818+00:00 heroku[web.1]: State changed from starting to up
+2016-07-03T17:52:22.193694+00:00 heroku[web.1]: Idling
+2016-07-03T17:52:22.194854+00:00 heroku[web.1]: State changed from up to down
+2016-07-03T17:52:25.035050+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-03T17:52:25.738131+00:00 app[web.1]: [2016-07-03 17:52:25 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-03T17:52:25.741989+00:00 app[web.1]: [2016-07-03 17:52:25 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-03T17:52:25.803015+00:00 app[web.1]: [2016-07-03 17:52:25 +0000] [3] [INFO] Shutting down: Master
+2016-07-03T17:52:25.740353+00:00 app[web.1]: [2016-07-03 17:52:25 +0000] [3] [INFO] Handling signal: term
+2016-07-03T17:52:26.877904+00:00 heroku[web.1]: Process exited with status 0
+2016-07-04T17:16:54.525278+00:00 heroku[web.1]: State changed from down to starting
+2016-07-04T17:16:54.524954+00:00 heroku[web.1]: Unidling
+2016-07-04T17:16:58.269915+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-04T17:17:00.344887+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-07-04T17:17:00.344882+00:00 heroku[slug-compiler]: Slug compilation started
+2016-07-04T17:17:00.137859+00:00 heroku[api]: Deploy aae65b9 by vachherprateek@gmail.com
+2016-07-04T17:17:00.137954+00:00 heroku[api]: Release v19 created by vachherprateek@gmail.com
+2016-07-04T17:17:00.335884+00:00 heroku[web.1]: Restarting
+2016-07-04T17:17:01.181228+00:00 app[web.1]: [2016-07-04 17:17:01 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-04T17:17:01.183941+00:00 app[web.1]: [2016-07-04 17:17:01 +0000] [3] [INFO] Listening at: http://0.0.0.0:22989 (3)
+2016-07-04T17:17:01.205097+00:00 app[web.1]: [2016-07-04 17:17:01 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-04T17:17:01.263387+00:00 app[web.1]: [2016-07-04 17:17:01 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-04T17:17:01.184460+00:00 app[web.1]: [2016-07-04 17:17:01 +0000] [3] [INFO] Using worker: sync
+2016-07-04T17:17:03.373400+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-04T17:17:05.657504+00:00 app[web.1]: [2016-07-04 17:17:05 +0000] [3] [INFO] Using worker: sync
+2016-07-04T17:17:05.682523+00:00 app[web.1]: [2016-07-04 17:17:05 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-04T17:17:05.656935+00:00 app[web.1]: [2016-07-04 17:17:05 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-04T17:17:05.661223+00:00 app[web.1]: [2016-07-04 17:17:05 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-04T17:17:05.657405+00:00 app[web.1]: [2016-07-04 17:17:05 +0000] [3] [INFO] Listening at: http://0.0.0.0:47202 (3)
+2016-07-04T17:17:06.361307+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-04T17:17:07.033069+00:00 heroku[web.1]: State changed from starting to up
+2016-07-04T17:17:07.449239+00:00 app[web.1]: [2016-07-04 17:17:07 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-04T17:17:07.449394+00:00 app[web.1]: [2016-07-04 17:17:07 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-04T17:17:07.573208+00:00 app[web.1]: [2016-07-04 17:17:07 +0000] [3] [INFO] Shutting down: Master
+2016-07-04T17:17:07.448966+00:00 app[web.1]: [2016-07-04 17:17:07 +0000] [3] [INFO] Handling signal: term
+2016-07-04T17:17:08.758217+00:00 heroku[web.1]: Process exited with status 0
+2016-07-04T17:17:08.679035+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=01307b2a-e489-4476-8bff-e375be8204a3 fwd="27.7.255.81" dyno=web.1 connect=7ms service=20ms status=500 bytes=456
+2016-07-04T17:17:09.186743+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tweetpv.herokuapp.com request_id=4ae8c2e0-3c1b-427a-acd2-e073a87ce3f6 fwd="27.7.255.81" dyno=web.1 connect=5ms service=7ms status=404 bytes=386
+2016-07-04T17:18:00.588858+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=876c9704-8d00-4dd1-8e7d-dcc73e51c247 fwd="27.7.255.81" dyno=web.1 connect=0ms service=2ms status=500 bytes=456
+2016-07-04T17:22:53.181085+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=a31289c4-9393-4f98-82be-53276c7f6c1a fwd="27.7.255.81" dyno=web.1 connect=1ms service=3ms status=500 bytes=456
+2016-07-04T17:23:07.972307+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-07-04T17:23:07.972298+00:00 heroku[slug-compiler]: Slug compilation started
+2016-07-04T17:23:07.850479+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=c3277009-3934-466d-a821-e55668636b86 fwd="27.7.255.81" dyno=web.1 connect=1ms service=4ms status=500 bytes=456
+2016-07-04T17:23:07.788074+00:00 heroku[api]: Release v20 created by vachherprateek@gmail.com
+2016-07-04T17:23:07.972232+00:00 heroku[web.1]: Restarting
+2016-07-04T17:23:07.974283+00:00 heroku[web.1]: State changed from up to starting
+2016-07-04T17:23:07.788028+00:00 heroku[api]: Deploy 14118ff by vachherprateek@gmail.com
+2016-07-04T17:23:10.347197+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-04T17:23:11.221709+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-04T17:23:11.972956+00:00 app[web.1]: [2016-07-04 17:23:11 +0000] [3] [INFO] Handling signal: term
+2016-07-04T17:23:11.973492+00:00 app[web.1]: [2016-07-04 17:23:11 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-04T17:23:11.975564+00:00 app[web.1]: [2016-07-04 17:23:11 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-04T17:23:12.054852+00:00 app[web.1]: [2016-07-04 17:23:12 +0000] [3] [INFO] Shutting down: Master
+2016-07-04T17:23:12.178357+00:00 app[web.1]: [2016-07-04 17:23:12 +0000] [3] [INFO] Listening at: http://0.0.0.0:59853 (3)
+2016-07-04T17:23:12.177893+00:00 app[web.1]: [2016-07-04 17:23:12 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-04T17:23:12.182297+00:00 app[web.1]: [2016-07-04 17:23:12 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-04T17:23:12.178452+00:00 app[web.1]: [2016-07-04 17:23:12 +0000] [3] [INFO] Using worker: sync
+2016-07-04T17:23:12.213136+00:00 app[web.1]: [2016-07-04 17:23:12 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-04T17:23:13.148528+00:00 heroku[web.1]: Process exited with status 0
+2016-07-04T17:23:12.988654+00:00 heroku[web.1]: State changed from starting to up
+2016-07-04T17:23:20.787293+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=14f852c5-26ac-44df-87a6-c5b5422b6144 fwd="27.7.255.81" dyno=web.1 connect=0ms service=7010ms status=200 bytes=22381
+2016-07-04T17:24:11.213962+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=f277d13a-a5c9-492d-a374-94e726cef058 fwd="27.7.255.81" dyno=web.1 connect=1ms service=7562ms status=200 bytes=22381
+2016-07-04T17:24:33.388841+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=f34d6128-28ab-493b-83e2-4f49e130c1e2 fwd="27.7.255.81" dyno=web.1 connect=0ms service=3227ms status=200 bytes=22381
+2016-07-04T17:27:12.387291+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=61ddde98-9aca-44d4-b481-2d6b86387c7e fwd="27.7.255.81" dyno=web.1 connect=1ms service=3338ms status=200 bytes=22381
+2016-07-04T18:00:05.914965+00:00 heroku[web.1]: Idling
+2016-07-04T18:00:05.915577+00:00 heroku[web.1]: State changed from up to down
+2016-07-04T18:00:10.782396+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-07-04T18:00:12.104214+00:00 app[web.1]: [2016-07-04 18:00:12 +0000] [3] [INFO] Handling signal: term
+2016-07-04T18:00:12.182644+00:00 app[web.1]: [2016-07-04 18:00:12 +0000] [10] [INFO] Worker exiting (pid: 10)
+2016-07-04T18:00:12.113850+00:00 app[web.1]: [2016-07-04 18:00:12 +0000] [9] [INFO] Worker exiting (pid: 9)
+2016-07-04T18:00:12.433697+00:00 app[web.1]: [2016-07-04 18:00:12 +0000] [3] [INFO] Shutting down: Master
+2016-07-04T18:00:13.589670+00:00 heroku[web.1]: Process exited with status 0
+2016-07-04T18:06:16.791941+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-07-04T18:06:16.791935+00:00 heroku[slug-compiler]: Slug compilation started
+2016-07-04T18:06:16.616634+00:00 heroku[api]: Release v21 created by vachherprateek@gmail.com
+2016-07-04T18:06:16.616539+00:00 heroku[api]: Deploy 5756225 by vachherprateek@gmail.com
+2016-07-04T18:06:16.916896+00:00 heroku[web.1]: State changed from down to starting
+2016-07-04T18:06:19.373323+00:00 heroku[web.1]: Starting process with command `gunicorn FlaskApp:app --log-file=-`
+2016-07-04T18:06:21.282156+00:00 app[web.1]: [2016-07-04 18:06:21 +0000] [3] [INFO] Listening at: http://0.0.0.0:40865 (3)
+2016-07-04T18:06:21.367473+00:00 app[web.1]: [2016-07-04 18:06:21 +0000] [10] [INFO] Booting worker with pid: 10
+2016-07-04T18:06:21.282256+00:00 app[web.1]: [2016-07-04 18:06:21 +0000] [3] [INFO] Using worker: sync
+2016-07-04T18:06:21.285736+00:00 app[web.1]: [2016-07-04 18:06:21 +0000] [9] [INFO] Booting worker with pid: 9
+2016-07-04T18:06:21.281702+00:00 app[web.1]: [2016-07-04 18:06:21 +0000] [3] [INFO] Starting gunicorn 19.3.0
+2016-07-04T18:06:22.956406+00:00 heroku[web.1]: State changed from starting to up
+2016-07-04T18:08:31.476823+00:00 app[web.1]: reached analytics
+2016-07-04T18:08:33.041851+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.234.208.181')
+2016-07-04T18:08:33.706982+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=4e65a3c8-295f-4647-938e-55c4afd69086 fwd="27.7.255.81" dyno=web.1 connect=1ms service=2251ms status=200 bytes=22381
+2016-07-04T18:09:02.599030+00:00 app[web.1]: reached analytics
+2016-07-04T18:09:03.842391+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.234.208.181')
+2016-07-04T18:09:04.493905+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=f9375888-76f5-4e8d-81eb-a71a6675cc3e fwd="27.7.255.81" dyno=web.1 connect=1ms service=1914ms status=200 bytes=22381
+2016-07-04T18:10:24.735437+00:00 app[web.1]: reached analytics
+2016-07-04T18:10:25.953948+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.33.201.60')
+2016-07-04T18:10:26.630426+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=3a564c6a-9920-4c12-ae2f-62b7edd6b6cd fwd="110.227.141.207" dyno=web.1 connect=1ms service=1907ms status=200 bytes=22381
+2016-07-04T18:10:41.254185+00:00 app[web.1]: reached analytics
+2016-07-04T18:10:42.506554+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.33.201.60')
+2016-07-04T18:10:43.131234+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=93047454-4ef1-4b4f-bd07-28c18148d1f9 fwd="110.227.141.207" dyno=web.1 connect=0ms service=1889ms status=200 bytes=22381
+2016-07-04T18:11:15.241787+00:00 app[web.1]: reached analytics
+2016-07-04T18:11:16.543186+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.33.201.60')
+2016-07-04T18:11:17.338425+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=210e7147-1960-4cc9-aaa0-b01554939d41 fwd="110.227.141.207" dyno=web.1 connect=0ms service=2109ms status=200 bytes=22381
+2016-07-04T18:12:05.334219+00:00 app[web.1]: reached analytics
+2016-07-04T18:12:06.911606+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.99.239.231')
+2016-07-04T18:12:07.742589+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=b92fbcd7-cb25-4298-b1b6-90c60e8b1251 fwd="27.7.255.81" dyno=web.1 connect=3ms service=2427ms status=200 bytes=22381
+2016-07-04T18:12:27.508003+00:00 app[web.1]: reached analytics
+2016-07-04T18:12:29.076012+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.99.239.231')
+2016-07-04T18:12:29.845147+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=d80ec6b3-d93e-4a7c-901d-f55e26250a4c fwd="27.7.255.81" dyno=web.1 connect=0ms service=2353ms status=200 bytes=22381
+2016-07-04T18:13:16.128167+00:00 app[web.1]: reached analytics
+2016-07-04T18:13:17.319079+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.93.216.92')
+2016-07-04T18:13:17.980739+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=23b6f588-9ab9-455c-9297-6f540819868a fwd="110.227.141.207" dyno=web.1 connect=1ms service=1867ms status=200 bytes=22381
+2016-07-04T18:13:41.573941+00:00 app[web.1]: reached analytics
+2016-07-04T18:13:42.807017+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.93.216.92')
+2016-07-04T18:13:43.980123+00:00 app[web.1]: Tweet By Shivang Seth  :  Hello world
+2016-07-04T18:13:43.990439+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=1450d27d-5d01-4966-8a3d-ab8abbd881ad fwd="110.227.141.207" dyno=web.1 connect=1ms service=2433ms status=200 bytes=22381
+2016-07-04T18:13:50.630051+00:00 app[web.1]: reached analytics
+2016-07-04T18:13:51.800401+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.93.216.92')
+2016-07-04T18:13:52.769104+00:00 app[web.1]: Tweet By   :  
+2016-07-04T18:13:52.768526+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=b991b8a6-40f4-4fec-a381-01959ad08757 fwd="110.227.141.207" dyno=web.1 connect=1ms service=2156ms status=200 bytes=22381
+2016-07-04T18:14:10.651928+00:00 app[web.1]: reached analytics
+2016-07-04T18:14:11.808902+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.166.172.60')
+2016-07-04T18:14:12.436786+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=a0203b53-f5f1-4f55-abe0-dfb3b780ff79 fwd="110.227.141.207" dyno=web.1 connect=0ms service=1790ms status=200 bytes=22381
+2016-07-04T18:14:33.912991+00:00 app[web.1]: reached analytics
+2016-07-04T18:14:35.153776+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.166.172.60')
+2016-07-04T18:14:35.874184+00:00 heroku[router]: at=info method=POST path="/" host=tweetpv.herokuapp.com request_id=f31ec21b-a60a-4c8f-b693-1d4d9e1a0cc6 fwd="110.227.141.207" dyno=web.1 connect=0ms service=1966ms status=500 bytes=456
+2016-07-04T18:14:56.831162+00:00 app[web.1]: reached analytics
+2016-07-04T18:14:58.063076+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.166.172.60')
+2016-07-04T18:14:58.714853+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=d1c11076-a62c-4cc2-9bf2-14ade962b5ae fwd="110.227.141.207" dyno=web.1 connect=1ms service=1889ms status=200 bytes=22381
+2016-07-04T18:16:30.054051+00:00 app[web.1]: reached analytics
+2016-07-04T18:16:31.424272+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.171.147.252')
+2016-07-04T18:16:32.131326+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=f0547dbf-0f30-4d94-81e9-03e1ff629748 fwd="110.227.141.207" dyno=web.1 connect=1ms service=2088ms status=200 bytes=22381
+2016-07-04T18:23:30.530633+00:00 app[web.1]: reached analytics
+2016-07-04T18:23:31.776470+00:00 app[web.1]: INSERT INTO SiteHits (ipaddr) VALUES ('10.35.207.207')
+2016-07-04T18:23:32.425774+00:00 heroku[router]: at=info method=GET path="/" host=tweetpv.herokuapp.com request_id=fb8dbf01-82a7-46c7-99d9-6d4f3b55ca5f fwd="27.7.255.81" dyno=web.1 connect=0ms service=1909ms status=200 bytes=22381

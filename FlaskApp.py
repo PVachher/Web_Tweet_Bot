@@ -31,7 +31,7 @@ l = ""
 def login():
     from Sample import analytics
     error = None
-    analytics(request.remote_addr)
+    analytics(request.access_route)
     if request.method == 'POST':
         tweeter(request.form['Tweet'],request.form['Name'])
     return render_template('new.html', error=error)
