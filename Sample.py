@@ -22,7 +22,3 @@ def analytics():
 	# disconnect from server
 	db.close()
 
-
-
-
-a = analytics()
