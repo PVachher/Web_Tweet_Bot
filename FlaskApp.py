@@ -19,6 +19,8 @@ def tweeter(value,name):
     print "Tweet By", name, " : ", value
 
 from flask import *
+from flask import request
+from flask import jsonify
 import tweepy, time
 
 
@@ -29,7 +31,7 @@ l = ""
 def login():
     from Sample import analytics
     error = None
-    analytics()
+    analytics(request.remote_addr)
     if request.method == 'POST':
         tweeter(request.form['Tweet'],request.form['Name'])
     return render_template('new.html', error=error)
