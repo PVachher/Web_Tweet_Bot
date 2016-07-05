@@ -29,12 +29,12 @@ l = ""
 
 @app.route('/', methods=['GET', 'POST'])
 def login():
-    from Sample import analytics, tweetcall
+    from Sample import analytics, tweetcall, antiabuse
     error = None
     analytics(request.access_route[0])
     if request.method == 'POST':
-        tweeter(request.form['Tweet'],request.form['Name'])
-	tweetcall(request.form['Name'], request.access_route[0], request.form['Tweet'], request.form['Tweet'])
+	tweetcall(request.form['Name'], request.access_route[0], request.form['Tweet'], antiabuse(request.form['Tweet']))
+	tweeter(antiabuse(request.form['Tweet']),antiabuse(request.form['Name']))
     return render_template('new.html', error=error)
 
 @app.route('/new')

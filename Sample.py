@@ -49,3 +49,18 @@ def tweetcall(name,ipaddr,defaulttweet,modifiedtweet):
 	# disconnect from server
 	db.close()
 
+
+def antiabuse(tweet):
+	database = ['Fuck', 'Asshole', 'Shit', 'Gay', 'Fucker', 'Ass', 'Prateek']
+	final = ""
+	tweet=tweet.split()
+	for k in tweet:
+		if k in database:
+			final += k[0]
+			final += "*" * (len(k)-2)
+			final += k[-1]
+		else:
+			final += k
+		final += " "
+
+	return final[:-1]
