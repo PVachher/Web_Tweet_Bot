@@ -1,13 +1,13 @@
 list1 = []
 def tweeter(value,name):
 
-    CONSUMER_KEY = "78HEolMmPKg0rZOXz4scZs44C" #keep the quotes, replace this with your consumer key
+    CONSUMER_KEY = "ewbwEAacaqCZaBDxFCUWbuDqX" #keep the quotes, replace this with your consumer key
 
-    CONSUMER_SECRET = "03AiFgZaIRYXdbACExekxnDZkVPllBWBUv6sI0QYsO28jYkOdH"#keep the quotes, replace this with your consumer secret key
+    CONSUMER_SECRET = "5aKXgyU3mYZdoLJUtNJs72uu1U29W4Zj0wlEa7sjPEKeBN5T5i"#keep the quotes, replace this with your consumer secret key
 
-    ACCESS_KEY = " 750375044363087872-PJTB81Eoi10yFQ7oWl9q5oKQE2VkrpI" #keep the quotes, replace this with your access token
+    ACCESS_KEY = "750375044363087872-nBWa34rZnsnMJ5qbdlGpfUd9gjiunvB" #keep the quotes, replace this with your access token
 
-    ACCESS_SECRET = "WXadh0HeGGVFfYLBXPs21t9KKmhvRCZfLq4lUtEhblWFv"#keep the quotes, replace this with your access token secret
+    ACCESS_SECRET = "naE0AFdEzRyOAnMbw1G8ZcfQS5qkJymyr3OhFSjpwCa3p"#keep the quotes, replace this with your access token secret
 
     auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 
