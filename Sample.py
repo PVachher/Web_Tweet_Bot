@@ -1,7 +1,7 @@
 
 def analytics(ip):
 	import MySQLdb
-	print "reached analytics"
+#	print "reached analytics"
 	# Open database connection
 	db = MySQLdb.connect("vachher.ddns.net","remote","Welcome@1234","TweetBotHeroku" )
 
@@ -10,7 +10,7 @@ def analytics(ip):
 
 	# Prepare SQL query to UPDATE required records
 	sql = "INSERT INTO SiteHits (ipaddr) VALUES ('%s')" % (ip)
-	print sql
+#	print sql
 	try:
 	   # Execute the SQL command
 	   cursor.execute(sql)
@@ -27,7 +27,7 @@ def analytics(ip):
 
 def tweetcall(name,ipaddr,defaulttweet,modifiedtweet):
 	import MySQLdb
-	print "reached analytics"
+#	print "reached analytics"
 	# Open database connection
 	db = MySQLdb.connect("vachher.ddns.net","remote","Welcome@1234","TweetBotHeroku" )
 
@@ -36,7 +36,7 @@ def tweetcall(name,ipaddr,defaulttweet,modifiedtweet):
 
 	# Prepare SQL query to UPDATE required records
 	sql = "INSERT INTO TweetCount (Name,ipaddr,DefaultTweet,ModifiedTweet) VALUES ('%s', '%s', '%s', '%s')" % (name,ipaddr,defaulttweet,modifiedtweet)
-	print sql
+#	print sql
 	try:
 	   # Execute the SQL command
 	   cursor.execute(sql)
