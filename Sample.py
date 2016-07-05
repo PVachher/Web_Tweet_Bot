@@ -51,11 +51,11 @@ def tweetcall(name,ipaddr,defaulttweet,modifiedtweet):
 
 
 def antiabuse(tweet):
-	database = ['Fuck', 'Asshole', 'Shit', 'Gay', 'Fucker', 'Ass', 'Prateek']
+	database = ['fuck', 'asshole', 'shit', 'gay', 'fucker', 'ass', 'prateek']
 	final = ""
 	tweet=tweet.split()
 	for k in tweet:
-		if k in database:
+		if k.lower() in database:
 			final += k[0]
 			final += "*" * (len(k)-2)
 			final += k[-1]
@@ -64,3 +64,13 @@ def antiabuse(tweet):
 		final += " "
 
 	return final[:-1]
+
+
+def antiname(name):
+	database = ['prateek','vachher']
+	name = name.split()
+	for k in name:
+		if k.lower() in database:
+			return True
+		else:
+			return False

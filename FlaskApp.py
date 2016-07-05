@@ -29,12 +29,33 @@ l = ""
 
 @app.route('/', methods=['GET', 'POST'])
 def login():
-    from Sample import analytics, tweetcall, antiabuse
-    error = None
+    from Sample import analytics, tweetcall, antiabuse, antiname
+    error = ""
     analytics(request.access_route[0])
     if request.method == 'POST':
 	tweetcall(request.form['Name'], request.access_route[0], request.form['Tweet'], antiabuse(request.form['Tweet']))
-	tweeter(antiabuse(request.form['Tweet']),antiabuse(request.form['Name']))
+	if len(request.form['Tweet']) == 0 or len(request.form['Name']) == 0:
+		error = "Please enter complete details!"
+	else:
+		print len(antiabuse(request.form['Tweet']))
+		if antiname(request.form['Name']) == True:
+			if len(antiabuse(request.form['Tweet'])) > 120: 
+				error = "Tweet is above the specified word limit!"			
+			else:			
+				tweeter(antiabuse(request.form['Tweet']),'NoName')
+				error = "Tweet Posted and Good Luck trying to be Prateek!"
+		elif antiabuse(request.form['Tweet']) != request.form['Tweet']:	
+			if len(antiabuse(request.form['Tweet'])) > 120: 
+				error = "Tweet is above the specified character limit!"	
+			else:
+				tweeter(antiabuse(request.form['Tweet']),request.form['Name'])
+				error = "Tweet Posted, but please avoid abusing!"
+		else:
+			if len(antiabuse(request.form['Tweet'])) > 120: 
+				error = "Tweet is above the specified word limit!"	
+			else:
+				tweeter(antiabuse(request.form['Tweet']), request.form['Name'])			
+				error = "Tweet Successfully Posted"
     return render_template('new.html', error=error)
 
 @app.route('/new')
