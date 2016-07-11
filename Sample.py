@@ -7,9 +7,11 @@ def analytics(ip):
 
 	# prepare a cursor object using cursor() method
 	cursor = db.cursor()
+	from time import gmtime, strftime
+	print (strftime("%a, %d %b %Y %X +0000", gmtime()))
+		# Prepare SQL query to UPDATE required records
+	sql = "INSERT INTO SiteHits (TimeStamp,ipaddr) VALUES ('%s','%s')" % (strftime("%a, %d %b %Y %X +0000", gmtime()), ip)
 
-	# Prepare SQL query to UPDATE required records
-	sql = "INSERT INTO SiteHits (ipaddr) VALUES ('%s')" % (ip)
 #	print sql
 	try:
 	   # Execute the SQL command
