@@ -3,7 +3,7 @@ def analytics(ip):
 	import MySQLdb
 #	print "reached analytics"
 	# Open database connection
-	db = MySQLdb.connect("sql6.freesqldatabase.com","sql6127386","grCqJjlBuA","sql6127386" )
+	db = MySQLdb.connect("db4free.net","tweetbotpv","Welcome123","tweetbotpv" )
 
 	# prepare a cursor object using cursor() method
 	cursor = db.cursor()
@@ -31,7 +31,7 @@ def tweetcall(name,ipaddr,defaulttweet,modifiedtweet):
 	import MySQLdb
 #	print "reached analytics"
 	# Open database connection
-	db = MySQLdb.connect("sql6.freesqldatabase.com","sql6127386","grCqJjlBuA","sql6127386" )
+	db = MySQLdb.connect("db4free.net","tweetbotpv","Welcome123","tweetbotpv" )
 
 	# prepare a cursor object using cursor() method
 	cursor = db.cursor()
