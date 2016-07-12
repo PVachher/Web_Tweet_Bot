@@ -1,22 +1,15 @@
-list1 = []
 def tweeter(value,name):
-
-    CONSUMER_KEY = "ewbwEAacaqCZaBDxFCUWbuDqX" #keep the quotes, replace this with your consumer key
-
-    CONSUMER_SECRET = "5aKXgyU3mYZdoLJUtNJs72uu1U29W4Zj0wlEa7sjPEKeBN5T5i"#keep the quotes, replace this with your consumer secret key
-
-    ACCESS_KEY = "750375044363087872-nBWa34rZnsnMJ5qbdlGpfUd9gjiunvB" #keep the quotes, replace this with your access token
-
-    ACCESS_SECRET = "naE0AFdEzRyOAnMbw1G8ZcfQS5qkJymyr3OhFSjpwCa3p"#keep the quotes, replace this with your access token secret
-
+    CONSUMER_KEY = "ewbwEAacaqCZaBDxFCUWbuDqX"
+    CONSUMER_SECRET = "5aKXgyU3mYZdoLJUtNJs72uu1U29W4Zj0wlEa7sjPEKeBN5T5i"
+    ACCESS_KEY = "750375044363087872-nBWa34rZnsnMJ5qbdlGpfUd9gjiunvB"
+    ACCESS_SECRET = "naE0AFdEzRyOAnMbw1G8ZcfQS5qkJymyr3OhFSjpwCa3p"
     auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
-
     auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
-
     api = tweepy.API(auth)
     z = "Tweet By " + name + " : " + value
     api.update_status(z)
     print "Tweet By", name, " : ", value
+
 
 from flask import *
 from flask import request
@@ -25,7 +18,6 @@ import tweepy, time
 
 
 app = Flask(__name__)
-l = ""
 
 @app.route('/', methods=['GET', 'POST'])
 def login():
@@ -58,9 +50,7 @@ def login():
 				error = "Tweet Successfully Posted"
     return render_template('new.html', error=error)
 
-@app.route('/new')
-def new():
-    return render_template('new.html')
+
 
 if __name__ == '__main__':
 	app.run(host='0.0.0.0',debug=True)

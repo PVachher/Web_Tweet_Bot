@@ -1,56 +1,28 @@
-
 def analytics(ip):
 	import MySQLdb
-#	print "reached analytics"
-	# Open database connection
-	db = MySQLdb.connect("db4free.net","tweetbotpv","Welcome123","tweetbotpv" )
-
-	# prepare a cursor object using cursor() method
-	cursor = db.cursor()
 	from time import gmtime, strftime
-		# Prepare SQL query to UPDATE required records
+	db = MySQLdb.connect("db4free.net","tweetbotpv","Welcome123","tweetbotpv" )
+	cursor = db.cursor()
 	sql = "INSERT INTO SiteHits (TimeStamp,ipaddr) VALUES ('%s','%s')" % (strftime("%a, %d %b %Y %X +0000", gmtime()), ip)
-
-#	print sql
 	try:
-	   # Execute the SQL command
 	   cursor.execute(sql)
-	   # Commit your changes in the database
 	   db.commit()
 	except:
-	   # Rollback in case there is any error
 	   db.rollback()
-
-	# disconnect from server
 	db.close()
-
-
 
 def tweetcall(name,ipaddr,defaulttweet,modifiedtweet):
 	import MySQLdb
 	from time import gmtime, strftime
-#	print "reached analytics"
-	# Open database connection
 	db = MySQLdb.connect("db4free.net","tweetbotpv","Welcome123","tweetbotpv" )
-
-	# prepare a cursor object using cursor() method
 	cursor = db.cursor()
-
-	# Prepare SQL query to UPDATE required records
-	sql = "INSERT INTO TweetCount (Name,TimeStamp,ipaddr,DefaultTweet,ModifiedTweet) VALUES ('%s', '%s', '%s', '%s', '%s')" % (name,strftime("%a, %d %b %Y %X +0000", gmtime()), ipaddr,defaulttweet,modifiedtweet)
-#	print sql
+	sql = "INSERT INTO TweetCount (Name,TimeStamp,ipaddr,DefaultTweet,ModifiedTweet) VALUES ('%s', '%s', '%s', '%s', '%s')" % (name, strftime("%a, %d %b %Y %X +0000", gmtime()), ipaddr, defaulttweet, modifiedtweet)
 	try:
-	   # Execute the SQL command
 	   cursor.execute(sql)
-	   # Commit your changes in the database
 	   db.commit()
 	except:
-	   # Rollback in case there is any error
 	   db.rollback()
-
-	# disconnect from server
 	db.close()
-
 
 def antiabuse(tweet):
 	database = ['fuck', 'asshole', 'shit', 'gay', 'fucker', 'ass', 'prateek']
@@ -66,7 +38,6 @@ def antiabuse(tweet):
 		final += " "
 
 	return final[:-1]
-
 
 def antiname(name):
 	database = ['prateek','vachher']
