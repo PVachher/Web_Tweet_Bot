@@ -8,7 +8,6 @@ def analytics(ip):
 	# prepare a cursor object using cursor() method
 	cursor = db.cursor()
 	from time import gmtime, strftime
-	print (strftime("%a, %d %b %Y %X +0000", gmtime()))
 		# Prepare SQL query to UPDATE required records
 	sql = "INSERT INTO SiteHits (TimeStamp,ipaddr) VALUES ('%s','%s')" % (strftime("%a, %d %b %Y %X +0000", gmtime()), ip)
 
@@ -29,6 +28,7 @@ def analytics(ip):
 
 def tweetcall(name,ipaddr,defaulttweet,modifiedtweet):
 	import MySQLdb
+	from time import gmtime, strftime
 #	print "reached analytics"
 	# Open database connection
 	db = MySQLdb.connect("db4free.net","tweetbotpv","Welcome123","tweetbotpv" )
@@ -37,7 +37,7 @@ def tweetcall(name,ipaddr,defaulttweet,modifiedtweet):
 	cursor = db.cursor()
 
 	# Prepare SQL query to UPDATE required records
-	sql = "INSERT INTO TweetCount (Name,ipaddr,DefaultTweet,ModifiedTweet) VALUES ('%s', '%s', '%s', '%s')" % (name,ipaddr,defaulttweet,modifiedtweet)
+	sql = "INSERT INTO TweetCount (Name,TimeStamp,ipaddr,DefaultTweet,ModifiedTweet) VALUES ('%s', '%s', '%s', '%s', '%s')" % (name,strftime("%a, %d %b %Y %X +0000", gmtime()), ipaddr,defaulttweet,modifiedtweet)
 #	print sql
 	try:
 	   # Execute the SQL command
