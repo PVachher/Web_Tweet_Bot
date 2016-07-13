@@ -25,31 +25,49 @@ def login():
     error = ""
     analytics(request.access_route[0])
     if request.method == 'POST':
-	tweetcall(request.form['Name'], request.access_route[0], request.form['Tweet'], antiabuse(request.form['Tweet']))
-	if len(request.form['Tweet']) == 0 or len(request.form['Name']) == 0:
-		error = "Please enter complete details!"
-	else:
-		print len(antiabuse(request.form['Tweet']))
-		if antiname(request.form['Name']) == True:
-			if len(antiabuse(request.form['Tweet'])) > 120: 
-				error = "Tweet is above the specified word limit!"			
-			else:			
-				tweeter(antiabuse(request.form['Tweet']),'NoName')
-				error = "Tweet Posted and Good Luck trying to be Prateek!"
-		elif antiabuse(request.form['Tweet']) != request.form['Tweet']:	
-			if len(antiabuse(request.form['Tweet'])) > 120: 
-				error = "Tweet is above the specified character limit!"	
-			else:
-				tweeter(antiabuse(request.form['Tweet']),request.form['Name'])
-				error = "Tweet Posted, but please avoid abusing!"
+	response = request.form.get('g-recaptcha-response')
+	if checkRecaptcha(response,"6Lds9yQTAAAAAHyh20hvdKWcuspU9orZqYShR0Z2"):
+		tweetcall(request.form['Name'], request.access_route[0], request.form['Tweet'], antiabuse(request.form['Tweet']))
+		if len(request.form['Tweet']) == 0 or len(request.form['Name']) == 0:
+			error = "Please enter complete details!"
 		else:
-			if len(antiabuse(request.form['Tweet'])) > 120: 
-				error = "Tweet is above the specified word limit!"	
+			print len(antiabuse(request.form['Tweet']))
+			if antiname(request.form['Name']) == True:
+				if len(antiabuse(request.form['Tweet'])) > 120: 
+					error = "Tweet is above the specified word limit!"			
+				else:			
+					tweeter(antiabuse(request.form['Tweet']),'NoName')
+					error = "Tweet Posted and Good Luck trying to be Prateek!"
+			elif antiabuse(request.form['Tweet']) != request.form['Tweet']:	
+				if len(antiabuse(request.form['Tweet'])) > 120: 
+					error = "Tweet is above the specified character limit!"	
+				else:
+					tweeter(antiabuse(request.form['Tweet']),request.form['Name'])
+					error = "Tweet Posted, but please avoid abusing!"
 			else:
-				tweeter(antiabuse(request.form['Tweet']), request.form['Name'])			
-				error = "Tweet Successfully Posted"
+				if len(antiabuse(request.form['Tweet'])) > 120: 
+					error = "Tweet is above the specified word limit!"	
+				else:
+					tweeter(antiabuse(request.form['Tweet']), request.form['Name'])			
+					error = "Tweet Successfully Posted"
+	else:
+		error = "INVALID CAPTCHA"
+
     return render_template('new.html', error=error)
 
+def checkRecaptcha(response, secretkey):
+    url = 'https://www.google.com/recaptcha/api/siteverify?'
+    url = url + 'secret=' +secretkey
+    url = url + '&response=' +response
+    try:
+        jsonobj = json.loads(urllib2.urlopen(url).read())
+        if jsonobj['success']:
+            return True
+        else:
+            return False
+    except Exception as e:
+        print e
+	return False
 
 
 if __name__ == '__main__':
