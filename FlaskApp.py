@@ -78,11 +78,8 @@ def index():
     showalert = False
     if request.method == 'POST':
         response = request.form.get('g-recaptcha-response')
+	msg = response
         showalert = True
-        if checkRecaptcha(response,SECRET_KEY):
-            msg = 'You are human.'
-        else:
-            msg='You are bot.'
     return render_template('index.html',
                            siteKey=SITE_KEY,
                            alertMsg = msg,
