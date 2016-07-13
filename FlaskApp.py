@@ -18,15 +18,19 @@ import tweepy, time
 
 
 app = Flask(__name__)
-
+SITE_KEY = '6Lds9yQTAAAAAGCVEffBIsTvC7BFzBIcSQ65fOis'
+SECRET_KEY = '6Lds9yQTAAAAAHyh20hvdKWcuspU9orZqYShR0Z2'
 @app.route('/', methods=['GET', 'POST'])
 def login():
     from Sample import analytics, tweetcall, antiabuse, antiname
     error = ""
     analytics(request.access_route[0])
     if request.method == 'POST':
+	import urllib2
+	msg = ''
+	showalert = False
 	response = request.form.get('g-recaptcha-response')
-	if checkRecaptcha(response,"6Lds9yQTAAAAAHyh20hvdKWcuspU9orZqYShR0Z2"):
+	if checkRecaptcha(response,SECRET_KEY):
 		tweetcall(request.form['Name'], request.access_route[0], request.form['Tweet'], antiabuse(request.form['Tweet']))
 		if len(request.form['Tweet']) == 0 or len(request.form['Name']) == 0:
 			error = "Please enter complete details!"
@@ -56,41 +60,6 @@ def login():
     return render_template('new.html', error=error)
 
 def checkRecaptcha(response, secretkey):
-    url = 'https://www.google.com/recaptcha/api/siteverify?'
-    url = url + 'secret=' +secretkey
-    url = url + '&response=' +response
-    try:
-        jsonobj = json.loads(urllib2.urlopen(url).read())
-        if jsonobj['success']:
-            return True
-        else:
-            return False
-    except Exception as e:
-        print e
-	return False
-
-SITE_KEY = '6Lds9yQTAAAAAGCVEffBIsTvC7BFzBIcSQ65fOis'
-SECRET_KEY = '6Lds9yQTAAAAAHyh20hvdKWcuspU9orZqYShR0Z2'
-
-@app.route('/testing', methods=['GET', 'POST'])
-def index():
-    import urllib2
-    msg = ''
-    showalert = False
-    if request.method == 'POST':
-        response = request.form.get('g-recaptcha-response')
-	msg = response
-        showalert = True
-        if checkRecaptcha(response,SECRET_KEY):
-            msg = 'You are human.'
-        else:
-            msg='You are bot.'
-    return render_template('index.html',
-                           siteKey=SITE_KEY,
-                           alertMsg = msg,
-                           showAlert = showalert)
-
-def checkRecaptcha(response, secretkey):
     import urllib2
     url = 'https://www.google.com/recaptcha/api/siteverify?'
     url = url + 'secret=' +secretkey
@@ -105,6 +74,21 @@ def checkRecaptcha(response, secretkey):
     except Exception as e:
         print e
         return False
+
+
+
+
+@app.route('/testing', methods=['GET', 'POST'])
+def index():
+    
+            msg = 'You are human.'
+        else:
+            msg='You are bot.'
+    return render_template('index.html',
+                           siteKey=SITE_KEY,
+                           alertMsg = msg,
+                           showAlert = showalert)
+
 
 
 if __name__ == '__main__':
