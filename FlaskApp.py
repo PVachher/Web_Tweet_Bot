@@ -74,6 +74,7 @@ SECRET_KEY = '6Lds9yQTAAAAAHyh20hvdKWcuspU9orZqYShR0Z2'
 
 @app.route('/testing', methods=['GET', 'POST'])
 def index():
+    import urllib2
     msg = ''
     showalert = False
     if request.method == 'POST':
@@ -90,6 +91,7 @@ def index():
                            showAlert = showalert)
 
 def checkRecaptcha(response, secretkey):
+    import urllib2
     url = 'https://www.google.com/recaptcha/api/siteverify?'
     url = url + 'secret=' +secretkey
     url = url + '&response=' +response
