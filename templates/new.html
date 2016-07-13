@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -115,16 +115,21 @@
             <form action="" method="post">
                 <div class="col-lg-4 col-lg-offset-2">
                     <br>
+
                     <form>
                     <h4><input type="text" placeholder="Name" style="color: #000000	;" name="Name" value= "{{request.form.name}}"></h4>
                     <br>
                     <h4><input type="text" placeholder="Tweet" style="color: #000000	;" name="Tweet" value= "{{request.form.tweet}}"></h4>
+			<br>
+		<div class="g-recaptcha" data-sitekey="6Lds9yQTAAAAAGCVEffBIsTvC7BFzBIcSQ65fOis"></div>
 
                 </div>
+
                 <div class="col-lg-4">
                 	<br>
                     <p>After submiting the following application, please visit the following link: </p>
                     <h5><b><center><a href="http://twitter.com/prateektweetbot"> http://twitter.com/prateektweetbot </a></center></b></h5>
+		    
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
 		<br>
