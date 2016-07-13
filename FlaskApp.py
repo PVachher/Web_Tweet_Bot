@@ -76,20 +76,5 @@ def checkRecaptcha(response, secretkey):
         return False
 
 
-
-
-@app.route('/testing', methods=['GET', 'POST'])
-def index():
-    
-            msg = 'You are human.'
-        else:
-            msg='You are bot.'
-    return render_template('index.html',
-                           siteKey=SITE_KEY,
-                           alertMsg = msg,
-                           showAlert = showalert)
-
-
-
 if __name__ == '__main__':
 	app.run(host='0.0.0.0',debug=True)
