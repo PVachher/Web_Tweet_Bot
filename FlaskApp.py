@@ -80,6 +80,10 @@ def index():
         response = request.form.get('g-recaptcha-response')
 	msg = response
         showalert = True
+        if checkRecaptcha(response,SECRET_KEY):
+            msg = 'You are human.'
+        else:
+            msg='You are bot.'
     return render_template('index.html',
                            siteKey=SITE_KEY,
                            alertMsg = msg,
@@ -91,6 +95,7 @@ def checkRecaptcha(response, secretkey):
     url = url + '&response=' +response
     try:
         jsonobj = json.loads(urllib2.urlopen(url).read())
+	print jsonobj
         if jsonobj['success']:
             return True
         else:
