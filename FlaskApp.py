@@ -69,6 +69,39 @@ def checkRecaptcha(response, secretkey):
         print e
 	return False
 
+SITE_KEY = '6Lds9yQTAAAAAGCVEffBIsTvC7BFzBIcSQ65fOis'
+SECRET_KEY = '6Lds9yQTAAAAAHyh20hvdKWcuspU9orZqYShR0Z2'
+
+@app.route('/testing', methods=['GET', 'POST'])
+def index():
+    msg = ''
+    showalert = False
+    if request.method == 'POST':
+        response = request.form.get('g-recaptcha-response')
+        showalert = True
+        if checkRecaptcha(response,SECRET_KEY):
+            msg = 'You are human.'
+        else:
+            msg='You are bot.'
+    return render_template('index.html',
+                           siteKey=SITE_KEY,
+                           alertMsg = msg,
+                           showAlert = showalert)
+
+def checkRecaptcha(response, secretkey):
+    url = 'https://www.google.com/recaptcha/api/siteverify?'
+    url = url + 'secret=' +secretkey
+    url = url + '&response=' +response
+    try:
+        jsonobj = json.loads(urllib2.urlopen(url).read())
+        if jsonobj['success']:
+            return True
+        else:
+            return False
+    except Exception as e:
+        print e
+        return False
+
 
 if __name__ == '__main__':
 	app.run(host='0.0.0.0',debug=True)
