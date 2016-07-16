@@ -57,7 +57,7 @@ def login():
 	else:
 		error = "INVALID CAPTCHA"
 
-    return render_template('new.html', error=error)
+    return render_template('index.html', error=error)
 
 def checkRecaptcha(response, secretkey):
     import urllib2
