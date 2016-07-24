@@ -1,7 +1,7 @@
 def analytics(ip):
-	import MySQLdb
+	import pymysql
 	from time import gmtime, strftime
-	db = MySQLdb.connect("db4free.net","tweetbotpv","Welcome123","tweetbotpv" )
+	db = pymysql.connect("db4free.net","tweetbotpv","Welcome123","tweetbotpv" )
 	cursor = db.cursor()
 	sql = "INSERT INTO SiteHits (TimeStamp,ipaddr) VALUES ('%s','%s')" % (strftime("%a, %d %b %Y %X +0000", gmtime()), ip)
 	try:
@@ -12,9 +12,9 @@ def analytics(ip):
 	db.close()
 
 def tweetcall(name,ipaddr,defaulttweet,modifiedtweet):
-	import MySQLdb
+	import pymysql
 	from time import gmtime, strftime
-	db = MySQLdb.connect("db4free.net","tweetbotpv","Welcome123","tweetbotpv" )
+	db = pymysql.connect("db4free.net","tweetbotpv","Welcome123","tweetbotpv" )
 	cursor = db.cursor()
 	sql = "INSERT INTO TweetCount (Name,TimeStamp,ipaddr,DefaultTweet,ModifiedTweet) VALUES ('%s', '%s', '%s', '%s', '%s')" % (name, strftime("%a, %d %b %Y %X +0000", gmtime()), ipaddr, defaulttweet, modifiedtweet)
 	try:
