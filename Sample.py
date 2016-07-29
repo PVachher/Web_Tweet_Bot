@@ -1,20 +1,7 @@
-def analytics(ip):
-	import pymysql
-	from time import gmtime, strftime
-	db = pymysql.connect("db4free.net","tweetbotpv","Welcome123","tweetbotpv" )
-	cursor = db.cursor()
-	sql = "INSERT INTO SiteHits (TimeStamp,ipaddr) VALUES ('%s','%s')" % (strftime("%a, %d %b %Y %X +0000", gmtime()), ip)
-	try:
-	   cursor.execute(sql)
-	   db.commit()
-	except:
-	   db.rollback()
-	db.close()
-
 def tweetcall(name,ipaddr,defaulttweet,modifiedtweet):
 	import pymysql
 	from time import gmtime, strftime
-	db = pymysql.connect("db4free.net","tweetbotpv","Welcome123","tweetbotpv" )
+	db = pymysql.connect("54.187.59.218","pvachher","Welcome123","tweetbotpv" )
 	cursor = db.cursor()
 	sql = "INSERT INTO TweetCount (Name,TimeStamp,ipaddr,DefaultTweet,ModifiedTweet) VALUES ('%s', '%s', '%s', '%s', '%s')" % (name, strftime("%a, %d %b %Y %X +0000", gmtime()), ipaddr, defaulttweet, modifiedtweet)
 	try:
@@ -48,3 +35,5 @@ def antiname(name):
 			return True
 		else:
 			return False
+
+a = tweetcall("pv","123","OK","OK")
