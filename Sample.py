@@ -12,7 +12,7 @@ def tweetcall(name,ipaddr,defaulttweet,modifiedtweet):
 	db.close()
 
 def antiabuse(tweet):
-	database = ['fuck', 'asshole', 'shit', 'fucker', 'ass', 'prateek','chut','bhosadiwale', "abuse", "behenchod"]
+	database = ['fuck', 'asshole', 'shit', 'fucker', 'ass', 'prateek','chut','bhosadiwale', "abuse", "behenchod","bhenchod","bancho","bhadve",'betichod']
 	final = ""
 	tweet=tweet.split()
 	for k in tweet:
