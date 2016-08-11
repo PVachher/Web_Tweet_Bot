@@ -36,4 +36,3 @@ def antiname(name):
 		else:
 			return False
 
-a = tweetcall("pv","123","OK","OK")
