@@ -1,7 +1,7 @@
 def tweetcall(name,ipaddr,defaulttweet,modifiedtweet):
 	import pymysql
 	from time import gmtime, strftime
-	db = pymysql.connect("52.66.46.128", "root", "Welcome123", "eims")
+	db = pymysql.connect("52.66.46.128", "root", "Welcome123", "tweetbotpv")
 	cursor = db.cursor()
 	sql = "INSERT INTO TweetCount (Name,TimeStamp,ipaddr,DefaultTweet,ModifiedTweet) VALUES ('%s', '%s', '%s', '%s', '%s')" % (name, strftime("%a, %d %b %Y %X +0000", gmtime()), ipaddr, defaulttweet, modifiedtweet)
 	try:
