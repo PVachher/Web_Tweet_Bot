@@ -18,8 +18,8 @@ import tweepy, time
 
 
 app = Flask(__name__,static_url_path='/static')
-SITE_KEY = '6Lds9yQTAAAAAGCVEffBIsTvC7BFzBIcSQ65fOis'
-SECRET_KEY = '6Lds9yQTAAAAAHyh20hvdKWcuspU9orZqYShR0Z2'
+SITE_KEY = '6LeEQgoUAAAAAFrbmKgi-AO40BMJcd2J2Mqcu8B-'
+SECRET_KEY = '6LeEQgoUAAAAAFWSvCYrxqqBog_TxHCRV317Wll8'
 @app.route('/', methods=['GET', 'POST'])
 def login():
     from Sample import tweetcall, antiabuse, antiname
