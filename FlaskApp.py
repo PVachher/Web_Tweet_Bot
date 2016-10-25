@@ -17,7 +17,7 @@ from flask import jsonify
 import tweepy, time
 
 
-app = Flask(__name__)
+app = Flask(__name__,static_url_path='/static')
 SITE_KEY = '6Lds9yQTAAAAAGCVEffBIsTvC7BFzBIcSQ65fOis'
 SECRET_KEY = '6Lds9yQTAAAAAHyh20hvdKWcuspU9orZqYShR0Z2'
 @app.route('/', methods=['GET', 'POST'])
