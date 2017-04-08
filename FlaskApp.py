@@ -20,42 +20,43 @@ import tweepy, time
 
 app = Flask(__name__,static_url_path='/static')
 SITE_KEY = '6LeEQgoUAAAAAFrbmKgi-AO40BMJcd2J2Mqcu8B-'
+from base64 import b64decode as ck
 SECRET_KEY = '6LeEQgoUAAAAAFWSvCYrxqqBog_TxHCRV317Wll8'
 @app.route('/', methods=['GET', 'POST'])
 def login():
     from Sample import tweetcall, antiabuse, antiname
     error = ""
     if request.method == 'POST':
-	import urllib2
-	msg = ''
-	showalert = False
-	response = request.form.get('g-recaptcha-response')
-	if checkRecaptcha(response,SECRET_KEY):
-		tweetcall(request.form['Name'], request.access_route[0], request.form['Tweet'], antiabuse(request.form['Tweet']))
-		if len(request.form['Tweet']) == 0 or len(request.form['Name']) == 0:
-			error = "Please enter complete details!"
-		else:
-			print len(antiabuse(request.form['Tweet']))
-			if antiname(request.form['Name']) == True:
-				if len(antiabuse(request.form['Tweet'])) > 120: 
-					error = "Tweet is above the specified word limit!"			
-				else:			
-					tweeter(antiabuse(request.form['Tweet']),'NoName')
-					error = "Tweet Posted and Good Luck trying to be Prateek!"
-			elif antiabuse(request.form['Tweet']) != request.form['Tweet']:	
-				if len(antiabuse(request.form['Tweet'])) > 120: 
-					error = "Tweet is above the specified character limit!"	
-				else:
-					tweeter(antiabuse(request.form['Tweet']),request.form['Name'])
-					error = "Tweet Posted, but please avoid abusing!"
-			else:
-				if len(antiabuse(request.form['Tweet'])) > 120: 
-					error = "Tweet is above the specified word limit!"	
-				else:
-					tweeter(antiabuse(request.form['Tweet']), request.form['Name'])			
-					error = "Tweet Successfully Posted"
-	else:
-		error = "INVALID CAPTCHA"
+        import urllib2
+        msg = ''
+        showalert = False
+        response = request.form.get('g-recaptcha-response')
+        if checkRecaptcha(response,SECRET_KEY):
+            tweetcall(request.form['Name'], request.access_route[0], request.form['Tweet'], antiabuse(request.form['Tweet']))
+            if len(request.form['Tweet']) == 0 or len(request.form['Name']) == 0:
+                error = "Please enter complete details!"
+            else:
+                print len(antiabuse(request.form['Tweet']))
+                if antiname(request.form['Name']) == True:
+                    if len(antiabuse(request.form['Tweet'])) > 120:
+                        error = "Tweet is above the specified word limit!"
+                    else:
+                        tweeter(antiabuse(request.form['Tweet']),'NoName')
+                        error = "Tweet Posted and Good Luck trying to be Prateek!"
+                elif antiabuse(request.form['Tweet']) != request.form['Tweet']:
+                    if len(antiabuse(request.form['Tweet'])) > 120:
+                        error = "Tweet is above the specified character limit!"
+                    else:
+                        tweeter(antiabuse(request.form['Tweet']),request.form['Name'])
+                        error = "Tweet Posted, but please avoid abusing!"
+                else:
+                    if len(antiabuse(request.form['Tweet'])) > 120:
+                        error = "Tweet is above the specified word limit!"
+                    else:
+                        tweeter(antiabuse(request.form['Tweet']), request.form['Name'])
+                        error = "Tweet Successfully Posted"
+        else:
+            error = "INVALID CAPTCHA"
 
     return render_template('index.html', error=error)
 
